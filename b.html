@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="dist/b.css">
+
+    <title>Document</title>
+
+</head>
+
+<body>
+    
+    
+       
+<!-- 
+        // window.tasks = [];
+        // window.dones = [];
+
+        // function render() {
+        //     let tasksUl = document.getElementById("tasks");
+        //     let donesUl = document.getElementById("dones");
+
+        //     let tasksInner = tasks
+        //         .map((el, idx) => `<li><input type=\"checkbox\" onclick='handleClick(this, "${idx}", "tasks")'>${el}</li>`)
+        //         .join(" ");
+        //     let donesInner = dones
+        //         .map((el, idx) => `<li><input type=\"checkbox\" checked="true" onclick='handleClick(this, "${idx}", "dones")'>${el}</li>`)
+        //         .join(" ");
+
+        //     tasksUl.innerHTML = tasksInner;
+        //     donesUl.innerHTML = donesInner;
+        // }
+
+        // function submitText() {
+        //     let input = document.getElementById("input");
+        //     window.tasks.push(input.value);
+        //     render();
+        //     input.value = "";
+        // }
+
+        // function handleClick(checkbox, idx, where) {            
+        //     let target = window[where][idx];
+        //     window[where].splice(idx, 1);
+        //     if (where == "tasks") window.dones.push(target);
+        //     if (where == "dones") window.tasks.push(target);
+        //     render();
+        // } -->
+
+
+
+
+        <h3>To do :</h3>
+        <ul id="tasks"></ul>
+        <input placeholder="I do ..." id="input">
+        <button onclick="submitText()">OK</button>
+        <h3>Done:</h3>
+        <ul id="dones"></ul>
+        <script>
+           window.task = [] ;
+           window.done = [] ;
+
+           let taskUl = document.getElementById('tasks')
+           let doneUl = document.getElementById('dones')
+
+           let taskInner = task.map(function(el){
+               return `<li><input type=\"checkbox\"> + el + </li>`
+           })
+
+           
+
+
+    </script>
+</body>
+
+</html>

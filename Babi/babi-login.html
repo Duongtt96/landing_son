@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+
+
+
+
+  <link rel="stylesheet" type="text/css" href="/Babi/babi.css">
+
+</head>
+
+<body>
+  <section class="babi-top-panel">
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="row row-pc ">
+
+          <div class=" col-md-2 babi-logo">
+            <div class="logo-container">
+              <a href="#">
+                <img class="logo-container-style" src="https://babi.vn/images/logos/32/logo-babi.png?t=1505448411"
+                  width="135px" height="56px" alt="logo-babi">
+              </a>
+            </div>
+          </div>
+
+
+          <div class="col-md-6 babi-search ">
+            <form>
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Tìm kiếm sản phẩm" name="search">
+                <div class="input-group-btn">
+                  <button class="btn btn-default" type="submit">
+                    <i class="glyphicon glyphicon-search"></i></button>
+                </div>
+              </div>
+
+            </form>
+          </div>
+          <div class="col-md-2 babi-account">
+            <div class="babi-account-unlogged">
+              <div class="babi-account-dropdown">
+                <div class="dropdown  button-dropdown-style">
+
+                  <button class="btn btn-secondary button-dropdown-style " type="button" id="triggerId"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="account-title" href="#" target="_blank" style="text-decoration: none;">
+
+                      <span class="account-title-text">Tài khoản</span>
+
+                    </a>
+                  </button>
+                  <div class="dropdown-menu dropdown-menu-right babi-account-menu" aria-labelledby="triggerId">
+                    <div class="logo-babi-dropdown">
+                      <img src="https://babi.vn/images/logos/32/logo-babi.png?t=1505448411" height="68px"
+                        alt="logo-babi">
+                    </div>
+                    <div class="user-text">
+                      Đăng ký thành viên Babi để nhận những ưu đãi từ chúng tôi.
+                    </div>
+                    <div class="user-register">
+
+                      <a class="sign-up" href="#" style="text-decoration: none;">Đăng ký</a>
+
+                      <p class="babitext"> hoặc bạn đã có tài khoản? </p>
+
+                      <button onclick="document.getElementById('id01').style.display='block'" class="log-in">Đăng
+                        nhập</button>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+          </div>
+          <div class="col-md-2" style="padding:0;">
+              <div class=" babi-buy ">
+
+                  <div class="babi-buy-icon" id="buy-open">
+                    <i class="icon ion-md-cart "></i>
+                  </div>
+                  <button id="buy-close">
+                    <i class="material-icons" style="font-size:25px;color:#cd3591;font-weight: 500;">highlight_off</i>
+                  </button>
+                  <div id="list-prod">
+                    <div class="cart-item">
+                      <div class="cart-item-image">
+                        <img
+                          src="https://babi.vn/images/watermarked/1/thumbnails/60/60/variant_image/64/do-bo-be-trai-tay-rap-lang-de-thuong-in-so-23-2-11tuoi_(2).JPG?t=1557803657"
+                          alt="">
+                      </div>
+                      <div class="cart-item-desc">
+                        <a href="#" target="blank">Đồ Bộ Bé Trai Tay Ráp Lăng Dễ Thương In Số 23 (2 - 11 Tuổi)</a>
+                        <p style="margin-top:6px;">1 x 129.000 đ</p>
+                      </div>
+                    </div>
+                    <div class="cart-item">
+                      <div class="cart-item-image">
+                        <img
+                          src="https://babi.vn/images/watermarked/1/thumbnails/60/60/variant_image/64/ao-so-mi-ngan-tay-cho-be-trai-mau-tron-theu-xe-1-6-tuoi_(4).JPG?t=1557458051"
+                          alt="">
+                      </div>
+                      <div class="cart-item-desc">
+                        <a href="#" target="blank">Áo Sơ Mi Ngắn Tay Cho Bé Trai Màu Trơn Thêu Xe (1 - 6 tuổi)</a>
+                        <p style="margin-top:6px;">1 x 129.000 đ</p>
+                      </div>
+                    </div>
+                    <div class="cart-item-button">
+                      <button class="card-accept">Đặt Hàng</button>
+                    </div>
+    
+                  </div>
+                  <div class="babi-buy-title ">
+                    <span style="font-size: 16px;"><b>Giỏ hàng</b></span>
+                  </div>
+                  <script>
+                    !(function () {
+                      document.getElementById("buy-open").addEventListener("click", function () {
+                        document.getElementById("list-prod").style.display = "block";
+                        document.getElementById("buy-close").style.display = "block";
+                        this.style.display = "none";
+                      });
+    
+                      document.getElementById("buy-close").addEventListener("click", function () {
+                        document.getElementById("list-prod").style.display = "none";
+                        document.getElementById("buy-open").style.display = "block";
+                        this.style.display = "none";
+                      });
+                    })();
+                  </script>
+    
+                </div>
+          </div>
+        </div>
+        <!--mobile-->
+        <script>
+          function slideIn(el) {
+            var elem = document.getElementById(el);
+            elem.style.transition = "left 0.5s ease-out 0s";
+            elem.style.left = "0px";
+          }
+
+          function slideOut(el) {
+            var elem = document.getElementById(el);
+            elem.style.transition = "left 0.5s ease-out 0s";
+            elem.style.left = "-600px";
+          }
+        </script>
+        <!---->
+        <div class="row row-mobile">
+          <div class=" mobile-menu">
+            <button class="mobile-menu-button" onclick="slideIn('mobile-menu-site');">
+              <div>
+                <div class="menu-icon-creat"></div>
+                <div class="menu-icon-creat"></div>
+                <div class="menu-icon-creat"></div>
+              </div>
+              <div style="color:white;">DANH MỤC</div>
+            </button>
+
+            <div id="mobile-menu-site">
+              <div style="position:relative;">
+                <button class="button-X" onclick="slideOut('mobile-menu-site');"> X </button>
+                <a href="">
+                  <img class="logo-babi-mobile" src="https://babi.vn/images/logos/32/logo-babi.png?t=1505448411"
+                    width="135px" height="56px" alt="logo-babi">
+                </a>
+              </div>
+              <div class="login-mobile">
+                <span><a href="#" target="_blank">Đăng nhập</a> / <a href="#" target="_blank">Đăng ký</a> </span>
+              </div>
+
+              <div>
+                <div class="collapsible1">
+                  <a href="#" target="_blank">Trang chủ</a> </div>
+
+
+                <div class="collapsible">Quần áo bé trai</div>
+                <div class="content">
+                  <a class="dropdown-item" href="#">Áo sơ mi bé trai</a>
+                  <a class="dropdown-item" href="#">Áo thun bé trai</a>
+                  <a class="dropdown-item" href="#">Áo khoác bé trai</a>
+                  <a class="dropdown-item" href="#">Quần kiểu bé trai</a>
+                  <a class="dropdown-item" href="#">Quần jeans bé trai</a>
+                  <a class="dropdown-item" href="#">Đồ bộ bé trai</a>
+                  <a class="dropdown-item" href="#">Đồ bơi bé trai</a>
+                  <a class="dropdown-item" href="#">Quần lót bé trai</a>
+                  <a class="dropdown-item" href="#">Giày dép bé trai</a>
+                  <a class="dropdown-item" href="#">Phụ kiện bé trai</a>
+                </div>
+                <div class="collapsible">Quần áo bé gái</div>
+                <div class="content">
+                  <a class="dropdown-item" href="#">Váy Đầm Công Chúa</a>
+                  <a class="dropdown-item" href="#">Váy Đầm bé gái</a>
+                  <a class="dropdown-item" href="#">Áo bé Gái</a>
+                  <a class="dropdown-item" href="#">Áo khoác bé gái</a>
+                  <a class="dropdown-item" href="#">Quần trẻ em gái</a>
+                  <a class="dropdown-item" href="#">Đồ bộ bé gái</a>
+                  <a class="dropdown-item" href="#">Đồ bơi bé gái</a>
+                  <a class="dropdown-item" href="#">Quần lót bé gái</a>
+                  <a class="dropdown-item" href="#">Giày dép bé gái</a>
+                  <a class="dropdown-item" href="#">Phụ kiện bé gái</a>
+                </div>
+                <div class="collapsible">Quần áo sơ sinh</div>
+                <div class="content">
+                  <a class="dropdown-item" href="#">Phụ kiện sơ sinh cho bé</a>
+                  <a class="dropdown-item" href="#">Quần áo sơ sinh bé trai</a>
+                  <a class="dropdown-item" href="#">Quần áo sơ sinh bé gái</a>
+                  <a class="dropdown-item" href="#">Đồ sơ sinh trọn gói</a>
+                  <a class="dropdown-item" href="#">Giày sơ sinh</a>
+                </div>
+                <div class="collapsible">Đồ dùng cho bé </div>
+                <div class="content">
+                  <a class="dropdown-item" href="#">Bé Ăn</a>
+                  <a class="dropdown-item" href="#">Bé Ngủ</a>
+                  <a class="dropdown-item" href="#">Đồ Dùng Vệ Sinh</a>
+                  <a class="dropdown-item" href="#">Bé Ra Ngoài</a>
+                  <a class="dropdown-item" href="#">Bé Khỏe & An Toàn</a>
+                  <a class="dropdown-item" href="#">Đồ chơi cho bé</a>
+                </div>
+                <div class="collapsible">Quần áo 10-12 tuổi </div>
+                <div class="content">
+                  <a class="dropdown-item" href="#">Quần áo bé gái 10 - 12 tuổi</a>
+                  <a class="dropdown-item" href="#">Quần áo bé trai 10 - 12 tuổi</a>
+
+                </div>
+                <div class="collapsible1">
+                  <a href="#" target="_blank">Hàng Mới Về</a> </div>
+                <div class="collapsible1">
+                  <a href="#" target="_blank">Liên Hệ Baby</a> </div>
+                <div class="collapsible1">
+                  <a href="#" target="_blank">1900 54 54 77</a> </div>
+              </div>
+              <div class="overlay"></div>
+
+              <!--Nect Slide-->
+              <script>
+                var coll = document.getElementsByClassName("collapsible");
+                var i;
+
+                for (i = 0; i < coll.length; i++) {
+                  coll[i].addEventListener("click", function () {
+                    this.classList.toggle("active");
+                    var content = this.nextElementSibling;
+                    if (content.style.maxHeight) {
+                      content.style.maxHeight = null;
+                    } else {
+                      content.style.maxHeight = content.scrollHeight + "px";
+                    }
+                  });
+                }
+              </script>
+
+              <!---->
+            </div>
+          </div>
+          <div class=" babi-logo">
+            <div class="logo-container">
+              <a href="#">
+                <img class="logo-container-style" src="https://babi.vn/images/logos/32/logo-babi.png?t=1505448411"
+                  width="135px" height="56px" alt="logo-babi">
+              </a>
+            </div>
+          </div>
+          <div class=" babi-buy-mobile" style="padding:0;">
+            <div class=" babi-buy-mobile ">
+              <div class="babi-buy-icon-mobile ">
+                <i class="icon ion-md-cart"></i>
+              </div>
+              <div class="babi-buy-title-mobile ">
+                <span>GIỎ HÀNG</span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="row row-mobile " style="    margin-right: 20px;">
+          <div class="babi-search ">
+            <form>
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Tìm kiếm sản phẩm" name="search">
+                <div class="input-group-btn">
+                  <button class="btn btn-default" type="submit">
+                    <i class="glyphicon glyphicon-search"></i></button>
+                </div>
+              </div>
+
+            </form>
+          </div>
+        </div>
+
+      </div>
+      <div class="babi-hotline-bar">
+        <div class="babi-hotline-bar-content">
+          <div class="info">
+            <i class="material-icons">phone</i>
+            <span class="babi-hotline-bar-title">
+
+              <a href="tel: 1900 54 54 77" style="text-decoration: none;color: #4A4A4A; ">&ensp; Hỗ trợ đặt hàng nhanh
+                :</a>
+            </span>
+            <span class="babi-hotline-bar-number">
+              <a href="tel: 1900 54 54 77" style="text-decoration: none; color: red;">&ensp; 1900 54 54 77 &ensp; </a>
+            </span>
+            <i class="material-icons">home</i>
+            <span class="babi-hotline-bar-address">
+
+              <a target="_blank" href="https://www.google.com/maps" style="text-decoration: none;color: #4A4A4A;">&ensp;
+                Địa chỉ</a>
+            </span>
+
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+  </section>
+  <section class="babi-menu">
+    <div style="width:100%; height: 100%;" class="container-fluid">
+      <div class="row-fluid">
+        <div class="babi-menu-bar">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link " href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    QUẦN ÁO BÉ TRAI
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Áo sơ mi bé trai</a>
+                    <a class="dropdown-item" href="#">Áo thun bé trai</a>
+                    <a class="dropdown-item" href="#">Áo khoác bé trai</a>
+                    <a class="dropdown-item" href="#">Quần kiểu bé trai</a>
+                    <a class="dropdown-item" href="#">Quần jeans bé trai</a>
+                    <a class="dropdown-item" href="#">Đồ bộ bé trai</a>
+                    <a class="dropdown-item" href="#">Đồ bơi bé trai</a>
+                    <a class="dropdown-item" href="#">Quần lót bé trai</a>
+                    <a class="dropdown-item" href="#">Giày dép bé trai</a>
+                    <a class="dropdown-item" href="#">Phụ kiện bé trai</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link " href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    QUẦN ÁO BÉ GÁI
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Váy Đầm Công Chúa</a>
+                    <a class="dropdown-item" href="#">Váy Đầm bé gái</a>
+                    <a class="dropdown-item" href="#">Áo bé Gái</a>
+                    <a class="dropdown-item" href="#">Áo khoác bé gái</a>
+                    <a class="dropdown-item" href="#">Quần trẻ em gái</a>
+                    <a class="dropdown-item" href="#">Đồ bộ bé gái</a>
+                    <a class="dropdown-item" href="#">Đồ bơi bé gái</a>
+                    <a class="dropdown-item" href="#">Quần lót bé gái</a>
+                    <a class="dropdown-item" href="#">Giày dép bé gái</a>
+                    <a class="dropdown-item" href="#">Phụ kiện bé gái</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link " href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    QUẦN ÁO SƠ SINH
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Phụ kiện sơ sinh cho bé</a>
+                    <a class="dropdown-item" href="#">Quần áo sơ sinh bé trai</a>
+                    <a class="dropdown-item" href="#">Quần áo sơ sinh bé gái</a>
+                    <a class="dropdown-item" href="#">Đồ sơ sinh trọn gói</a>
+                    <a class="dropdown-item" href="#">Giày sơ sinh</a>
+
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link " href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    ĐỒ DÙNG CHO BÉ
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Bé Ăn</a>
+                    <a class="dropdown-item" href="#">Bé Ngủ</a>
+                    <a class="dropdown-item" href="#">Đồ Dùng Vệ Sinh</a>
+                    <a class="dropdown-item" href="#">Bé Ra Ngoài</a>
+                    <a class="dropdown-item" href="#">Bé Khỏe & An Toàn</a>
+                    <a class="dropdown-item" href="#">Đồ chơi cho bé</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link " href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    QUẦN ÁO TRẺ EM 10 - 12 TUỔI
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Quần áo bé gái 10 - 12 tuổi</a>
+                    <a class="dropdown-item" href="#">Quần áo bé trai 10 - 12 tuổi</a>
+
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link " href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    HÀNG MỚI VỀ
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#"></a>
+                    <a class="dropdown-item" href="#"></a>
+                    <a class="dropdown-item" href="#"></a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="babi-sign-up">
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="bradcrumbs">
+          <a href="#" target="blank">Trang chủ</a>
+          <span>/</span>
+          <a style="color: #888;" href="#" target="blank">Đăng ký</a>
+        </div>
+        <div class="col-sm-12 col-md-7 babi-sign-up-content">
+          <p class="sign-up-content-title">Đăng ký tài khoản mới</p>
+          <div class="sign-up-content-body">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Mật khẩu</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Xác nhận mật khẩu</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <h3 class="babi-subheader">
+
+                Bạn muốn nhận thông tin sản phẩm và Khuyến mãi ?
+
+              </h3>
+
+              <div class="form-check">
+                <label class="form-check-label" for="exampleCheck1">Hãy đăng ký nhận bản tin của Babi !</label><br>
+                <input type="checkbox" class="form-check-input" id="exampleCheck1"><br>
+                <label class="form-check-label" for="exampleCheck1">Nhận thông tin từ babi.vn</label>
+              </div>
+              <div class="form-submit">
+                <button type="submit" class="btn btn-primary">Đăng ký</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-5 ">
+          <div class="babi-account-benefits">
+            <p class="babi-account-benefits-title">Là thành viên của Babi, Quý khách được hưởng: </p>
+            <ul>
+              <li>Đăng nhập mọi lúc mọi nơi để kiểm tra trạng thái đơn hàng.</li>
+              <li>Dễ dàng xem lại những sản phẩm Quý khách đã mua.</li>
+              <li>Tích luỹ đơn hàng và được hưởng những ưu đãi dành riêng cho khách hàng thân thiết.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="babi-footer">
+    <div class="container-fluid">
+      <!--Adress-->
+      <div class="row-fluid babi-footer-pc">
+        <div class="col-sm-12 col-md-4">
+          <div class="babi-footer-info">
+            <p class="babi-footer-info-text"> <i class="material-icons">shopping_cart</i> 380/9B Nam Kỳ Khởi Nghĩa, P.8,
+              Q.3, TpHCM </p>
+            <p class="babi-footer-info-text"><i class="fab fa-whatsapp"></i> ĐT: 0932.064.588</p>
+            <p class="babi-footer-info-text"><i class="far fa-clock"></i> &nbsp; &nbsp;Giờ mở cửa: T2 - T7: 9h00 -
+              19h30;
+              CN: 9h00
+              - 17h30 </p>
+            <p class="babi-footer-info-text"><i class="fab fa-whatsapp"></i><strong> Hotline: 1900 54 54 77</strong></p>
+          </div>
+          <div class="babi-footer-pr">
+            <p class="babi-footer-pr-header">BABI - THỜI TRANG TRẺ EM</p>
+            <p class="babi-footer-pr-body">Babi chuyên bán quần áo trẻ em online với hàng ngàn mẫu mã baby để quý khách
+              lựa chọn cho bé yêu của bạn. Hãy đặt hàng online để được hưởng nhiều ưu đãi hơn tại siêu thị mẹ và bé
+              Babi. <br> Chọn mua ngay các mẫu quần áo thời trang
+              trẻ em mới nhất 2019, hàng đẹp giá cực tốt.</p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-3 babi-footer-sales">
+          <p class="babi-footer-sales-header">Chính sách bán hàng</p>
+          <div class="babi-footer-sales-body">
+            <ul>
+
+              <li> <a href="#" target="_blank">Bạn Cần Biết</a></li>
+              <li>
+                <a href="#" target="_blank">Phương thức thanh toán</a></li>
+              <li>
+                <a href="#" target="_blank">Phương thức vận chuyển</a></li>
+              <li>
+                <a href="#" target="_blank">Hướng dẫn mua hàng</a></li>
+              <li>
+                <a href="#" target="_blank">Xuất xứ sản phẩm Babi</a></li>
+              <li>
+                <a href="#" target="_blank">Địa chỉ shop quần áo trẻ em Babi</a></li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-3 babi-footer-acc">
+          <p class="babi-footer-acc-header">TÀI KHOẢN</p>
+          <div class="babi-footer-acc-body">
+            <a href="#" target="_blank">
+              <p>Đăng Nhập</p>
+            </a>
+            <a href="#" target="_blank">
+              <p>Tạo Tài Khoản</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!--Mobile-->
+      <div class="row-fluid babi-footer-mobile">
+        <div class="babi-footer-info">
+          <p class="babi-footer-info-text"><i class="material-icons">shopping_cart</i> &nbsp; &nbsp;380/9B Nam Kỳ Khởi
+            Nghĩa, P.8,
+            Q.3, TpHCM </p>
+          <p class="babi-footer-info-text"><i class="fab fa-whatsapp"></i> ĐT: 0932.064.588</p>
+          <p class="babi-footer-info-text"><i class="far fa-clock"></i> &nbsp; &nbsp;Giờ mở cửa: T2 - T7: 9h00 - 19h30;
+            CN: 9h00
+            - 17h30 </p>
+          <p class="babi-footer-info-text"><i class="fab fa-whatsapp"></i><strong> Hotline: 1900 54 54 77</strong></p>
+        </div>
+        <div class="babi-footer-pr">
+          <div class="babi-footer-pr-header collapsible-footer">BABI - THỜI TRANG TRẺ EM</div>
+          <div class="content-footer">
+            <p class="babi-footer-pr-body">Babi chuyên bán quần áo trẻ em online với hàng ngàn mẫu mã baby để quý khách
+              lựa chọn cho bé yêu của bạn. Hãy đặt hàng online để được hưởng nhiều ưu đãi hơn tại siêu thị mẹ và bé
+              Babi.
+              <br> Chọn mua ngay các mẫu quần áo thời trang
+              trẻ em mới nhất 2019, hàng đẹp giá cực tốt.</p>
+          </div>
+        </div>
+
+        <div class="babi-footer-sales">
+          <p class="babi-footer-sales-header collapsible-footer">Chính sách bán hàng</p>
+          <div class="babi-footer-sales-body content-footer ">
+
+
+            <p><a href="#" target="_blank">
+                Bạn Cần Biết
+              </a></p>
+            <p>
+              <a ref="#" target="_blank">Phương thức thanh toán</a></p>
+            <p>
+              <a ref="#" target="_blank">Phương thức vận chuyển</a></p>
+            <p>
+              <a ref="#" target="_blank">Hướng dẫn mua hàng</a></p>
+            <p>
+              <a ref="#" target="_blank">Xuất xứ sản phẩm Babi</a></p>
+            <p>
+              <a ref="#" target="_blank">Địa chỉ shop quần áo trẻ em Babi</a></p>
+
+
+          </div>
+        </div>
+        <div class="babi-footer-acc ">
+          <p class="babi-footer-acc-header collapsible-footer">TÀI KHOẢN</p>
+          <div class="babi-footer-acc-body content-footer">
+            <a href="#" target="_blank">
+              <p>Đăng Nhập</p>
+            </a>
+            <a href="#" target="_blank">
+              <p>Tạo Tài Khoản</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <script>
+        var coll = document.getElementsByClassName("collapsible-footer");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight) {
+              content.style.maxHeight = null;
+            } else {
+              content.style.maxHeight = content.scrollHeight + "px";
+            }
+          });
+        }    
+      </script>
+      <!--Footer Copyright-->
+
+
+  </section>
+  <section class="babi-coppyright">
+    <div class="container-fluid">
+      <div class="row-fluid coppyright-mobile" style="display:flex;">
+        <div style="margin-right: 40px;" class="babi-coppyright-logo">
+          <a href="#" target="_blank">
+            <img class="babi-coppyright-logo-style"
+              src="https://babi.vn/images/companies/1/san-pham-dich-vu-vang-cho-be.png?1440781944820" alt="">
+          </a>
+        </div>
+        <div class="babi-coppyright-logo">
+          <a href="#" target="_blank">
+            <img class="babi-coppyright-logo-style"
+              src="https://babi.vn/images/companies/1/da-thong-bao-bo-cong-thuong.png?1440781898757" alt="">
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <div id="id01" class="modal">
+
+    <form class="modal-content animate" action="/action_page.php">
+
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close"
+          title="Close Modal">&times;</span>
+        <label class="modal-title">Đăng nhập</label><br>
+      </div>
+
+
+      <div class="container-login">
+
+        <label for="uname">Email:</label>
+        <input type="text" name="uname" required>
+        <span style="margin-left: 65%;"><a href="#">Quên mật khẩu?</a></span><br>
+
+        <label for="psw">Mật khẩu:</label>
+        <input type="password" name="psw" required>
+        <span style="margin-left: 35%;"><a href="#">Đăng kí tài khoản mới</a></span>
+
+
+      </div>
+
+      <div class="container-login-button" style="background-color:#f1f1f1;padding-left: 50px;">
+
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Nhớ đăng nhập
+        </label>
+        <button class="button-login" type="submit">ĐĂNG NHẬP</button>
+
+      </div>
+    </form>
+  </div>
+
+
+  <script>
+    // Get the modal
+    var modal = document.getElementById('id01');
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
+</body>
+
+</html>

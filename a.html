@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="dist/a.css">
+
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div class="a">
+        <div class="box1" id="pro-1">
+            <div id="productName"> Coca </div>
+            <img src="http://thucphamplaza.com/wp-content/uploads/products_img/coca-light-33cl.jpg" alt="">
+            <p id="price">10.000</p>
+            <button type="button" productId="1" class="add2cart"> Thêm vào giỏ </button>
+        </div>
+        <div class="box2" id="pro-2">
+            <div id="productName"> Pepsi </div>
+            <img src="https://s1.marquis.vn/assets/2017/2017-12/c1f2379b7f41aec559c0151915d8c36a.jpg" alt="">
+            <p id="price">20.000</p>
+            <button type="button" productId="2" class="add2cart"> Thêm vào giỏ </button>
+        </div>
+        <div class="box3" id="pro-3">
+            <div id="productName"> Latte </div>
+            <img src="https://s1.marquis.vn/assets/2017/2017-10/2505a587213686f17fd0818931db9220.jpg" alt="">
+            <p id="price">30.000</p>
+            <button type="button" productId="3" class="add2cart"> Thêm vào giỏ </button>
+        </div>
+        <div class="box4" id="pro-4">
+            <div id="productName"> Monster </div>
+            <img src="https://jlbrooks.co.uk/media/catalog/product/cache/1/image/800x800/9df78eab33525d08d6e5fb8d27136e95/m/o/monster-energy-absolutely-zero-energy-drink-case-of-12-x-500ml-cans-price-marked-1.19-3656-p.jpg"
+                alt="">
+            <p id="price">40.000</p>
+						<button type="button" productId="4" class="add2cart"> Thêm vào giỏ </button>
+						<input type="number" onchange="changeUnitQuantity(this,${cart[i].id})" name="" value="${cart[i].quantity}" min="0" step="1"/>
+          
+            
+        
+        </div>
+    </div>
+    <div class="tinhtien">
+        
+    </div>
+
+    <script>
+        var cart = [];
+        $(document).ready(function () {
+            // $('.quantityInput').on('change', function (e) {
+            //     var quantity = e.target.value
+            //     console.log(quantity)
+            //     this.value = quantity
+            //     var price = $('#price-4').text()
+            //     var price = parseInt(price)
+            //     var totalPrice = price * quantity
+            //     return $('#textValue').html(totalPrice)
+            // })
+
+
+            $('.add2cart').on('click', function () {
+                var proId = $(this).attr('productId');
+
+                var pName = $('#pro-' + proId).
+                    children('#productName').text();
+
+                var imgUrl = $('#pro-' + proId).
+                    find('img').attr('src');
+
+                var price = $('#pro-' + proId).
+                    find('#price').text();
+
+
+                var obj = {
+                    id: proId,
+                    productName: pName,
+                    imageUrl: imgUrl,
+                    price: price
+                };
+
+                //check sp co trong gio hang hay chua
+                var flag = false;
+                for (var i = 0; i < cart.length; i++) {
+                    if (cart[i].id == obj.id) {
+                        flag = true;
+                        break;
+                    }
+                }
+                if // san pham chua co trong gio hang 
+                (flag === false) {
+                    obj.quantity = 1;
+                    cart.push(obj);
+                }
+                else { //san pham co trong gio hang
+                    cart[i].quantity += 1;
+                }
+                //    debugger;
+                drawCheckout();
+            });
+        });
+        function drawCheckout() {
+            $('.tinhtien').empty();
+            var ckUnit = "";
+            var totalMoney = 0 ;
+            for (var i = 0; i < cart.length; i++) {
+                totalMoney += cart[i].price * cart[i].quantity;
+                ckUnit += `
+                <div class="tinhtienA">
+                    <div class="box">
+                        <div class="name"> Tên sản phẩm </div>
+                        <div> ${cart[i].productName} </div>
+                     </div>
+                    <div class="box">
+                        <div class="image">Ảnh sản phẩm </div>
+                        <img src="${cart[i].imageUrl}" alt="">
+                    </div>
+                    <div class="box">
+                        <div class="soluong">Số lương</div>
+                       
+                    </div>
+                    <div class="box">
+                        <div class="giatien">Thành tiền</div>
+                        <p>${cart[i].price * cart[i].quantity} </p>
+                    </div>
+                    <button type="button" onclick="removeUnit(${cart[i].id})">X</button>
+                </div>
+        
+        `;
+            }
+            ckUnit += `  
+            <p style="margin-left:50px;">${totalMoney}</p>       
+            `;
+            $('.tinhtien').append(ckUnit);
+        }
+        function removeUnit(id) {
+            
+                for (var i = 0; i < cart.length; i++) {
+                    if (cart[i].id ==  id) {
+                       cart.splice(i,1);
+                        break;
+                    }
+                }
+               
+             
+                drawCheckout();
+        }
+
+
+
+       function changeUnitQuantity (e,id) {
+        console.log(e.value,id) 
+                var ipValue = e.value ; 
+                if (ipValue > 0) {      
+                    for (var i = 0; i < cart.length; i++) {
+                        if (cart [i].id == id) {
+                            cart[i].quantity = ipValue;
+                            break;
+                        }
+                    }
+                    drawCheckout();   
+                }     
+                else {
+                    removeUnit(id);
+                }
+                          
+           }
+         
+      
+    </script>
+
+
+
+</body>
+
+</html>

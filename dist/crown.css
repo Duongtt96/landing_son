@@ -1,0 +1,1544 @@
+.container {
+  height: 100%;
+  max-width: 960px !important;
+  margin: 0px auto;
+  padding: 0px;
+}
+
+.section-header {
+  background-image: url(https://static.ladipage.net/s1440x800/5a6e88f8637193592b0ba534/5e02c87e8665-1555313471.png);
+  background-color: rgba(255, 255, 255, 0);
+  background-origin: content-box;
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 574.4858551025391px;
+}
+
+.header-title {
+  width: 46%;
+}
+
+.header-title-img {
+  width: 100%;
+  height: 100%;
+}
+
+.btn-header {
+  background-color: rgba(205, 138, 63, 1);
+  color: white;
+  font-size: 25px;
+  padding: 8px 30px;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px 60px 30px;
+}
+
+.header-info {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 4px;
+  font-size: 14px;
+}
+
+.header-layer {
+  padding-top: 50px;
+  margin-left: 90px;
+}
+
+.header-title {
+  margin-left: -54px;
+  margin-bottom: 30px;
+}
+
+.header-info {
+  margin-left: 32px;
+}
+
+.page-logo-img {
+  width: 100%;
+  height: 100%;
+}
+
+.page-logo1 {
+  width: 120px;
+  height: 25px;
+  margin-top: 30px;
+}
+
+.page-logo2 {
+  width: 130px;
+  height: 27px;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.page-logo3 {
+  width: 85px;
+  height: 80px;
+  margin-left: 50px;
+}
+
+.page-logo4 {
+  width: 150px;
+  height: 95px;
+  margin-left: -15px;
+}
+
+.page-logo5 {
+  width: 135px;
+  height: 90px;
+}
+
+.page-logo6 {
+  width: 170px;
+  height: 35px;
+  margin-top: 28px;
+  margin-left: -14px;
+}
+
+.line {
+  border-top-width: 1px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-style: solid;
+  border-color: rgba(66, 66, 66, 1);
+  width: 100%;
+  height: 1px;
+  padding-top: 10px;
+}
+
+.page-logo-layer {
+  padding-top: 10px;
+}
+.page-logo {
+  background-color: rgba(252, 250, 249, 1);
+}
+.introduce {
+  background-color: rgba(252, 250, 249, 1);
+  height: 790px;
+}
+
+.introduce-logo-img {
+  width: 100%;
+}
+
+.introduce-logo {
+  width: 53%;
+  margin: auto;
+}
+
+.introduce-box {
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(0, 0, 0, 1);
+  padding-top: 30px;
+  padding-bottom: 30px
+}
+
+.rate-img {
+  width: 100%;
+}
+
+.rate {
+  width: 55%;
+  margin: auto;
+}
+
+.paraT {
+  color: black;
+  font-weight: 700;
+  line-height: 18px;
+  font-size: 14px;
+  text-align: center;
+  font-family: 'Open Sans';
+}
+
+.countdown1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 15px 0px 15px;
+}
+
+.countdown2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.countdown {
+  margin: 20px 70px 0px 70px;
+}
+
+#Ngay {
+  margin: 30px 0px 0px 25px;
+}
+
+#Gio {
+  margin: 30px 0px 0px 25px;
+}
+
+#Phut {
+  margin: 30px 0px 0px 15px;
+}
+
+#Giay {
+  margin: 30px 0px 0px 15px;
+}
+
+.boxT {
+  width: 66px;
+  height: 70px;
+  border-radius: 6px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 1);
+  font-family: 'Open Sans', sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  color: black;
+  font-weight: 700;
+  line-height: 0px;
+  font-size: 31px;
+}
+
+.introduce-logo-desc {
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: rgba(0, 0, 0, 1);
+  font-weight: 400;
+  line-height: 22px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.introduce-logo-desc-detail {
+  color: rgba(66, 66, 66, 1);
+  font-weight: 400;
+  font-style: italic;
+  line-height: 24px;
+  font-size: 18px;
+}
+
+.price-off {
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: rgba(66, 66, 66, 1);
+  font-weight: 700;
+  line-height: 29px;
+  font-size: 23px;
+  text-align: center;
+  text-decoration: line-through;
+}
+
+.price-on {
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: rgba(142, 35, 35, 0.92);
+  font-weight: 700;
+  line-height: 33px;
+  font-size: 27px;
+  text-align: center;
+}
+
+.introduce-box-txt {
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: rgba(0, 0, 0, 1);
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.btn-introduce {
+  background-color: rgba(205, 138, 63, 1);
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  border-radius: 5px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0);
+  padding: 10px 25px;
+  margin-left: 30px;
+}
+
+.introduce-box-para {
+  color: rgba(0, 0, 0, 1);
+  font-weight: 600;
+  line-height: 27px;
+  font-size: 21px;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 10px;
+  margin-left: 25%;
+}
+.introduce-img {
+  padding: 130px 0px 0px 0px;
+}
+.introduce-img1 {
+  margin-bottom: 20px;
+}
+.video-title {
+  width: 35%;
+    margin: auto;
+}
+.video {
+  background-color: rgba(252,250,249,1);
+
+}
+.video-button {
+  border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(255,255,255,0);
+    background-color: rgba(205,138,63,1);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 22px;
+    font-size: 16px;
+     color: white;
+     padding: 10px 170px;
+     margin: 30px 0px 30px 27%;
+}
+.video-body {
+  margin-left: 50px;
+}
+.policy-title {
+  width: 40%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.policy-body-shap {
+  width: 46px;
+}
+.policy-body span {
+  margin: 20px 25px 0px;
+  color: rgba(66,66,66,1);
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 16px;
+    font-family: 'Open Sans';
+}
+.policy {
+  background-color: rgba(252,250,249,1);
+}
+.policy-layer {
+  padding-bottom: 35px;
+}
+.grateful {
+  background-color: rgba(148,62,54,1);
+}
+.grateful-content {
+  text-align: center;
+  
+}
+.grateful-content-logo {
+  width: 25%;
+  margin: auto;
+}
+.grateful-content-txt1 {
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(255,255,255,1);
+  font-weight: 700;
+  line-height: 28px;
+  font-size: 22px;
+}
+.grateful-content-txt2 {
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+    color: rgba(255,255,255,1);
+    font-weight: 400;
+    line-height: 28px;
+    font-size: 22px;
+}
+.grateful-content-txt3 {
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: rgba(255,215,64,1);
+  font-weight: 700;
+  line-height: 36px;
+  font-size: 30px;
+}
+.grateful-content-txt4 {
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+    color: rgba(255,255,255,1);
+    font-weight: 600;
+    line-height: 27px;
+    font-size: 21px;
+    margin-left: 25%;
+    margin-right: 15px;
+}
+.grateful-content-button {
+  border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(255,255,255,1);
+    font-family: 'Open Sans';
+    background-color: rgba(255,255,255,0);
+    -webkit-font-smoothing: antialiased;
+    color: rgba(255,255,255,1);
+    font-weight: 700;
+    line-height: 22px;
+    font-size: 14px;
+    width: 135px;
+    height: 32px;
+
+}
+.grateful-save{
+  text-align: center;
+  padding-top: 35px;
+}
+.grateful-save-txt1 {
+  color: rgba(255,255,255,1);
+    font-weight: 200;
+    line-height: 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+}
+.grateful-save-txt2 {
+  font-family: "Open Sans", sans-serif;   
+  -webkit-font-smoothing: antialiased;
+    color: rgba(255,255,255,1);
+    font-weight: 700;
+    line-height: 32px;
+    font-size: 26px;
+    text-decoration: line-through;
+}
+.grateful-save-txt3 {
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+    color: rgba(255,215,64,1);
+    font-weight: 700;
+    line-height: 36px;
+    font-size: 30px;
+}
+
+.paraT-white {
+  color: white;
+  font-weight: 700;
+  line-height: 18px;
+  font-size: 14px;
+  text-align: center;
+  font-family: 'Open Sans';
+}
+
+.countdown1-white {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 20px 0px 20px;
+}
+
+.countdown2-white {
+  display: flex;
+  justify-content: space-between;
+}
+
+.countdown-white {
+  margin: 20px 45px 0px 45px;
+}
+
+#Ngay1 {
+  margin: 30px 0px 0px 8px;
+}
+
+#Gio1 {
+  margin: 30px 0px 0px 8px;
+}
+
+#Phut1 {
+  margin: 30px 0px 0px 2px;
+}
+
+#Giay1 {
+  margin: 30px 0px 0px 2px;
+}
+
+.boxT-white {
+  width: 66px;
+  height: 70px;
+  border-radius: 6px;
+  border-width: 1px;
+  border-style: solid;
+  font-family: 'Open Sans', sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 700;
+  line-height: 0px;
+  font-size: 31px;
+  background-color: rgba(255,255,255,1);
+  color: rgba(0,0,0,1);
+  border-color: white;
+  margin-bottom: 10px;
+}
+.grateful-shape {
+  margin-top: 79%;
+    width: 80%;
+    margin-left: 20px;
+}
+.grateful-layer {
+  padding-bottom: 35px;
+  padding-top: 20px;
+}
+.product-info-body p {
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+    color: rgba(0,0,0,1);
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 19px;
+    margin-bottom: 65px;
+}
+.fa-clock {
+  color:rgba(148,62,54,1);
+  font-size: 23px;
+}
+.product-info-logo {
+  width: 39%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.product-info-body-img {
+  width: 135%;
+    margin-left: -60px;
+}
+.product-info-body-txt {
+  margin-top: 25%;
+}
+.product-info, .product , .dentail-picture, .face-picture, .review{
+  background-color: rgba(252,250,249,1);
+}
+.product-info-body h2 {
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+    color: rgba(151,20,20,1);
+    font-weight: 600;
+    line-height: 25px;
+    border-radius: 9px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(169,29,29,1);
+    font-size: 19px;
+    text-align: center;
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+    margin-top: 25px;
+}
+.product-info-layer {
+  padding-bottom: 30px;
+}
+.product-box {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.product-name {
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+    color: rgba(0,0,0,1);
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.product-pricenew {
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+    color: rgba(0,0,0,1);
+    font-weight: 700;
+    line-height: 28px;
+    font-size: 22px;
+}
+.product-priceold{
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+    color: rgba(0,0,0,1);
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 19px;
+    text-decoration: line-through;
+}
+.product-box-button {
+  border-radius: 5px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgba(255,255,255,0);
+  background-color: rgba(158,32,32,0.92);
+    font-family: 'Montserrat', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: rgba(255,255,255,1);
+    font-weight: 600;
+    line-height: 22px;
+    font-size: 16px;
+    padding: 5px 35px;
+}
+.product-box p {
+  margin: 0px 0px 8px 0px;
+}
+.product-img {
+  margin-bottom: 20px;
+}
+.dentail-picture-title,  .face-picture-title {
+  width: 33%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.dentail-picture-box {
+  margin-bottom: 40px;
+  border: 12px solid white;
+}
+.dentail-picture-button {
+  border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(255,255,255,0);
+    background-color: rgba(158,32,32,0.92);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 22px;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    padding: 8px 25%;
+    margin-left: 20%;
+}
+.dentail-picture-layer , .face-picture-layer{
+  padding-bottom: 70px;
+}
+.review-title {
+  width: 40%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.review-avatar {
+  width: 168px;
+  height: 168px;
+  margin-top: 25px;
+  margin-left: 6px;
+}
+.review-avatar-img {
+  width: 100%;
+    border-radius: 550px;
+    height: 100%;
+    object-fit: cover;
+}
+.review-avatar-name {
+  font-family: 'Open Sans',sans-serif;
+  -webkit-font-smoothing: antialiased;
+    color: rgba(66,66,66,1);
+    font-weight: 700;
+    line-height: 20px;
+    font-size: 16px;
+    margin-left: 70px;
+    margin-bottom: 0px;
+}
+.review-avatar-job {
+  font-family: 'Open Sans';
+  -webkit-font-smoothing: antialiased;
+    color: rgba(66,66,66,1);
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 12px;
+    margin-left: 70px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.review-avatar-desc {
+  border-width: 2px;
+    border-style: solid;
+    border-color: rgba(189,189,189,1);
+    font-family: 'Open Sans',sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: rgba(117,117,117,1);
+    line-height: 22px;
+    font-size: 16px;
+    padding: 35px 12% 35px 25%;
+    margin-left: -86px;
+}
+.review-layer-txt {
+  font-family: 'Open Sans';
+  -webkit-font-smoothing: antialiased;
+    color: rgba(66,66,66,1);
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 18px;
+    text-align: center;
+}
+.review-person-ava {
+  width: 90px;
+  height: 87px;
+  min-width: 80px;
+    min-height: 80px;
+}
+.review-person-ava-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 550px;
+}
+.review-person-box {
+  display: flex;
+}
+.review-person-info-name {
+  font-family: 'Open Sans',sans-serif;
+  -webkit-font-smoothing: antialiased;
+    color: rgba(66,66,66,1);
+    font-weight: 700;
+    line-height: 20px;
+    font-size: 16px;
+
+}
+.review-person-info-cmt {
+  font-family: 'Open Sans',sans-serif;
+  -webkit-font-smoothing: antialiased;
+    color: rgba(97,97,97,1);
+    line-height: 20px;
+    font-size: 14px;
+}
+.review-person-info {
+  margin-left: 25px;
+}
+.review-person {
+  margin-top: 40px;
+}
+.screenfb {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.review-speed {
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+    color: rgba(255,255,255,1);
+    font-weight: 600;
+    line-height: 28px;
+    font-size: 22px;
+    background-color: rgba(150,31,31,0.92);
+  text-align: center;
+  padding: 15px 25px;
+    margin-left: 27%;
+    margin-top: 15px;
+}
+.review-layer {
+  padding-bottom: 50px;
+}
+.endow-info-txt1 {
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+    color: rgba(255,255,255,1);
+    font-weight: 600;
+    line-height: 36px;
+    font-size: 30px;
+}
+.endow-info-txt2{
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+    color: rgba(255,255,255,1);
+    font-weight: 600;
+    line-height: 29px;
+    font-size: 23px;
+}
+.endow-info-txt3 {
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+    color: rgba(255,255,255,1);
+    font-weight: 600;
+    line-height: 28px;
+    font-size: 22px;
+}
+.endow-info-txt4 {
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+    color: rgba(255,215,64,1);
+    font-weight: 600;
+    line-height: 40px;
+    font-size: 34px;
+}
+.endow-info-txt5 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
+    line-height: 20px;
+    font-size: 14px;
+    color: white;
+}
+.endow-info {
+  text-align: center;
+  
+}
+.endow {
+  background-color: rgba(148,62,54,1);
+}
+.line1 {
+  border-top-width: 1px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-style: solid;
+    border-color: rgba(255,255,255,1);
+    margin-top: 12px;
+    height: 1px;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.endow-layer{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.endow-box {
+  border-radius: 12px;
+    border-width: 0px;
+    border-style: solid;
+    border-color: rgba(0,0,0,1);
+    background-color: rgba(255,255,255,1);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 79%;
+    margin: auto;
+}
+
+.endow-box-title {
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+    color: rgba(66,66,66,1);
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 18px;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.endow-box input {
+  border-width: 1px;
+    border-style: solid;
+    border-color: rgba(97,97,97,1);
+    background-color: rgba(255,255,255,1);
+    color: rgba(0,0,0,1);
+    font-size: 13px;
+   width: 100%;
+    padding: 8px 5px;
+    margin-bottom: 20px;
+    height: 40px;
+}
+.endow-box select {
+  border-width: 1px;
+    border-style: solid;
+    border-color: rgba(97,97,97,1);
+    color: rgba(114,114,125,1);
+    width: 100%;
+    background-color: white;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.endow-box  form {
+  width: 80%;
+  margin: auto;
+  
+}
+.registerbtn {
+  background-color: rgba(205,138,63,1);
+    color: #ffffff;
+    line-height: 40px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    padding: 0px 40px;
+    margin-left: 28%;
+}
+#Ngay2 {
+  margin: 30px 0px 0px 22px;
+}
+
+#Gio2 {
+  margin: 30px 0px 0px 17px;
+}
+
+#Phut2 {
+  margin: 30px 0px 0px 17px;
+}
+
+#Giay2 {
+  margin: 30px 0px 0px 17px;
+}
+.footer {
+  background-image: url("https://static.ladipage.net/s1440x700/5a6e88f8637193592b0ba534/royal-crown-30-1555311250.png");
+}
+.footer-address-title {
+  font-family: 'Roboto',sans-serif;
+  -webkit-font-smoothing: antialiased;
+    color: rgba(255,255,255,1);
+    font-weight: 600;
+    line-height: 22px;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.footer-address-body {
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+    color: rgba(255,255,255,1);
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 14px;
+    margin-left: 26px;
+}
+.footer-layer {
+  padding-top: 50px;
+}
+.footer-logo {
+  width: 30%;
+  margin-bottom: 30px;
+}
+.footer-send-title {
+  font-family: 'Open Sans';
+  -webkit-font-smoothing: antialiased;
+  color: rgba(255,255,255,1);
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 16px;
+}
+.footer-send input {
+  border-width: 1px;
+    border-style: solid;
+    border-color: #eee;
+    background-color: rgba(255,255,255,1);
+    color: rgba(84,84,84,1);
+    font-family: "Open Sans",sans-serif;
+    padding: 8px 5px;
+    font-size: 13px;
+    width: 60%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.footer-send-button {
+  background-color: rgba(158,32,32,0.92);
+    color: #ffffff;
+    line-height: 22px;
+    font-size: 14px;
+    text-align: center;
+    padding: 9.5px 30px 11px;
+    font-family: "Open Sans",sans-serif;
+}
+.footer-send-logo i {
+  color: white;
+  margin-left: 10px;
+  margin-bottom: 15px
+}
+.footer-send svg {
+  width: 22px;
+}
+.footer-send-body {
+  color: rgba(255,255,255,1);
+    font-weight: 600;
+    line-height: 22px;
+    font-size: 16px;
+    font-family: 'Roboto',sans-serif;
+   
+}
+.footer-send-desc{
+  font-family: 'Roboto',sans-serif;
+  -webkit-font-smoothing: antialiased;
+    color: rgba(255,255,255,1);
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 14px;
+}
+.footer-send {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.grateful-content-para {
+display: flex;  
+}
+.grateful-content-para-mb {
+  display: none;
+}
+.img-product-mb {
+  display: none;
+}
+.modal-title {
+  -webkit-font-smoothing: antialiased;
+  color: rgba(148,22,13,1);
+  font-weight: 700;
+  line-height: 34px;
+  font-size: 28px;
+  font-family: 'Roboto Slab',serif;
+  margin-top: 36%;
+  margin-bottom: 15px;
+}
+
+/* Center the image and position the close button */
+
+.container-login {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.7);
+  /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 370px;
+  height: 320px;
+  
+}
+.modal form {
+  background-image: url("https://static.ladipage.net/s1440x700/5a6e88f8637193592b0ba534/royal-crow2n-25-1555254295.png");
+    background-color: rgba(255,255,255,1);
+    background-origin: content-box;
+    background-size: auto 100%;
+    background-attachment: scroll;
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 425.9858703613281px !important;
+    height: 537px;
+    
+}
+
+/* The Close Button (x) */
+
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin-top: 10px;
+  position: relative;
+}
+
+.close:hover, .close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {
+      -webkit-transform: scale(0)
+  }
+  to {
+      -webkit-transform: scale(1)
+  }
+}
+
+@keyframes animatezoom {
+  from {
+      transform: scale(0)
+  }
+  to {
+      transform: scale(1)
+  }
+}
+.modal-content input {
+  border-width: 2px;
+    border-style: solid;
+    border-color: rgba(107,41,36,1);
+    background-color: rgba(255,255,255,1);
+    color: rgba(0,0,0,1);
+    font-size: 14px;
+    font-family: "Open Sans",sans-serif;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-bottom: -10px;
+}
+.modal-content select {
+  border-width: 2px;
+    border-style: solid;
+    border-color: rgba(107,41,36,1);
+    background-color: rgba(255,255,255,1);
+    color: rgba(0,0,0,1);
+    font-size: 14px;
+    font-family: "Open Sans",sans-serif;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+   width: 340px;
+   height: 45px;
+
+    margin-bottom: -10px;
+    border-radius:  5px;
+}
+.form-button {
+  background-color: rgba(148,22,13,1);
+    font-family: 'Open Sans'
+    -webkit-font-smoothing: antialiased;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 40px;
+    font-size: 14px;
+    text-align: center;
+    width: 340px;
+    border-radius:  5px;
+    margin: auto;
+    margin-top: 10px;
+}
+.video-body  {
+  margin-left: 0px;
+}
+.video-body iframe {
+  width: 100%;
+  height: 484.00567626953125px;
+}
+
+/* Reponsive */
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+ 
+  .rowmb {
+    display: flex;
+    justify-content: space-around;
+  }
+  .page-logo-pc {
+    display: none;
+  }
+  .page-logo-mb1 {
+    width: 65px;
+      height: 65px;
+      background-position: center center;
+      background-size: cover;
+      background-image: url("https://static.ladipage.net/s300x300/5a6e88f8637193592b0ba534/brand-fl-1553939183.png");
+  }
+  .page-logo-mb2 {
+    background-image: url("https://static.ladipage.net/s300x300/5a6e88f8637193592b0ba534/festina_logo_02_1173x786--1553939877.png");
+    width: 81px;
+    height: 77px;
+      background-position: center center;
+      background-size: cover;
+  }
+  .page-logo-mb3 {
+    width: 62px;
+      height: 72px;
+      background-position: center center;
+      background-size: cover;
+      background-image: url("https://static.ladipage.net/s300x300/5a6e88f8637193592b0ba534/hlogo-1553939353.png");
+  }
+  .page-logo-mb4 {
+    width: 74px;
+    height: 21px;
+    background-position: center center;
+    background-size: cover;
+    background-image: url("https://static.ladipage.net/s300x250/5a6e88f8637193592b0ba534/landing-page-gugi-04-1553938074.png");
+  }
+  .page-logo-mb5 {
+    width: 98px;
+    height: 26px;
+    background-position: center center;
+    background-size: cover;
+    background-image: url("https://static.ladipage.net/s300x250/5a6e88f8637193592b0ba534/unt-07-1553940366.png");
+  }
+  .page-logo-mb6 {
+    width: 82px;
+    height: 17px;;
+    background-position: center center;
+    background-size: cover;
+    background-image: url("https://static.ladipage.net/s300x250/5a6e88f8637193592b0ba534/untitled-2-04-1553938316.png");
+  }
+  .row {
+    width: 100%;
+  }
+  .introduce-box-para {
+    margin-left: 25px;
+  }
+  .boxT-white , .boxT {
+    margin-right: 10px;
+    width: 62px;
+    height: 62px;
+  }
+  .countdown-white, .countdown {
+    margin: 20px 25px 0px 25px;
+  }
+  
+  .policy-body {
+    padding-left: 40px;
+  }
+  .grateful-content-txt4 {
+    margin-left: 25px; 
+  }
+  .product-info-layer {
+    padding-left: 25px;
+  }
+  .face-picture-layer {
+    padding-left: 35px; 
+  }
+  .review-layer {
+    padding-left: 25px;
+  }
+  .review-speed {
+    margin-left: 20%;
+  }
+  .footer-layer {
+    padding-left: 25px;
+  }
+
+}
+@media screen and (max-width: 767px) {
+  .section-header {
+    background-image:  url("https://static.ladipage.net/s600x700/5a6e88f8637193592b0ba534/royal-crown-34-1555313722.png");
+    height: 469.5566101074219px;
+  }
+}
+@media screen and (max-width: 495px) {
+
+.header-logo {
+  width: 45%;
+  margin-top:178px; 
+  margin-left: -20px;
+}
+.header-logo img {
+  width: 100%;
+}
+.header-title{
+  width: 65%;
+  margin-left: -65px;
+  margin-top: -5px;
+}
+.btn-header {
+  margin: -20px -25px 15px;
+  font-size: 16px;
+  padding: 4px 20px;
+}
+.header-info {
+  
+  margin-left: -70px;
+}
+.header-info p {
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+.page-logo-mb1 {
+  width: 65px;
+    height: 65px;
+    background-position: center center;
+    background-size: cover;
+    background-image: url("https://static.ladipage.net/s300x300/5a6e88f8637193592b0ba534/brand-fl-1553939183.png");
+}
+.page-logo-mb2 {
+  background-image: url("https://static.ladipage.net/s300x300/5a6e88f8637193592b0ba534/festina_logo_02_1173x786--1553939877.png");
+  width: 81px;
+  height: 77px;
+    background-position: center center;
+    background-size: cover;
+}
+.page-logo-mb3 {
+  width: 62px;
+    height: 72px;
+    background-position: center center;
+    background-size: cover;
+    background-image: url("https://static.ladipage.net/s300x300/5a6e88f8637193592b0ba534/hlogo-1553939353.png");
+}
+.page-logo-mb4 {
+  width: 74px;
+  height: 21px;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("https://static.ladipage.net/s300x250/5a6e88f8637193592b0ba534/landing-page-gugi-04-1553938074.png");
+}
+.page-logo-mb5 {
+  width: 98px;
+  height: 26px;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("https://static.ladipage.net/s300x250/5a6e88f8637193592b0ba534/unt-07-1553940366.png");
+}
+.page-logo-mb6 {
+  width: 82px;
+  height: 17px;;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("https://static.ladipage.net/s300x250/5a6e88f8637193592b0ba534/untitled-2-04-1553938316.png");
+}
+.page-logo-pc {
+  display: none;
+}
+.page-logo-moblie .row {
+  margin-left: 18px;
+}
+.introduce {
+  height: 1190px;
+}
+.introduce-img {
+  padding: 0px;
+}
+.introduce-logo-desc {
+  font-size: 14px;
+  color: black;
+}
+.price-on {
+  font-size: 20px;
+  width: 60%;
+  margin: auto;
+}
+.introduce-box {
+  width: 100%;
+}
+.introduce-box-para {
+  margin-left: 15%;
+  font-size: 19px;
+}
+.btn-introduce {
+  font-size: 14px;
+}
+.row {
+  margin: 0px;
+  width: 100%;
+}
+.col-xs-12 {
+  padding: 0px;
+}
+.video-layer {
+  padding-top: 20px;
+}
+.video-body {
+  margin: 0px;
+  width: 100%;
+
+}
+.video-body iframe {
+  width: 100%;
+    height: 210px;
+}
+.video-button {
+  padding: 4px 30px;
+  margin: 15px 0px 15px 36%;
+}
+.video-title {
+  width: 46%;
+}
+.policy-title {
+  width: 69%;
+}
+.policy-body-shap {
+  width: 31px;
+  margin-top: 10px;
+}
+.policy-body {
+
+  margin-left: 40px;
+
+}
+.grateful-shape {
+  display: none;
+}
+.grateful-content-txt1 , .grateful-content-txt2, .grateful-save-txt1 {
+  font-size:18px;
+}
+.grateful-content-txt3,.grateful-save-txt2{
+  font-size: 20px;
+
+}
+.grateful-content-para {
+  display: none;
+}
+.grateful-save {
+  padding-top: 0px;
+  width: 100%;
+}
+.grateful-save-txt3 {
+  font-size: 23px; 
+  width: 80%;
+  margin: auto;
+}
+.grateful-content-para-mb {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.boxT-white {
+  margin-right: 10px;
+  width: 62px;
+  height: 62px;
+}
+.countdown-white {
+  margin: 20px 25px 0px 25px;
+}
+.grateful-content-txt4 {
+  margin-left: 0px;
+
+}
+.product-info-logo {
+  width: 57%;
+}
+.product-info-layer {
+  padding-top: 25px;
+}
+.product-info-body-txt {
+  margin-top: 0px;
+}
+.img-product-pc {
+  display: none;
+}
+.img-product-mb {
+  display: block;
+}
+.product-info-body-img {
+  width: 261px;
+  height: 261px;
+  margin: auto;
+  margin-bottom: 30px;
+
+}
+.product-info-body-txt p {
+  font-size: 15px;
+  margin-left: 40px;
+  margin-bottom: 15px;
+}
+.product-info-body h2 {
+  font-size: 16px; 
+}
+.dentail-picture-title {
+  width: 56%;
+}
+.dentail-picture-box {
+  margin-bottom: 20px;
+}
+.dentail-picture-button  {
+  margin-left: 50px;
+}
+.face-picture-title {
+  width: 62%;
+}
+.face-picture-layer img {
+  margin-bottom: 20px;
+
+}
+.face-picture-layer {
+  padding-bottom: 0px;
+}
+.review-title  {
+  width: 70%;
+  margin-bottom: 10px;
+}
+.review-avatar-desc {
+  font-size: 14px;
+  padding: 35px 15px 15px;
+  margin-left: 0px;
+}
+.review-avatar-job , .review-avatar-name {
+  margin-left: 145px;
+}
+.review-avatar {
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+}
+.review-avatar-custom {
+  margin-top: -75px;
+}
+.review-layer-txt {
+  font-size: 15px;
+  width: 90%;
+  margin: auto;
+    margin-bottom: 10px;
+}
+.review-person-info-name {
+  margin-bottom: 5PX;
+
+}
+.review-person-box {
+  margin-bottom: 10px;
+}
+.screenfb img {
+  margin-bottom: 30px;
+}
+.review-speed  {
+  font-size: 16px;
+  padding: 13px 0px;
+  margin: 0px;
+  width: 100%;
+}
+.review-layer {
+  padding-bottom: 0px;
+}
+.endow-info-txt1 {
+  font-size: 26px;
+}
+.endow-info-txt2 {
+  font-size: 20px;
+}
+.endow-info-txt3{
+  font-size: 18px;
+}
+.endow-info-txt4 {
+  font-size: 22px;
+  
+  margin: auto;
+}
+.endow-box-title {
+  font-size: 16px;
+  text-align: center;
+  width: 100%;
+}
+.registerbtn {
+  margin-left: 50px;
+}
+.footer-logo {
+  margin-left: 50px;
+}
+.footer-address-body {
+  font-size: 13px;
+}
+.footer-send {
+  margin-top: 0px;
+}
+.rowmb {
+  display: flex;
+  justify-content: space-around;
+}
+.page-logo-pc {
+  display: none;
+}
+.modal form {
+  width: 375px !important;
+  height: 500px;
+}
+.modal-content select , .form-button{
+  width: 299px;
+}
+.countdown {
+  margin: 20px 25px 0px 25px;
+}
+
+
+
+
+
+}

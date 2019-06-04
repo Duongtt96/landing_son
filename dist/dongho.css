@@ -1,0 +1,827 @@
+.section1{
+    background-color: rgba(255,255,255,0);
+    background-origin: content-box;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-image: url("https://static.ladipage.net/s1440x900/uploads/images/b7526b87-280a-4507-9967-29424fdc836c.jpg");
+    height: 755px;
+    
+}
+.section2 {
+    background-color: rgba(255,255,255,1);
+    height: 582px;
+}
+.section3 {
+    background-image: url("https://static.ladipage.net/s1440x700/uploads/images/79f1d7b1-8b45-4412-b9b9-3498d23d6b9d.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 512px;
+
+}
+.section4 {
+    background-color: rgba(255,255,255,1);
+    height: 811px;
+}
+.section5 {
+    height: 840px;
+    background-color: rgba(255,255,255,0);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-image: url("https://static.ladipage.net/s1440x1000/uploads/images/082d415f-fe29-4cc2-b869-632b73173135.jpg");
+}
+.section6 {
+    background-color: rgba(255,255,255,1);
+    height: 731px;
+}
+.section7 {
+    height: 571px;
+    background-color: rgba(255,255,255,0);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-image: url("https://static.ladipage.net/s1440x700/uploads/images/dea145c5-fbf7-4e86-ac84-8c23b6c9f49d.jpg");
+}
+.section8 {
+    background-color: rgba(255,255,255,1);
+    height: 486px;
+}
+.section9{
+    background-color: rgba(31,33,41,1);
+    height: 779px;
+
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.overlay {
+    background-color: rgba(0,0,0,0.63);
+    width: 100%;
+    height: 100%;
+}
+.overlay3{
+    background-color: rgba(14,16,18,0.64);
+   width: 100%;
+    height: 100%; 
+}
+.overlay5 {
+    background-color: rgba(255,255,255,0);
+    width: 100%;
+    height: 100%; 
+}
+.overlay7 {
+    background-color:rgba(0,0,0,0.61);
+    width: 100%;
+    height: 100%; 
+}
+.wrapper {
+    height: 100%;
+    width: 960px;
+    margin: 0 auto;
+    padding: 0;
+}
+.layer {
+    padding-top: 20;
+}
+.layer2 {
+    padding-top: 20;
+}
+.layer3 {
+    padding-top: 180px;
+}
+.layer4 {
+    padding-top: 35px;
+}
+.layer6 {
+    padding-top: 35px;
+}
+.layer7 {
+    padding-top: 80;
+}
+.layer8 {
+    padding-top: 35;
+}
+.layer9
+{
+    padding-top: 80px;
+}
+.group1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20;
+    margin-bottom: 170px;
+}
+.group21{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17px;
+}
+.group41 {
+    display: flex;
+}
+.group61 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.group81 {
+    display: flex;
+    justify-content: space-between;
+}
+.group92{
+    width: 310.984375px;
+    margin-right: 150px;
+}
+.group93 {
+    display: flex;
+}
+.box11 {
+    display: flex;
+}
+.box21 {
+    width: 227.5625px;
+    height: 162px;
+}
+.box41 {
+    width: 479.98px;
+    height:308px ;
+    background-color: rgba(238,238,238,1);
+}
+.box61 {
+    width: 303px;
+    height: 198px;
+}
+.box71 {
+    width: 164px;
+    height: 164px;
+    margin: auto;
+    
+}
+.box81 {
+    width: 293.03125px;
+    height: 281.640625px;
+}
+.box82 {
+    width: 283.109375px;
+    height: 203.375px;
+    position: absolute;
+}
+.box83 {
+    width: 116.015625px;
+    height: 63.40625px;
+    position: absolute;
+    top: 10px;
+    left: 167px;
+}
+.box91 {
+    display: flex;
+    margin-bottom: 15px;
+}
+.box921 {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #eee;
+    background-color: rgba(255,255,255,1);
+    color: rgba(38,38,38,1);
+    font-family: "Open Sans",sans-serif;
+    font-size: 13px;
+    border: 1px solid #eee;
+    padding: 8px 5px;
+    width: 462px;
+    height: 39.3125px;
+    margin-bottom: 15;
+}
+.box922 {
+    width: 462px;
+    height: 150.125px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #eee;
+    background-color: rgba(255,255,255,1);
+    color: rgba(38,38,38,1);
+    font-family: "Open Sans",sans-serif;
+    font-size: 13px;
+    border: 1px solid #eee;
+    padding: 8px 5px 110px;
+    margin-bottom: 5;
+}
+.shape11{
+    width: 30px;
+    height: 30px;
+}
+
+.para11 {
+    font-family: 'Open Sans';
+    -webkit-font-smoothing: antialiased;
+    color: rgba(255,255,255,1);
+    font-weight: 300;
+    line-height: 18px;
+    font-size: 14px;
+    text-align: left;
+    margin-left: 7px;
+}
+.para12 {
+    font-family: 'Open Sans';
+    -webkit-font-smoothing: antialiased;
+    color: rgba(255,87,34,1);
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-align: center;
+}
+.para13 {
+    font-family: 'Open Sans';
+    -webkit-font-smoothing: antialiased;
+    color: rgba(255,255,255,1);
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: 5px;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+}
+.para14 {
+    font-family: 'Open Sans';
+        font-family: 'Open Sans';
+        -webkit-font-smoothing: antialiased;
+        color: rgba(238,238,238,1);
+        font-weight: 300;
+        line-height: 26px;
+        font-size: 18px;
+         text-align: center;
+         width: 438px;
+    height: 52px;
+    margin: auto;
+
+}
+.para15 {
+    background-color: rgba(61,155,233,0);
+    font-family: 'Open Sans',sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 2px;
+    font-size: 14px;
+    text-align: center;
+}
+.para21 {
+    opacity: 1;
+    font-family: 'Open Sans';
+    -webkit-font-smoothing: antialiased;
+    color: rgba(66,66,66,1);
+    font-weight: 300;
+    line-height: 34px;
+    font-size: 30px;
+    text-align: center;
+}
+.para22 {
+    opacity: 1;
+    font-family: 'Open Sans';
+    -webkit-font-smoothing: antialiased;
+    color: rgba(97,97,97,1);
+    font-weight: 300;
+    line-height: 22px;
+    font-size: 14px;
+    text-align: center;
+    width: 556px;
+    height: 44px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.para31 {
+    font-family: 'Open Sans';
+    -webkit-font-smoothing: antialiased;
+    color: rgba(255,255,255,1);
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 4px;
+    font-size: 37px;
+    text-align: center;
+    margin-bottom: 25;
+}
+.para32 {
+    font-family: 'Open Sans',sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: rgba(255,255,255,1);
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 4px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 25px;
+}
+.para41 {
+    font-family: 'Open Sans';
+    -webkit-font-smoothing: antialiased;
+    color: rgba(0,0,0,1);
+    font-weight: 300;
+    line-height: 34px;
+    font-size: 30px;
+    text-align: center;
+}
+.para42 { 
+    opacity: 1;
+    font-family: 'Open Sans';
+    -webkit-font-smoothing: antialiased;
+    color: rgba(66,66,66,1);
+    font-weight: 400;
+    line-height: 22px;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 55px;
+}
+.para43 {
+    opacity: 1;
+    font-family: 'Open Sans'; 
+    -webkit-font-smoothing: antialiased;
+    color: rgba(97,97,97,1);
+    font-weight: 300;
+    line-height: 20px;
+    font-size: 16px;
+    text-align: center;
+    width: 340.96875px;
+    height: 40px;
+    margin: auto;
+    margin-bottom: 20;
+}
+.para44 {
+    opacity: 1;
+    font-family: 'Open Sans';
+    -webkit-font-smoothing: antialiased;
+    color: rgba(97,97,97,1);
+    font-weight: 400;
+    line-height: 19px;
+    font-size: 13px;
+    text-align: center;
+    width: 372.984375px;
+    height: 114px;
+    margin: auto;
+
+}
+.para61 {
+    opacity: 1;
+    font-family: 'Open Sans';
+    -webkit-font-smoothing: antialiased;
+    color: rgba(33,33,33,1);
+    font-weight: 300;
+    line-height: 34px;
+    font-size: 30px;
+    text-align: center;
+}
+.para62 {
+    opacity: 1;
+    font-family: 'Open Sans';
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    color: rgba(97,97,97,1);
+    font-weight: 300;
+    line-height: 22px;
+    font-size: 14px;
+    text-align: center;
+    width: 507px;
+    height: 44px;
+    margin: auto;
+    margin-bottom :30px;
+}
+.para71 {
+    font-family: 'Open Sans';
+    -webkit-font-smoothing: antialiased;
+    color: rgba(255,255,255,1);
+    font-weight: 300;
+    line-height: 24px;
+    font-size: 16px;
+    text-align: center;
+    width: 641px;
+    height: 72px;
+    margin: auto;
+    margin-top: 30;
+    margin-bottom: 30;
+}
+.para72 {
+    font-family: 'Open Sans';
+    -webkit-font-smoothing: antialiased;
+    color: rgba(255,255,255,1);
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    text-align: center;
+    margin: auto;
+}
+.para73 {
+    font-family: 'Open Sans';
+    -webkit-font-smoothing: antialiased;
+    color: rgba(255,255,255,1);
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 0px;
+    font-size: 12px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10;
+    margin-bottom: 30;
+}
+.para81 {
+    ont-family: 'Open Sans';
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    color: rgba(117,117,117,1);
+    font-weight: 400;
+    line-height: 17px;
+    font-size: 13px;
+    text-align: center;
+    margin: auto;
+}
+.para82 {
+    font-family: 'Open Sans';
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    color: rgba(33,33,33,1);
+    font-weight: 400;
+    line-height: 28px;
+    font-size: 24px;
+    text-align: center;
+    margin: auto;
+    margin: 15 0;
+}
+.para83 {
+    font-family: 'Open Sans';
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    color: rgba(97,97,97,1);
+    font-weight: 400;
+    line-height: 19px;
+    font-size: 13px;
+    text-align: center;
+    width: 469px;
+    height: 38px;
+    margin: auto;
+    margin-bottom: 30;
+
+}
+.para84 {
+    font-family: 'Open Sans';
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    color: rgba(255,61,0,1);
+    font-weight: 700;
+    line-height: 18px;
+    font-size: 14px;
+    text-align: left;
+    width: 156.984375px;
+    height: 41.125px;
+    margin-top: 20px;
+}
+.para85 {
+    font-family: 'Open Sans',sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    color: rgba(0,0,0,1);
+    font-weight: 700;
+    font-style: italic;
+    line-height: 17px;
+    font-size: 13px;
+    text-align: right;
+    width: 104.984375px;
+    height: 19.421875px;
+    margin: 12px 15px 7px;
+
+}
+.para86 {
+    font-family: 'Open Sans',sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    color: rgba(0,0,0,1);
+    font-weight: 700;
+    line-height: 40px;
+    font-size: 36px;
+    text-align: right;
+    width: 113.53125px;
+    height: 45.703125px;
+    margin: -13px 0 0 16px;
+}
+.para91 {
+    opacity: 1;
+    font-family: 'Open Sans';
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    color: rgba(255,255,255,1);
+    font-weight: 300;
+    line-height: 22px;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 10;
+}
+.para92 {
+    opacity: 1;
+    font-family: 'Open Sans';
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    color: rgba(255,255,255,0.43);
+    font-weight: 400;
+    line-height: 18px;
+    font-size: 14px;
+    text-align: left;
+}
+.para93 {
+    opacity: 1;
+    font-family: 'Open Sans';
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    color: rgba(224,224,224,1);
+    font-weight: 300;
+    line-height: 34px;
+    font-size: 24px;
+    text-align: left;
+
+}
+.para95 {
+    opacity: 1;
+    font-family: 'Open Sans';
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    color: rgba(255,255,255,1);
+    font-weight: 300;
+    line-height: 34px;
+    font-size: 14px;
+    text-align: center;
+    margin: auto;
+}
+.button1 {
+    border-radius: 0px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgba(255,255,255,1);
+    width: 203px;
+    height: 48px;
+    margin: auto;
+    margin-top: 30px;
+}
+.button9 {
+    width: 461px;
+    height: 40px;
+    background-color: rgba(255,255,255,0.08);
+    color: #ffffff;
+    line-height: 22px;
+    font-size: 14px;
+    text-align: center;
+}
+.img21 {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://static.ladipage.net/s400x300/uploads/images/d510adc5-e0a0-4445-a005-9cead1fe04ec.jpg");
+    background-size: cover;
+}
+.img22 {
+    
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url("https://static.ladipage.net/s400x300/uploads/images/b3590047-8e12-4294-9693-430a8ba78f3e.jpg");
+}
+.img23 {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url("https://static.ladipage.net/s400x300/uploads/images/fd9bddc3-5d9b-42d1-855f-493e5beabefa.jpg");
+}
+.img24 {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image:url("https://static.ladipage.net/s400x300/uploads/images/394ff20d-5d2c-4219-9815-2475c7ba9379.jpg");
+
+}
+.img25 {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image:url("https://static.ladipage.net/s400x300/uploads/images/86b9ef24-f852-40ac-b673-f4bc97ff559c.jpg");
+}
+.img26 {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image:url("https://static.ladipage.net/s400x300/uploads/images/012bd86b-7483-4d26-8775-b101e97feacb.jpg");
+}
+.img27 {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url("https://static.ladipage.net/s400x300/uploads/images/98fc5a14-57ab-4ada-a09d-73201931f913.jpg");
+}
+.img28 {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image:url("https://static.ladipage.net/s400x300/uploads/images/79f1d7b1-8b45-4412-b9b9-3498d23d6b9d.jpg");
+}
+.img41 {
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://static.ladipage.net/s600x500/uploads/images/5a1c2740-f16c-4915-b23e-47c5d4c2b4b7.jpg");
+}
+.img42 {
+    background-image: url("https://static.ladipage.net/s600x500/uploads/images/b7526b87-280a-4507-9967-29424fdc836c.jpg");
+    ackground-origin: content-box;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.img61 {
+    background-image: url("https://static.ladipage.net/s500x300/uploads/images/394ff20d-5d2c-4219-9815-2475c7ba9379.jpg");
+    background-origin: content-box;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.img62 {
+    background-origin: content-box;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://static.ladipage.net/s500x300/uploads/images/fd9bddc3-5d9b-42d1-855f-493e5beabefa.jpg");
+}
+.img63 {
+    background-origin: content-box;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-image:url("https://static.ladipage.net/s500x300/uploads/images/b3590047-8e12-4294-9693-430a8ba78f3e.jpg")
+}
+.img64 {
+    background-origin: content-box;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-image:url("https://static.ladipage.net/s500x300/uploads/images/b7526b87-280a-4507-9967-29424fdc836c.jpg");
+}
+.img65 {
+    background-origin: content-box;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://static.ladipage.net/s500x300/uploads/images/49719ffb-51e8-45b4-acf4-9d31a24639c0.jpg");
+}
+.img66 {
+    background-origin: content-box;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-image:url("https://static.ladipage.net/s500x300/uploads/images/98fc5a14-57ab-4ada-a09d-73201931f913.jpg");
+}
+.img71 {
+    background-image: url("https://static.ladipage.net/s300x300/uploads/images/628e44c9-2e3d-4ec9-8574-56fab597b660.jpg");
+    background-origin: content-box;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    border-radius: 110px;
+}
+.img81 {
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-image: url("https://static.ladipage.net/s400x400/uploads/images/d510adc5-e0a0-4445-a005-9cead1fe04ec.jpg");
+}
+.img82 {
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-image: url("https://static.ladipage.net/s300x200/uploads/images/38c89171-9f30-47ea-bd42-dfdc748f612b.png")
+}
+.img83 {
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-image: url("https://static.ladipage.net/s400x400/uploads/images/b3590047-8e12-4294-9693-430a8ba78f3e.jpg")
+}
+.img84 {
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-image: url("https://static.ladipage.net/s400x400/uploads/images/fd9bddc3-5d9b-42d1-855f-493e5beabefa.jpg")
+}
+.img91 {
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-image: url("https://static.ladipage.net/s300x200/uploads/images/7e0f29e5-ced8-4dc7-a713-6fab4d855822.png")
+}
+.line3 {
+    border-top-width: 1px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-style: solid;
+    border-color: rgba(255,255,255,1);
+    margin-top: 12px;
+    width: 44px;
+    margin: auto;
+}
+.line6 {
+    border-top-width: 2px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-style: solid;
+    border-color: rgba(255,87,34,1);
+    margin-top: 11px;
+    width: 111px;
+    margin: auto;
+    margin-bottom: 45;
+
+}
+.line7 {
+    border-top-width: 1px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-style: solid;
+    border-color: rgba(255,255,255,1);
+    margin-top: 12px;
+    width: 181px;
+    margin: auto;
+}
+.line9 {
+    border-top-width: 1px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-style: solid;
+    border-color: rgba(255,255,255,0.19);
+    margin-top: 12px;
+    width: 960px;
+    margin-top: 60;
+
+}
+.head14 {
+    display: flex;
+    margin-top: 200;
+}
+.logo {
+    width: 168.609375px;
+    height: 34px;
+    margin-bottom: 40px;
+}
+.shape91 {
+    width: 28px;
+    height: 28px;
+    margin: 18px 13px 0 0px;
+}
+.shape92 {
+    width: 29px;
+    height: 29px;
+    margin: 40px 25 20;
+}

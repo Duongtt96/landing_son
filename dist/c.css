@@ -1,0 +1,82 @@
+                   .section1 {
+                       width: 100%;
+                   }
+                   
+                   .slick-next {
+                       right: 8px;
+                       top: 50%;
+                       z-index: 1;
+                       height: 48px;
+                       width: 48px;
+                       display: none !important;
+                   }
+                   
+                   .slick-next:hover {
+                       background-color: #2e282859;
+                       display: block;
+                   }
+                   
+                   .slick-prev:hover {
+                       background-color: #2e282859;
+                       display: block;
+                   }
+                   
+                   .slick-prev {
+                       left: 8px;
+                       top: 50%;
+                       z-index: 1;
+                       height: 48px;
+                       width: 48px;
+                       display: none !important;
+                   }
+                   
+                   .slick-disabled {
+                       opacity: 0;
+                   }
+                   
+                   .slide-pancake:hover .slick-next,
+                   .slide-pancake:hover .slick-prev {
+                       display: inline-block !important;
+                       background-color: #2e2828cc;
+                   }
+                   
+                   .wrapper {
+                       width: 79%;
+                       margin: auto;
+                   }
+                   
+                   .box:hover .box-footer {
+                       display: block;
+                       padding: 13px;
+                       width: 100%;
+                       background-color: white;
+                       text-align: center;
+                       font-size: 16px;
+                       opacity: 0.8;
+                   }
+                   
+                   .box-footer {
+                       display: none;
+                       position: absolute;
+                       bottom: 0;
+                   }
+                   
+                   .box {
+                       overflow: hidden;
+                       position: relative;
+                   }
+                   
+                   .box-img {
+                       margin-left: 0px;
+                       width: 250px;
+                       height: 250px;
+                   }
+                   
+                   .slick-slide {
+                       height: auto;
+                   }
+                   
+                   .box-frame {
+                       display: block;
+                       padding: 8px;
+                   }

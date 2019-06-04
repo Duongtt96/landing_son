@@ -1,0 +1,479 @@
+.section1{
+    background-image:url("https://trainghiem.wefit.vn/wp-content/uploads/2019/03/BG1-1.png") !important;
+    background-size: cover !important;
+    
+    height: 700px;
+}
+.section2{
+    background-image:url("https://trainghiem.wefit.vn/wp-content/uploads/2019/03/BG2.svg") !important;
+    background-size: cover !important;
+background-position: 50% 50% !important;
+background-attachment: scroll !important;
+background-repeat: no-repeat !important;
+margin: 0px 0px 0px -15px;
+padding: 15px 0px;
+}
+.section3 {
+    background-color: #292941 ;
+    height: 700px;
+}
+.section4 {
+    background-color: white;
+    height: 700px;
+}
+.section5{
+    background-color: #292941 ;
+    height: 700px;
+}
+.section6{
+    background-color:white ;
+    height: 450px;
+}
+.section7 {
+    background-image: url(https://trainghiem.wefit.vn/wp-content/uploads/2019/03/BG3.svg);
+    height: 700px;
+    background-size: cover !important;
+    background-position: 50% 50% !important;
+    background-attachment: scroll !important;
+    background-repeat: no-repeat !important;
+
+}
+.box {
+    display: flex;
+    justify-content: flex-end;
+
+    height: 100%;
+    
+}
+.content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 470px;
+    height: 670.5px;
+    padding: 15px 0px;
+    margin: 0px 0px 0px -15px;
+    
+}
+.wrapper{
+    max-width: 943px;
+    margin: auto;
+}
+
+.content-item {
+    width: 100%;
+    text-align: center;
+}
+
+.content-item.counter {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 340;
+HEIGHT: 150;
+}
+.content-item.counter .colum {
+    color: black;
+    background-color: white;
+    border-radius: 8px;
+    width: 80px;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.content-item.data
+{
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #0394FE;
+    width: 340;
+    HEIGHT: 200;
+
+}
+.content-item.data .row{
+    background-color: white;
+    border: 1px solid black;
+    width: : 321px;
+    height: 35px;
+    display : flex;
+    align-items: center;
+    margin: 8px 0px 10px;
+    padding: 0px 10px;
+    
+
+
+
+}
+p.white2 {
+font-family: Roboto !important;
+font-weight: 400 !important;
+color: rgb(255, 255, 255) !important;
+font-size: 27px !important;
+text-align: center;
+margin: 5;
+
+}   
+p.white1 {
+font-family: Roboto !important;
+color: rgb(255, 255, 255) !important;
+font-size: 42px !important;
+text-align: left !important;
+margin : 5;
+font-weight: 500;
+}   
+p.white3 {
+font-family: Roboto !important;
+color: rgb(255, 255, 255) !important;
+font-size: 24px !important;
+margin: 5;
+} 
+span.white4 {
+font-family: Roboto !important;
+font-weight: 400 !important;
+color: rgb(255, 255, 255) ;
+margin : 5;
+}
+p.violet1 {
+font-family: Roboto !important;
+color: rgb(232, 46, 129) !important;
+font-size: 34px !important;
+margin: 0;
+
+}
+.layer21 {
+display: flex;
+flex-direction: row;
+width: 100% !important;
+
+}
+.logo {
+width: 20%;
+display: flex;
+justify-content: center;
+}
+.layer22 {
+text-align: center;
+
+}
+p.pink {
+font-family: Roboto !important;
+color: rgb(232, 46, 129) !important;
+font-size: 28px !important;
+margin: 5px 0px 2px 0px;
+}
+p.violet2 {
+font-family: Roboto !important;
+color: rgb(130, 53, 140) !important;
+font-size: 28px !important;
+margin: 5PX;
+}
+.para {
+font-family: Roboto;
+margin : 0px 0px 28px;
+
+}
+.place {
+
+display: flex;
+justify-content: center;
+padding: 12px 15px;
+border-radius: 8px;
+    letter-spacing: 1px;
+    box-shadow: none;
+    background-image: none !important;
+    background-color: rgb(130, 53, 140) !important;
+    padding-bottom: 12px !important;
+width: 126px;
+height: 18px;
+color: white;
+font-size: 15PX;
+}
+.box2 {
+max-width: 943px;
+
+    margin: auto;
+}
+.box2r1 {
+display: flex;
+flex-direction: row;
+display: flex;
+justify-content: space-between;
+margin : 50px;
+}
+.box2r2 {
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    margin : 50px;
+    }
+.box2r3 {
+        display: flex;
+        flex-direction: row;
+        display: flex;
+        justify-content: space-between;
+        margin : 50px;
+        }
+ .box2r4 {
+            display: flex;
+            flex-direction: row;
+            display: flex;
+            justify-content: space-between;
+            margin : auto;
+            width: 386PX !important;
+            margin-bottom: 50px;
+            
+            }
+.box2r5 {
+                display: flex;
+                flex-direction: row;
+                display: flex;
+                justify-content: space-between;
+                margin : auto;
+                width: 295PX !important;
+                margin-bottom: 50px;
+                
+                }   
+.button {
+display: flex;
+justify-content: center;
+padding: 12px 15px;
+border-radius: 8px;
+letter-spacing: 1px;
+box-shadow: none;
+background-image: none !important;
+background-color: rgb(3, 148, 254) !important;
+padding-bottom: 12px !important;
+width: 260px;
+height: 35x;
+color: white;
+font-size: 15PX;
+}        
+.row3 {
+ display: flex;
+ justify-content: space-around;
+ padding: 20px;
+}
+.row31 {
+    text-align: center;
+
+
+}
+.para31 {
+    font-family: Roboto !important;
+    color: rgb(255, 255, 255) !important;
+    font-size: 26px !important;
+    margin: 10px;;
+}
+.para32 {
+    font-family: Roboto !important;
+    color: rgb(232, 46, 129) !important;
+    font-size: 35px !important;
+    margin: 10px;
+}
+.para33 {
+    font-family: Roboto;
+    font-size: 15px !important;
+}
+.img311 {
+    width: 55px;
+    float: none;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin: 20px;
+}
+.img312 {
+    margin : 25px;
+}
+.button3 {
+    display: flex;
+    justify-content: center;
+
+    border-radius: 8px;
+    letter-spacing: 1px;
+    box-shadow: none;
+    background-image: none !important;
+    background-color: rgb(3, 148, 254) !important;
+   
+    width: 247px;
+    height: 42x;
+    color: white;
+    font-size: 15PX;
+    }  
+.baogia {
+    display: flex;
+    justify-content: center;
+    margin: 35px;
+}
+
+.row51 {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.row53 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    text-align: center;
+    color:white;
+
+}
+.para51 {
+    font-family: Roboto !important;
+    font-weight: 400 !important;
+    color: rgb(232, 46, 129) !important;
+    font-size: 35px !important;
+    text-align: center;
+    margin : 10px;
+}
+.para52 { font-family: Roboto !important;
+    font-weight: 400 !important;
+    color: rgb(255, 255, 255) !important;
+    font-size: 35px !important;
+    text-align: center;
+    margin : 10px;
+}
+.row53 p {
+    font-family: Roboto !important;
+    font-weight: 400 !important;
+}
+.box6 {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 60px;
+}
+.khung {
+    padding-top: 50px;
+}
+.vien {
+    background-color: white;
+    width: 100%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+
+
+}
+.column71 {
+    display: flex;
+    align-items: center;
+    width: 413px;
+    height: 396.25px;
+}
+.box71 {
+    background-color: #0394FE;
+    border-radius: 8px;
+    width: 413px;
+    height: 396.25px;
+    margin-top: 25px;
+    margin-left: -45px;
+
+}
+.para7 {
+    text-align: center;
+    margin: 35px;
+}
+.para71 {
+    font-family: Roboto !important;
+    font-weight: 400 !important;
+    color: rgb(255, 255, 255) !important;
+    font-size: 23px !important;
+    line-height: 1px !important;
+    margin:10px;
+}
+.para72{
+    font-family: Roboto !important;
+    font-weight: 400 !important;
+    color: rgb(255, 255, 255) !important;
+    font-size: 25px !important;
+    margin:10px;
+}
+.para73{
+    font-family: Roboto !important;
+    font-weight: 400 !important;
+    color: rgb(255, 255, 255) !important;
+    font-size: 19px !important;
+    margin:10px;
+}
+
+.row7 {
+    margin: 40px;
+}    
+
+
+.row71{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    width: 321px;
+    height: 35px;
+    margin: 8px 0px 10px; 
+}
+.row72 {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    width: 321px;
+    height: 35px;
+    margin: 8px 0px 10px; 
+    
+}
+.row73
+{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    width: 321px;
+    height: 35px;
+    margin: 8px 0px 10px; 
+     
+}
+.row74 {
+    border-radius: 8px;
+    color: white !important;
+    width: 321px;
+    height: 50px !important;
+    margin: 8px 0px 10px; 
+}
+.row7 p {
+    margin:10px;
+    font-family: Merriweather;
+    font-size: 12px;
+    color: #686868;
+
+}
+.para74 {
+    line-height: 45px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: white !important;
+    font-size: 16px !important;
+
+}
+.row {
+    font-family: Merriweather;
+    font-size: 12px;
+    color: #686868;
+}
+#grad1 {
+    height: 200px;
+    background-color: #83358b; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, #83358b , #e82e81); /* Standard syntax (must be last) */
+  }
+.button1 {
+    border-radius: 8px;
+    color: white !important;
+    width: 340x;
+    height: 50px !important;
+    margin: 8px 0px 10px; 
+    font-size: 17px;
+}
+}      

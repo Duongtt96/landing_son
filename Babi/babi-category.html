@@ -1,0 +1,3064 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+
+
+
+
+  <link rel="stylesheet" type="text/css" href="/Babi/babi.css">
+
+</head>
+
+<body>
+  <section class="babi-top-panel">
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="row row-pc ">
+
+          <div class=" col-md-2 babi-logo">
+            <div class="logo-container">
+              <a href="#">
+                <img class="logo-container-style" src="https://babi.vn/images/logos/32/logo-babi.png?t=1505448411"
+                  width="135px" height="56px" alt="logo-babi">
+              </a>
+            </div>
+          </div>
+
+
+          <div class="col-md-6 babi-search ">
+            <form>
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Tìm kiếm sản phẩm" name="search">
+                <div class="input-group-btn">
+                  <button class="btn btn-default" type="submit">
+                    <i class="glyphicon glyphicon-search"></i></button>
+                </div>
+              </div>
+
+            </form>
+          </div>
+          <div class="col-md-2 babi-account">
+            <div class="babi-account-unlogged">
+              <div class="babi-account-dropdown">
+                <div class="dropdown  button-dropdown-style">
+
+                  <button class="btn btn-secondary button-dropdown-style " type="button" id="triggerId"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="account-title" href="#" target="_blank" style="text-decoration: none;">
+
+                      <span class="account-title-text">Tài khoản</span>
+
+                    </a>
+                  </button>
+                  <div class="dropdown-menu dropdown-menu-right babi-account-menu" aria-labelledby="triggerId">
+                    <div class="logo-babi-dropdown">
+                      <img src="https://babi.vn/images/logos/32/logo-babi.png?t=1505448411" height="68px"
+                        alt="logo-babi">
+                    </div>
+                    <div class="user-text">
+                      Đăng ký thành viên Babi để nhận những ưu đãi từ chúng tôi.
+                    </div>
+                    <div class="user-register">
+
+                      <a class="sign-up" href="#" style="text-decoration: none;">Đăng ký</a>
+
+                      <p class="babitext"> hoặc bạn đã có tài khoản? </p>
+                      <button onclick="document.getElementById('id01').style.display='block'" class="log-in">Đăng
+                        nhập</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+          </div>
+          <div class="col-md-2" style="padding:0;">
+            <div class=" babi-buy ">
+
+              <div class="babi-buy-icon" id="buy-open">
+                <i class="icon ion-md-cart "></i>
+              </div>
+              <button id="buy-close">
+                <i class="material-icons" style="font-size:25px;color:#cd3591;font-weight: 500;">highlight_off</i>
+              </button>
+              <div id="list-prod">
+                <div class="cart-item">
+                  <div class="cart-item-image">
+                    <img
+                      src="https://babi.vn/images/watermarked/1/thumbnails/60/60/variant_image/64/do-bo-be-trai-tay-rap-lang-de-thuong-in-so-23-2-11tuoi_(2).JPG?t=1557803657"
+                      alt="">
+                  </div>
+                  <div class="cart-item-desc">
+                    <a href="#" target="blank">Đồ Bộ Bé Trai Tay Ráp Lăng Dễ Thương In Số 23 (2 - 11 Tuổi)</a>
+                    <p style="margin-top:6px;">1 x 129.000 đ</p>
+                  </div>
+                </div>
+                <div class="cart-item">
+                  <div class="cart-item-image">
+                    <img
+                      src="https://babi.vn/images/watermarked/1/thumbnails/60/60/variant_image/64/ao-so-mi-ngan-tay-cho-be-trai-mau-tron-theu-xe-1-6-tuoi_(4).JPG?t=1557458051"
+                      alt="">
+                  </div>
+                  <div class="cart-item-desc">
+                    <a href="#" target="blank">Áo Sơ Mi Ngắn Tay Cho Bé Trai Màu Trơn Thêu Xe (1 - 6 tuổi)</a>
+                    <p style="margin-top:6px;">1 x 129.000 đ</p>
+                  </div>
+                </div>
+                <div class="cart-item-button">
+                  <button class="card-accept">Đặt Hàng</button>
+                </div>
+
+              </div>
+              <div class="babi-buy-title ">
+                <span style="font-size: 16px;"><b>Giỏ hàng</b></span>
+              </div>
+              <script>
+                !(function () {
+                  document.getElementById("buy-open").addEventListener("click", function () {
+                    document.getElementById("list-prod").style.display = "block";
+                    document.getElementById("buy-close").style.display = "block";
+                    this.style.display = "none";
+                  });
+
+                  document.getElementById("buy-close").addEventListener("click", function () {
+                    document.getElementById("list-prod").style.display = "none";
+                    document.getElementById("buy-open").style.display = "block";
+                    this.style.display = "none";
+                  });
+                })();
+              </script>
+
+            </div>
+          </div>
+
+        </div>
+        <!--mobile-->
+        <script>
+          function slideIn(el) {
+            var elem = document.getElementById(el);
+            elem.style.transition = "left 0.5s ease-out 0s";
+            elem.style.left = "0px";
+          }
+
+          function slideOut(el) {
+            var elem = document.getElementById(el);
+            elem.style.transition = "left 0.5s ease-out 0s";
+            elem.style.left = "-600px";
+          }
+        </script>
+        <!---->
+        <div class="row row-mobile">
+          <div class=" mobile-menu">
+            <button class="mobile-menu-button" onclick="slideIn('mobile-menu-site');">
+              <div>
+                <div class="menu-icon-creat"></div>
+                <div class="menu-icon-creat"></div>
+                <div class="menu-icon-creat"></div>
+              </div>
+              <div style="color:white;">DANH MỤC</div>
+            </button>
+
+            <div id="mobile-menu-site">
+              <div style="position:relative;">
+                <button class="button-X" onclick="slideOut('mobile-menu-site');"> X </button>
+                <a href="">
+                  <img class="logo-babi-mobile" src="https://babi.vn/images/logos/32/logo-babi.png?t=1505448411"
+                    width="135px" height="56px" alt="logo-babi">
+                </a>
+              </div>
+              <div class="login-mobile">
+                <span><a href="#" target="_blank">Đăng nhập</a> / <a href="#" target="_blank">Đăng ký</a> </span>
+              </div>
+
+              <div>
+                <div class="collapsible1">
+                  <a href="#" target="_blank">Trang chủ</a> </div>
+
+
+                <div class="collapsible">Quần áo bé trai</div>
+                <div class="content">
+                  <a class="dropdown-item" href="#">Áo sơ mi bé trai</a>
+                  <a class="dropdown-item" href="#">Áo thun bé trai</a>
+                  <a class="dropdown-item" href="#">Áo khoác bé trai</a>
+                  <a class="dropdown-item" href="#">Quần kiểu bé trai</a>
+                  <a class="dropdown-item" href="#">Quần jeans bé trai</a>
+                  <a class="dropdown-item" href="#">Đồ bộ bé trai</a>
+                  <a class="dropdown-item" href="#">Đồ bơi bé trai</a>
+                  <a class="dropdown-item" href="#">Quần lót bé trai</a>
+                  <a class="dropdown-item" href="#">Giày dép bé trai</a>
+                  <a class="dropdown-item" href="#">Phụ kiện bé trai</a>
+                </div>
+                <div class="collapsible">Quần áo bé gái</div>
+                <div class="content">
+                  <a class="dropdown-item" href="#">Váy Đầm Công Chúa</a>
+                  <a class="dropdown-item" href="#">Váy Đầm bé gái</a>
+                  <a class="dropdown-item" href="#">Áo bé Gái</a>
+                  <a class="dropdown-item" href="#">Áo khoác bé gái</a>
+                  <a class="dropdown-item" href="#">Quần trẻ em gái</a>
+                  <a class="dropdown-item" href="#">Đồ bộ bé gái</a>
+                  <a class="dropdown-item" href="#">Đồ bơi bé gái</a>
+                  <a class="dropdown-item" href="#">Quần lót bé gái</a>
+                  <a class="dropdown-item" href="#">Giày dép bé gái</a>
+                  <a class="dropdown-item" href="#">Phụ kiện bé gái</a>
+                </div>
+                <div class="collapsible">Quần áo sơ sinh</div>
+                <div class="content">
+                  <a class="dropdown-item" href="#">Phụ kiện sơ sinh cho bé</a>
+                  <a class="dropdown-item" href="#">Quần áo sơ sinh bé trai</a>
+                  <a class="dropdown-item" href="#">Quần áo sơ sinh bé gái</a>
+                  <a class="dropdown-item" href="#">Đồ sơ sinh trọn gói</a>
+                  <a class="dropdown-item" href="#">Giày sơ sinh</a>
+                </div>
+                <div class="collapsible">Đồ dùng cho bé </div>
+                <div class="content">
+                  <a class="dropdown-item" href="#">Bé Ăn</a>
+                  <a class="dropdown-item" href="#">Bé Ngủ</a>
+                  <a class="dropdown-item" href="#">Đồ Dùng Vệ Sinh</a>
+                  <a class="dropdown-item" href="#">Bé Ra Ngoài</a>
+                  <a class="dropdown-item" href="#">Bé Khỏe & An Toàn</a>
+                  <a class="dropdown-item" href="#">Đồ chơi cho bé</a>
+                </div>
+                <div class="collapsible">Quần áo 10-12 tuổi </div>
+                <div class="content">
+                  <a class="dropdown-item" href="#">Quần áo bé gái 10 - 12 tuổi</a>
+                  <a class="dropdown-item" href="#">Quần áo bé trai 10 - 12 tuổi</a>
+
+                </div>
+                <div class="collapsible1">
+                  <a href="#" target="_blank">Hàng Mới Về</a> </div>
+                <div class="collapsible1">
+                  <a href="#" target="_blank">Liên Hệ Baby</a> </div>
+                <div class="collapsible1">
+                  <a href="#" target="_blank">1900 54 54 77</a> </div>
+              </div>
+              <div class="overlay"></div>
+
+              <!--Nect Slide-->
+              <script>
+                var coll = document.getElementsByClassName("collapsible");
+                var i;
+
+                for (i = 0; i < coll.length; i++) {
+                  coll[i].addEventListener("click", function () {
+                    this.classList.toggle("active");
+                    var content = this.nextElementSibling;
+                    if (content.style.maxHeight) {
+                      content.style.maxHeight = null;
+                    } else {
+                      content.style.maxHeight = content.scrollHeight + "px";
+                    }
+                  });
+                }
+              </script>
+
+              <!---->
+            </div>
+          </div>
+          <div class=" babi-logo">
+            <div class="logo-container">
+              <a href="#">
+                <img class="logo-container-style" src="https://babi.vn/images/logos/32/logo-babi.png?t=1505448411"
+                  width="135px" height="56px" alt="logo-babi">
+              </a>
+            </div>
+          </div>
+          <div class=" babi-buy-mobile" style="padding:0;">
+            <div class=" babi-buy-mobile ">
+              <div class="babi-buy-icon-mobile" id="buy-open-mb">
+                <i class="icon ion-md-cart"></i>
+              </div>
+              <button id="buy-close-mb">
+                <i class="material-icons" style="font-size:13px;color:white;font-weight: 500;">highlight_off</i>
+              </button>
+              <div id="list-prod-mb">
+                <div class="cart-item">
+                  <div class="cart-item-image">
+                    <img
+                      src="https://babi.vn/images/watermarked/1/thumbnails/60/60/variant_image/64/do-bo-be-trai-tay-rap-lang-de-thuong-in-so-23-2-11tuoi_(2).JPG?t=1557803657"
+                      alt="">
+                  </div>
+                  <div class="cart-item-desc">
+                    <a href="#" target="blank">Đồ Bộ Bé Trai Tay Ráp Lăng Dễ Thương In Số 23 (2 - 11 Tuổi)</a>
+                    <p style="margin-top:6px;">1 x 129.000 đ</p>
+                  </div>
+                </div>
+                <div class="cart-item">
+                  <div class="cart-item-image">
+                    <img
+                      src="https://babi.vn/images/watermarked/1/thumbnails/60/60/variant_image/64/ao-so-mi-ngan-tay-cho-be-trai-mau-tron-theu-xe-1-6-tuoi_(4).JPG?t=1557458051"
+                      alt="">
+                  </div>
+                  <div class="cart-item-desc">
+                    <a href="#" target="blank">Áo Sơ Mi Ngắn Tay Cho Bé Trai Màu Trơn Thêu Xe (1 - 6 tuổi)</a>
+                    <p style="margin-top:6px;">1 x 129.000 đ</p>
+                  </div>
+                </div>
+                <div class="cart-item-button">
+                  <button class="card-accept">Đặt Hàng</button>
+                </div>
+
+              </div>
+              <div class="babi-buy-title-mobile ">
+                <span>GIỎ HÀNG</span>
+              </div>
+              <script>
+                !(function () {
+                  document.getElementById("buy-open-mb").addEventListener("click", function () {
+                    document.getElementById("list-prod-mb").style.display = "block";
+                    document.getElementById("buy-close-mb").style.display = "block";
+                    this.style.display = "none";
+                  });
+
+                  document.getElementById("buy-close-mb").addEventListener("click", function () {
+                    document.getElementById("list-prod-mb").style.display = "none";
+                    document.getElementById("buy-open-mb").style.display = "block";
+                    this.style.display = "none";
+                  });
+                })();
+              </script>
+
+            </div>
+          </div>
+        </div>
+        <div class="row row-mobile " style="    margin-right: 20px;">
+          <div class="babi-search ">
+            <form>
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Tìm kiếm sản phẩm" name="search">
+                <div class="input-group-btn">
+                  <button class="btn btn-default" type="submit">
+                    <i class="glyphicon glyphicon-search"></i></button>
+                </div>
+              </div>
+
+            </form>
+          </div>
+        </div>
+
+      </div>
+      <div class="babi-hotline-bar">
+        <div class="babi-hotline-bar-content">
+          <div class="info">
+            <i class="material-icons">phone</i>
+            <span class="babi-hotline-bar-title">
+
+              <a href="tel: 1900 54 54 77" style="text-decoration: none;color: #4A4A4A; ">&ensp; Hỗ trợ đặt hàng nhanh
+                :</a>
+            </span>
+            <span class="babi-hotline-bar-number">
+              <a href="tel: 1900 54 54 77" style="text-decoration: none; color: red;">&ensp; 1900 54 54 77 &ensp; </a>
+            </span>
+            <i class="material-icons">home</i>
+            <span class="babi-hotline-bar-address">
+
+              <a target="_blank" href="https://www.google.com/maps" style="text-decoration: none;color: #4A4A4A;">&ensp;
+                Địa chỉ</a>
+            </span>
+
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+  </section>
+  <section class="babi-menu">
+    <div style="width:100%; height: 100%;" class="container-fluid">
+      <div class="row-fluid">
+        <div class="babi-menu-bar">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link " href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    QUẦN ÁO BÉ TRAI
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Áo sơ mi bé trai</a>
+                    <a class="dropdown-item" href="#">Áo thun bé trai</a>
+                    <a class="dropdown-item" href="#">Áo khoác bé trai</a>
+                    <a class="dropdown-item" href="#">Quần kiểu bé trai</a>
+                    <a class="dropdown-item" href="#">Quần jeans bé trai</a>
+                    <a class="dropdown-item" href="#">Đồ bộ bé trai</a>
+                    <a class="dropdown-item" href="#">Đồ bơi bé trai</a>
+                    <a class="dropdown-item" href="#">Quần lót bé trai</a>
+                    <a class="dropdown-item" href="#">Giày dép bé trai</a>
+                    <a class="dropdown-item" href="#">Phụ kiện bé trai</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link " href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    QUẦN ÁO BÉ GÁI
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Váy Đầm Công Chúa</a>
+                    <a class="dropdown-item" href="#">Váy Đầm bé gái</a>
+                    <a class="dropdown-item" href="#">Áo bé Gái</a>
+                    <a class="dropdown-item" href="#">Áo khoác bé gái</a>
+                    <a class="dropdown-item" href="#">Quần trẻ em gái</a>
+                    <a class="dropdown-item" href="#">Đồ bộ bé gái</a>
+                    <a class="dropdown-item" href="#">Đồ bơi bé gái</a>
+                    <a class="dropdown-item" href="#">Quần lót bé gái</a>
+                    <a class="dropdown-item" href="#">Giày dép bé gái</a>
+                    <a class="dropdown-item" href="#">Phụ kiện bé gái</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link " href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    QUẦN ÁO SƠ SINH
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Phụ kiện sơ sinh cho bé</a>
+                    <a class="dropdown-item" href="#">Quần áo sơ sinh bé trai</a>
+                    <a class="dropdown-item" href="#">Quần áo sơ sinh bé gái</a>
+                    <a class="dropdown-item" href="#">Đồ sơ sinh trọn gói</a>
+                    <a class="dropdown-item" href="#">Giày sơ sinh</a>
+
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link " href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    ĐỒ DÙNG CHO BÉ
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Bé Ăn</a>
+                    <a class="dropdown-item" href="#">Bé Ngủ</a>
+                    <a class="dropdown-item" href="#">Đồ Dùng Vệ Sinh</a>
+                    <a class="dropdown-item" href="#">Bé Ra Ngoài</a>
+                    <a class="dropdown-item" href="#">Bé Khỏe & An Toàn</a>
+                    <a class="dropdown-item" href="#">Đồ chơi cho bé</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link " href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    QUẦN ÁO TRẺ EM 10 - 12 TUỔI
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Quần áo bé gái 10 - 12 tuổi</a>
+                    <a class="dropdown-item" href="#">Quần áo bé trai 10 - 12 tuổi</a>
+
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link " href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    HÀNG MỚI VỀ
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#"></a>
+                    <a class="dropdown-item" href="#"></a>
+                    <a class="dropdown-item" href="#"></a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="babi-category">
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="bradcrumbs">
+          <a href="#" target="blank">Trang chủ</a>
+          <span>/</span>
+          <a style="color: #888;" href="#" target="blank">Quần áo bé trai</a>
+
+        </div>
+      </div>
+      <div class="row-fluid">
+        <div class="col-sx-12 col-sm-12 col-md-9 quick-size-pad">
+          <div class="quick-size">
+            <div class="quick-size-title">
+              Chọn theo size cho bé
+            </div>
+            <div class="quick-size-drodown">
+              <div class="quick-size-drodown-1">
+
+                <span id=caretDown>
+                  <span style="font-size:14px;"><b>QUẦN ÁO BÉ TRAI &nbsp;</b></span><i class="fas fa-caret-down"></i>
+                </span>
+                <span id=caretUp>
+                  <span style="font-size:14px;"><b>QUẦN ÁO BÉ TRAI &nbsp;</b></span><i class="fas fa-caret-up"></i>
+                </span>
+                <div id=quickShow>
+                  <p><a href="#">Áo sơ mi bé trai</a><br></p>
+                  <p><a href="#">Áo thun bé trai</a><br></p>
+                  <p><a href="#">Áo khoác bé trai</a><br></p>
+                  <p><a href="#">Quần kiểu bé trais</a><br></p>
+                  <p><a href="#">Quần jeans bé trai</a><br></p>
+                  <p><a href="#">Đồ bộ bé trai</a><br></p>
+                  <p><a href="#">Đồ bơi bé trai</a><br></p>
+                  <p><a href="#">Quần lót bé trai</a><br></p>
+                  <p><a href="#">Giày dép bé trai</a><br></p>
+                  <p><a href="#">Phụ kiện bé trai</a></p>
+                </div>
+
+              </div>
+
+
+              <span class="sizetobabi">Size cho bé </span>
+              <div class="quick-size-drodown-2">
+                <!--
+                <span id=caretDown1>
+                  <span>Chọn số kg</span><i class="fas fa-caret-down"></i>
+                </span>
+                <span id=caretUp1>
+                  <span>Chọn số kg</span><i class="fas fa-caret-up"></i>
+                </span>
+                -->
+                <div id=quickShow11>
+                  <select
+                    style="background-color:#FAD8EB;color:#11aaf8;border:none;font-size: 13px; font-weight: 600;outline:none;">
+                    <option value="volvo"> <a href="#">Chọn số kg</a></option>
+                    <option value="volvo"> <a href="#">3 - 5.5 kg</a></option>
+                    <option value="volvo"> <a href="#">5.5 - 7.5 kg</a></option>
+                    <option value="volvo"> <a href="#">7.5 - 9.5 kg</a></option>
+                    <option value="volvo"> <a href="#">8.5 - 10.5 kg</a></option>
+                    <option value="volvo"> <a href="#">11.5 - 13.5 kg</a></option>
+                    <option value="volvo"> <a href="#">13.5 - 15 kg</a></option>
+                    <option value="volvo"> <a href="#">15 - 17 kg</a></option>
+                    <option value="volvo"> <a href="#">17- 20 kg</a></option>
+                    <option value="volvo"> <a href="#">20 -23 kg</a></option>
+                    <option value="volvo"> <a href="#">23 - 26 kg</a></option>
+                    <option value="volvo"> <a href="#">26 - 30 kg</a></option>
+                    <option value="volvo"> <a href="#">30 - 35 kg</a></option>
+                    <option value="volvo"><a href="#">35 - 40 kg</a></option>
+                    <option value="volvo"><a href="#">40 - 45 kg</a></option>
+                    <option value="volvo"><a href="#">45 - 50 kg</a></option>
+                    <option value="volvo"><a href="#">50 - 60 kg</a></option>
+                  </select>
+                </div>
+              </div>
+
+              <script>
+                !(function () {
+                  document.getElementById("caretDown").addEventListener("click", function () {
+                    document.getElementById("quickShow").style.display = "block";
+                    document.getElementById("caretUp").style.display = "block";
+                    this.style.display = "none";
+                  });
+
+                  document.getElementById("caretUp").addEventListener("click", function () {
+                    document.getElementById("quickShow").style.display = "none";
+                    document.getElementById("caretDown").style.display = "block";
+                    this.style.display = "none";
+                    this.style.display = "none";
+                  });
+                })();
+              </script>
+
+
+            </div>
+
+            <div class="quick-size-body">
+
+
+
+              <div class="row">
+                <div class="col-6 col-sm-6 col-md-4 babi-produce">
+                  <div class="produce-infomation">
+                    <div class="produce-detail">
+                      <div class="produce-image">
+                        <a href="#" target="_blank">
+                          <img class="babi-zoom" style="width:100%;"
+                            src="https://babi.vn/images/thumbnails/500/500/detailed/64/ao-so-mi-ngan-tay-cho-be-trai-mau-tron-theu-xe-1-6-tuoi.jpg?t=1557457371"
+                            alt="quan kiki be nam ">
+                        </a>
+                      </div>
+                      <div class="produce-infomation">
+                        <div class="produce-name">
+                          <a style="text-decoration: none;" href="#" class="produce-name-style">Áo
+                            Sơ Mi Ngắn Tay Cho Bé Trai Màu Trơn Thêu Xe (1 - 6 tuổi)</a>
+                        </div>
+                        <div class="produce-price">
+                          119.000đ
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 babi-produce">
+                  <div class="produce-infomation">
+                    <div class="produce-detail">
+                      <div class="produce-image">
+                        <a href="#" target="_blank">
+                          <img class="babi-zoom" style="width:100%;"
+                            src="https://babi.vn/images/thumbnails/500/500/detailed/64/ao-so-mi-ngan-tay-cho-be-trai-mau-tron-theu-xe-1-6-tuoi.jpg?t=1557457371"
+                            alt="quan kiki be nam ">
+                        </a>
+                      </div>
+                      <div class="produce-infomation">
+                        <div class="produce-name">
+                          <a style="text-decoration: none;" href="#" class="produce-name-style">Áo
+                            Sơ Mi Ngắn Tay Cho Bé Trai Màu Trơn Thêu Xe (1 - 6 tuổi)</a>
+                        </div>
+                        <div class="produce-price">
+                          119.000đ
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 babi-produce">
+                  <div class="produce-infomation">
+                    <div class="produce-detail">
+                      <div class="produce-image">
+                        <a href="#" target="_blank">
+                          <img class="babi-zoom" style="width:100%;"
+                            src="https://babi.vn/images/thumbnails/500/500/detailed/64/ao-so-mi-ngan-tay-cho-be-trai-mau-tron-theu-xe-1-6-tuoi.jpg?t=1557457371"
+                            alt="quan kiki be nam ">
+                        </a>
+                      </div>
+                      <div class="produce-infomation">
+                        <div class="produce-name">
+                          <a style="text-decoration: none;" href="#" class="produce-name-style">Áo
+                            Sơ Mi Ngắn Tay Cho Bé Trai Màu Trơn Thêu Xe (1 - 6 tuổi)</a>
+                        </div>
+                        <div class="produce-price">
+                          119.000đ
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-6 col-sm-6 col-md-4 babi-produce">
+                  <div class="produce-infomation">
+                    <div class="produce-detail">
+                      <div class="produce-image">
+                        <a href="#" target="_blank">
+                          <img class="babi-zoom" style="width:100%;"
+                            src="https://babi.vn/images/thumbnails/500/500/detailed/64/ao-so-mi-ngan-tay-cho-be-trai-mau-tron-theu-xe-1-6-tuoi.jpg?t=1557457371"
+                            alt="quan kiki be nam ">
+                        </a>
+                      </div>
+                      <div class="produce-infomation">
+                        <div class="produce-name">
+                          <a style="text-decoration: none;" href="#" class="produce-name-style">Áo
+                            Sơ Mi Ngắn Tay Cho Bé Trai Màu Trơn Thêu Xe (1 - 6 tuổi)</a>
+                        </div>
+                        <div class="produce-price">
+                          119.000đ
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 babi-produce">
+                  <div class="produce-infomation">
+                    <div class="produce-detail">
+                      <div class="produce-image">
+                        <a href="#" target="_blank">
+                          <img class="babi-zoom" style="width:100%;"
+                            src="https://babi.vn/images/thumbnails/500/500/detailed/64/ao-so-mi-ngan-tay-cho-be-trai-mau-tron-theu-xe-1-6-tuoi.jpg?t=1557457371"
+                            alt="quan kiki be nam ">
+                        </a>
+                      </div>
+                      <div class="produce-infomation">
+                        <div class="produce-name">
+                          <a style="text-decoration: none;" href="#" class="produce-name-style">Áo
+                            Sơ Mi Ngắn Tay Cho Bé Trai Màu Trơn Thêu Xe (1 - 6 tuổi)</a>
+                        </div>
+                        <div class="produce-price">
+                          119.000đ
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 babi-produce">
+                  <div class="produce-infomation">
+                    <div class="produce-detail">
+                      <div class="produce-image">
+                        <a href="#" target="_blank">
+                          <img class="babi-zoom" style="width:100%;"
+                            src="https://babi.vn/images/thumbnails/500/500/detailed/64/ao-so-mi-ngan-tay-cho-be-trai-mau-tron-theu-xe-1-6-tuoi.jpg?t=1557457371"
+                            alt="quan kiki be nam ">
+                        </a>
+                      </div>
+                      <div class="produce-infomation">
+                        <div class="produce-name">
+                          <a style="text-decoration: none;" href="#" class="produce-name-style">Áo
+                            Sơ Mi Ngắn Tay Cho Bé Trai Màu Trơn Thêu Xe (1 - 6 tuổi)</a>
+                        </div>
+                        <div class="produce-price">
+                          119.000đ
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div style="display:flex;justify-content: center;" class="row">
+                <button class="read-more"><a href="#" target="blank">Xem thêm (427 sản phẩm)</a></button>
+
+              </div>
+            </div>
+          </div>
+          <div class="quick-main">
+            <div class="quick-main-title">
+              Quần Áo Bé Trai
+            </div>
+            <div class="quick-main-body">
+              <div class="quick-main-body-desc">
+                <p>
+                  Tuy không cầu kỳ như các bé ghé nhưng phong cách thời trang bé trai ấn tượng không kém gì các bé gái.
+                  Nếu mẹ biết chọn đồ phù hợp thì bé trai nhà mẹ trông rất phong cách đấy ạ.
+                </p>
+                <p>
+                  Như đơn giản chỉ cần phối <a style="text-decoration: none;" href="#" target="blank"> quần jeans cho bé
+                    trai </a>với chiếc áo thun là bé có thể theo bố mẹ xuống phố đi chơi, đi tiệc với phong cách thời
+                  trang khỏe khoắn và năng động, hoặc khoác thêm chiếc áo gile bên ngoài là trông bé lịch lãm, đáng yêu
+                  vô cùng.
+                </p>
+                <p>
+                  Quần áo bé trai giá rẻ nhiều mẫu thời trang bé trai mới cập nhật thường xuyên mỗi ngày tại cửa hàng.
+                  Babi là nơi chọn mua đồ bé trai tin cậy nhất tại Tp.HCM.
+                </p>
+              </div>
+            </div>
+            <div class="quick-main-dropdown">
+              <div class="dropdown">
+                <button class="btn  dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Sản phẩm mới
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                  <button class="dropdown-item" type="button">Sắp theo giá: Thấp tới cao</button>
+                  <button class="dropdown-item" type="button">xem nhiều</button>
+
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="btn  dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  18 Mỗi trang
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                  <button class="dropdown-item" type="button">12 Mỗi trang</button>
+                  <button class="dropdown-item" type="button">24 Mỗi trang</button>
+                  <button class="dropdown-item" type="button">48 Mỗi trang</button>
+                  <button class="dropdown-item" type="button">96 Mỗi trang</button>
+                </div>
+              </div>
+            </div>
+            <div class="quick-main-product">
+              <div class="row">
+                <div class="col-6 col-sm-6 col-md-4 babi-produce">
+                  <div class="produce-infomation">
+                    <div class="produce-detail">
+                      <div class="produce-image">
+                        <a href="#" target="_blank">
+                          <img class="babi-zoom" style="width:100%;"
+                            src="https://babi.vn/images/thumbnails/500/500/detailed/64/ao-so-mi-ngan-tay-cho-be-trai-mau-tron-theu-xe-1-6-tuoi.jpg?t=1557457371"
+                            alt="quan kiki be nam ">
+                        </a>
+                      </div>
+                      <div class="produce-infomation">
+                        <div class="produce-name">
+                          <a style="text-decoration: none;" href="#" class="produce-name-style">Áo
+                            Sơ Mi Ngắn Tay Cho Bé Trai Màu Trơn Thêu Xe (1 - 6 tuổi)</a>
+                        </div>
+                        <div class="produce-price">
+                          119.000đ
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 babi-produce">
+                  <div class="produce-infomation">
+                    <div class="produce-detail">
+                      <div class="produce-image">
+                        <a href="#" target="_blank">
+                          <img class="babi-zoom" style="width:100%;"
+                            src="https://babi.vn/images/thumbnails/500/500/detailed/64/ao-so-mi-ngan-tay-cho-be-trai-mau-tron-theu-xe-1-6-tuoi.jpg?t=1557457371"
+                            alt="quan kiki be nam ">
+                        </a>
+                      </div>
+                      <div class="produce-infomation">
+                        <div class="produce-name">
+                          <a style="text-decoration: none;" href="#" class="produce-name-style">Áo
+                            Sơ Mi Ngắn Tay Cho Bé Trai Màu Trơn Thêu Xe (1 - 6 tuổi)</a>
+                        </div>
+                        <div class="produce-price">
+                          119.000đ
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 babi-produce">
+                  <div class="produce-infomation">
+                    <div class="produce-detail">
+                      <div class="produce-image">
+                        <a href="#" target="_blank">
+                          <img class="babi-zoom" style="width:100%;"
+                            src="https://babi.vn/images/thumbnails/500/500/detailed/64/ao-so-mi-ngan-tay-cho-be-trai-mau-tron-theu-xe-1-6-tuoi.jpg?t=1557457371"
+                            alt="quan kiki be nam ">
+                        </a>
+                      </div>
+                      <div class="produce-infomation">
+                        <div class="produce-name">
+                          <a style="text-decoration: none;" href="#" class="produce-name-style">Áo
+                            Sơ Mi Ngắn Tay Cho Bé Trai Màu Trơn Thêu Xe (1 - 6 tuổi)</a>
+                        </div>
+                        <div class="produce-price">
+                          119.000đ
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-6 col-sm-6 col-md-4 babi-produce">
+                  <div class="produce-infomation">
+                    <div class="produce-detail">
+                      <div class="produce-image">
+                        <a href="#" target="_blank">
+                          <img class="babi-zoom" style="width:100%;"
+                            src="https://babi.vn/images/thumbnails/500/500/detailed/64/ao-so-mi-ngan-tay-cho-be-trai-mau-tron-theu-xe-1-6-tuoi.jpg?t=1557457371"
+                            alt="quan kiki be nam ">
+                        </a>
+                      </div>
+                      <div class="produce-infomation">
+                        <div class="produce-name">
+                          <a style="text-decoration: none;" href="#" class="produce-name-style">Áo
+                            Sơ Mi Ngắn Tay Cho Bé Trai Màu Trơn Thêu Xe (1 - 6 tuổi)</a>
+                        </div>
+                        <div class="produce-price">
+                          119.000đ
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 babi-produce">
+                  <div class="produce-infomation">
+                    <div class="produce-detail">
+                      <div class="produce-image">
+                        <a href="#" target="_blank">
+                          <img class="babi-zoom" style="width:100%;"
+                            src="https://babi.vn/images/thumbnails/500/500/detailed/64/ao-so-mi-ngan-tay-cho-be-trai-mau-tron-theu-xe-1-6-tuoi.jpg?t=1557457371"
+                            alt="quan kiki be nam ">
+                        </a>
+                      </div>
+                      <div class="produce-infomation">
+                        <div class="produce-name">
+                          <a style="text-decoration: none;" href="#" class="produce-name-style">Áo
+                            Sơ Mi Ngắn Tay Cho Bé Trai Màu Trơn Thêu Xe (1 - 6 tuổi)</a>
+                        </div>
+                        <div class="produce-price">
+                          119.000đ
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 babi-produce">
+                  <div class="produce-infomation">
+                    <div class="produce-detail">
+                      <div class="produce-image">
+                        <a href="#" target="_blank">
+                          <img class="babi-zoom" style="width:100%;"
+                            src="https://babi.vn/images/thumbnails/500/500/detailed/64/ao-so-mi-ngan-tay-cho-be-trai-mau-tron-theu-xe-1-6-tuoi.jpg?t=1557457371"
+                            alt="quan kiki be nam ">
+                        </a>
+                      </div>
+                      <div class="produce-infomation">
+                        <div class="produce-name">
+                          <a style="text-decoration: none;" href="#" class="produce-name-style">Áo
+                            Sơ Mi Ngắn Tay Cho Bé Trai Màu Trơn Thêu Xe (1 - 6 tuổi)</a>
+                        </div>
+                        <div class="produce-price">
+                          119.000đ
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-6 col-sm-6 col-md-4 babi-produce">
+                  <div class="produce-infomation">
+                    <div class="produce-detail">
+                      <div class="produce-image">
+                        <a href="#" target="_blank">
+                          <img class="babi-zoom" style="width:100%;"
+                            src="https://babi.vn/images/thumbnails/500/500/detailed/64/ao-so-mi-ngan-tay-cho-be-trai-mau-tron-theu-xe-1-6-tuoi.jpg?t=1557457371"
+                            alt="quan kiki be nam ">
+                        </a>
+                      </div>
+                      <div class="produce-infomation">
+                        <div class="produce-name">
+                          <a style="text-decoration: none;" href="#" class="produce-name-style">Áo
+                            Sơ Mi Ngắn Tay Cho Bé Trai Màu Trơn Thêu Xe (1 - 6 tuổi)</a>
+                        </div>
+                        <div class="produce-price">
+                          119.000đ
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 babi-produce">
+                  <div class="produce-infomation">
+                    <div class="produce-detail">
+                      <div class="produce-image">
+                        <a href="#" target="_blank">
+                          <img class="babi-zoom" style="width:100%;"
+                            src="https://babi.vn/images/thumbnails/500/500/detailed/64/ao-so-mi-ngan-tay-cho-be-trai-mau-tron-theu-xe-1-6-tuoi.jpg?t=1557457371"
+                            alt="quan kiki be nam ">
+                        </a>
+                      </div>
+                      <div class="produce-infomation">
+                        <div class="produce-name">
+                          <a style="text-decoration: none;" href="#" class="produce-name-style">Áo
+                            Sơ Mi Ngắn Tay Cho Bé Trai Màu Trơn Thêu Xe (1 - 6 tuổi)</a>
+                        </div>
+                        <div class="produce-price">
+                          119.000đ
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 babi-produce">
+                  <div class="produce-infomation">
+                    <div class="produce-detail">
+                      <div class="produce-image">
+                        <a href="#" target="_blank">
+                          <img class="babi-zoom" style="width:100%;"
+                            src="https://babi.vn/images/thumbnails/500/500/detailed/64/ao-so-mi-ngan-tay-cho-be-trai-mau-tron-theu-xe-1-6-tuoi.jpg?t=1557457371"
+                            alt="quan kiki be nam ">
+                        </a>
+                      </div>
+                      <div class="produce-infomation">
+                        <div class="produce-name">
+                          <a style="text-decoration: none;" href="#" class="produce-name-style">Áo
+                            Sơ Mi Ngắn Tay Cho Bé Trai Màu Trơn Thêu Xe (1 - 6 tuổi)</a>
+                        </div>
+                        <div class="produce-price">
+                          119.000đ
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-6 col-sm-6 col-md-4 babi-produce">
+                  <div class="produce-infomation">
+                    <div class="produce-detail">
+                      <div class="produce-image">
+                        <a href="#" target="_blank">
+                          <img class="babi-zoom" style="width:100%;"
+                            src="https://babi.vn/images/thumbnails/500/500/detailed/64/ao-so-mi-ngan-tay-cho-be-trai-mau-tron-theu-xe-1-6-tuoi.jpg?t=1557457371"
+                            alt="quan kiki be nam ">
+                        </a>
+                      </div>
+                      <div class="produce-infomation">
+                        <div class="produce-name">
+                          <a style="text-decoration: none;" href="#" class="produce-name-style">Áo
+                            Sơ Mi Ngắn Tay Cho Bé Trai Màu Trơn Thêu Xe (1 - 6 tuổi)</a>
+                        </div>
+                        <div class="produce-price">
+                          119.000đ
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 babi-produce">
+                  <div class="produce-infomation">
+                    <div class="produce-detail">
+                      <div class="produce-image">
+                        <a href="#" target="_blank">
+                          <img class="babi-zoom" style="width:100%;"
+                            src="https://babi.vn/images/thumbnails/500/500/detailed/64/ao-so-mi-ngan-tay-cho-be-trai-mau-tron-theu-xe-1-6-tuoi.jpg?t=1557457371"
+                            alt="quan kiki be nam ">
+                        </a>
+                      </div>
+                      <div class="produce-infomation">
+                        <div class="produce-name">
+                          <a style="text-decoration: none;" href="#" class="produce-name-style">Áo
+                            Sơ Mi Ngắn Tay Cho Bé Trai Màu Trơn Thêu Xe (1 - 6 tuổi)</a>
+                        </div>
+                        <div class="produce-price">
+                          119.000đ
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 babi-produce">
+                  <div class="produce-infomation">
+                    <div class="produce-detail">
+                      <div class="produce-image">
+                        <a href="#" target="_blank">
+                          <img class="babi-zoom" style="width:100%;"
+                            src="https://babi.vn/images/thumbnails/500/500/detailed/64/ao-so-mi-ngan-tay-cho-be-trai-mau-tron-theu-xe-1-6-tuoi.jpg?t=1557457371"
+                            alt="quan kiki be nam ">
+                        </a>
+                      </div>
+                      <div class="produce-infomation">
+                        <div class="produce-name">
+                          <a style="text-decoration: none;" href="#" class="produce-name-style">Áo
+                            Sơ Mi Ngắn Tay Cho Bé Trai Màu Trơn Thêu Xe (1 - 6 tuổi)</a>
+                        </div>
+                        <div class="produce-price">
+                          119.000đ
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-6 col-sm-6 col-md-4 babi-produce">
+                  <div class="produce-infomation">
+                    <div class="produce-detail">
+                      <div class="produce-image">
+                        <a href="#" target="_blank">
+                          <img class="babi-zoom" style="width:100%;"
+                            src="https://babi.vn/images/thumbnails/500/500/detailed/64/ao-so-mi-ngan-tay-cho-be-trai-mau-tron-theu-xe-1-6-tuoi.jpg?t=1557457371"
+                            alt="quan kiki be nam ">
+                        </a>
+                      </div>
+                      <div class="produce-infomation">
+                        <div class="produce-name">
+                          <a style="text-decoration: none;" href="#" class="produce-name-style">Áo
+                            Sơ Mi Ngắn Tay Cho Bé Trai Màu Trơn Thêu Xe (1 - 6 tuổi)</a>
+                        </div>
+                        <div class="produce-price">
+                          119.000đ
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 babi-produce">
+                  <div class="produce-infomation">
+                    <div class="produce-detail">
+                      <div class="produce-image">
+                        <a href="#" target="_blank">
+                          <img class="babi-zoom" style="width:100%;"
+                            src="https://babi.vn/images/thumbnails/500/500/detailed/64/ao-so-mi-ngan-tay-cho-be-trai-mau-tron-theu-xe-1-6-tuoi.jpg?t=1557457371"
+                            alt="quan kiki be nam ">
+                        </a>
+                      </div>
+                      <div class="produce-infomation">
+                        <div class="produce-name">
+                          <a style="text-decoration: none;" href="#" class="produce-name-style">Áo
+                            Sơ Mi Ngắn Tay Cho Bé Trai Màu Trơn Thêu Xe (1 - 6 tuổi)</a>
+                        </div>
+                        <div class="produce-price">
+                          119.000đ
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 babi-produce">
+                  <div class="produce-infomation">
+                    <div class="produce-detail">
+                      <div class="produce-image">
+                        <a href="#" target="_blank">
+                          <img class="babi-zoom" style="width:100%;"
+                            src="https://babi.vn/images/thumbnails/500/500/detailed/64/ao-so-mi-ngan-tay-cho-be-trai-mau-tron-theu-xe-1-6-tuoi.jpg?t=1557457371"
+                            alt="quan kiki be nam ">
+                        </a>
+                      </div>
+                      <div class="produce-infomation">
+                        <div class="produce-name">
+                          <a style="text-decoration: none;" href="#" class="produce-name-style">Áo
+                            Sơ Mi Ngắn Tay Cho Bé Trai Màu Trơn Thêu Xe (1 - 6 tuổi)</a>
+                        </div>
+                        <div class="produce-price">
+                          119.000đ
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-6 col-sm-6 col-md-4 babi-produce">
+                  <div class="produce-infomation">
+                    <div class="produce-detail">
+                      <div class="produce-image">
+                        <a href="#" target="_blank">
+                          <img class="babi-zoom" style="width:100%;"
+                            src="https://babi.vn/images/thumbnails/500/500/detailed/64/ao-so-mi-ngan-tay-cho-be-trai-mau-tron-theu-xe-1-6-tuoi.jpg?t=1557457371"
+                            alt="quan kiki be nam ">
+                        </a>
+                      </div>
+                      <div class="produce-infomation">
+                        <div class="produce-name">
+                          <a style="text-decoration: none;" href="#" class="produce-name-style">Áo
+                            Sơ Mi Ngắn Tay Cho Bé Trai Màu Trơn Thêu Xe (1 - 6 tuổi)</a>
+                        </div>
+                        <div class="produce-price">
+                          119.000đ
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 babi-produce">
+                  <div class="produce-infomation">
+                    <div class="produce-detail">
+                      <div class="produce-image">
+                        <a href="#" target="_blank">
+                          <img class="babi-zoom" style="width:100%;"
+                            src="https://babi.vn/images/thumbnails/500/500/detailed/64/ao-so-mi-ngan-tay-cho-be-trai-mau-tron-theu-xe-1-6-tuoi.jpg?t=1557457371"
+                            alt="quan kiki be nam ">
+                        </a>
+                      </div>
+                      <div class="produce-infomation">
+                        <div class="produce-name">
+                          <a style="text-decoration: none;" href="#" class="produce-name-style">Áo
+                            Sơ Mi Ngắn Tay Cho Bé Trai Màu Trơn Thêu Xe (1 - 6 tuổi)</a>
+                        </div>
+                        <div class="produce-price">
+                          119.000đ
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 babi-produce">
+                  <div class="produce-infomation">
+                    <div class="produce-detail">
+                      <div class="produce-image">
+                        <a href="#" target="_blank">
+                          <img class="babi-zoom" style="width:100%;"
+                            src="https://babi.vn/images/thumbnails/500/500/detailed/64/ao-so-mi-ngan-tay-cho-be-trai-mau-tron-theu-xe-1-6-tuoi.jpg?t=1557457371"
+                            alt="quan kiki be nam ">
+                        </a>
+                      </div>
+                      <div class="produce-infomation">
+                        <div class="produce-name">
+                          <a style="text-decoration: none;" href="#" class="produce-name-style">Áo
+                            Sơ Mi Ngắn Tay Cho Bé Trai Màu Trơn Thêu Xe (1 - 6 tuổi)</a>
+                        </div>
+                        <div class="produce-price">
+                          119.000đ
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="pagination">
+              <a href="#">&laquo; Trước </a>
+              <a href="#">1</a>
+              <a href="#" class="active-pag">2</a>
+              <a href="#">3</a>
+              <a href="#">4</a>
+              <a href="#">5</a>
+              <a href="#">6</a>
+              <a href="#">7</a>
+              <a href="#">8</a>
+              <a href="#"> Xem tiếp &raquo;</a>
+            </div>
+            <!--Pagination Mobile-->
+            <div class="center">
+              <div class="pagination-mb">
+                
+                <a href="#">&laquo;</a>
+                <a href="#">1</a>
+                <a href="#" class="active-mb">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">5</a>
+                <a href="#">6</a>
+                <a href="#">&raquo;</a>
+              </div>
+            </div>
+            
+            </div>
+            <!---->
+            <div class="babi-image">
+              <div style="width: 100%;MARGIN-LEFT: -7PX;" class="row">
+                <div class="col-xs-6 col-sm-6 col-md-3 babi-image-row ">
+                  <a href="#" target="blank">
+                    <div class="babi-image-box">
+
+                      <img class="babi-image-style"
+                        src="https://babi.vn/images/cat_ib/63/aosomibetrai-64.png?t=1553678464" alt="">
+                      <span>Áo sơ mi bé trai</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-3 babi-image-row">
+                  <a href="#" target="blank">
+                    <div class="babi-image-box">
+                      <img class="babi-image-style"
+                        src="https://babi.vn/images/cat_ib/63/aothunbetrai-64.png?t=1553678541" alt="">
+                      <span>Áo thun bé trai</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-3 babi-image-row">
+                  <a href="#" target="blank">
+                    <div class="babi-image-box">
+                      <img class="babi-image-style"
+                        src="https://babi.vn/images/cat_ib/63/aokhoacbetrai-64.png?t=1553678556" alt="">
+                      <span>Áo khoác bé trai</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-3 babi-image-row ">
+                  <a href="#" target="blank">
+                    <div class="babi-image-box">
+                      <img class="babi-image-style"
+                        src="https://babi.vn/images/cat_ib/63/quanjeansbetrai-64.png?t=1553678683" alt="">
+                      <span>Quần kiểu bé trai</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-3 babi-image-row">
+                  <a href="#" target="blank">
+                    <div class="babi-image-box">
+                      <img class="babi-image-style"
+                        src="https://babi.vn/images/cat_ib/63/quanjeansbetrai-64.png?t=1553678683" alt="">
+                      <span>Quần jeans bé trai</span>
+
+                    </div>
+                  </a>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-3 babi-image-row ">
+                  <a href="#" target="blank">
+                    <div class="babi-image-box">
+                      <img class="babi-image-style" src="https://babi.vn/images/cat_ib/63/dobobetrai64.png?t=1553678701"
+                        alt="">
+                      <span>Đồ bộ bé trai</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-3 babi-image-row">
+                  <a href="#" target="blank">
+                    <div class="babi-image-box">
+                      <img class="babi-image-style"
+                        src="https://babi.vn/images/cat_ib/63/doboibetrai-64.png?t=1553678724" alt="">
+                      <span>Đồ chơi bé trai</span>
+
+                    </div>
+                  </a>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-3 babi-image-row ">
+                  <a href="#" target="blank">
+                    <div class="babi-image-box">
+                      <img class="babi-image-style"
+                        src="https://babi.vn/images/cat_ib/63/quanlotbetrai-64.png?t=1553678744" alt="">
+                      <span>Quần lót bé trai</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-3 babi-image-row">
+                  <a href="#" target="blank">
+                    <div class="babi-image-box">
+                      <img class="babi-image-style"
+                        src="https://babi.vn/images/cat_ib/63/giaydepbetrai-64.png?t=1553678763" alt="">
+                      <span>Giầy dép bé trai</span>
+
+                    </div>
+                  </a>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-3 babi-image-row ">
+                  <a href="#" target="blank">
+                    <div class="babi-image-box">
+                      <img class="babi-image-style"
+                        src="https://babi.vn/images/cat_ib/63/phukienbetrai-64.png?t=1553678793" alt="">
+                      <span>Phụ kiện bé trai</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="quick-main-desc">
+              <div style="margin-bottom: 5px;" class="quick-main-desc-title">
+                <b>QUẦN ÁO BÉ TRAI THỜI TRANG ĐẸP, GIÁ RẺ TẠI TP.HCM.</b>
+              </div>
+              <div class="quick-main-desc-body">
+                <p>
+                  Rất nhiều shop bán <b>quần áo bé trai</b> tại Tp.HCM nhưng để chọn được <span
+                    style="    color: #0000FF;"><b>cửa hàng thời trang trẻ em</b></span> uy tín không dễ. Mua đồ bé trai
+                  tại Babi mẹ hoàn toàn yên tâm cả về chất lượng, mẫu mã và giá cả.
+                </p>
+                <p>
+
+                  Babi sẽ mang đến cho bé những <b>bộ sưu tập thời trang bé trai </b> phong phú đa dạng từ màu sắc đến
+                  kiểu dáng, chất liệu từ những thương hiệu đáng tin cậy. Những bộ quần áo dành cho các bé nam chỉ cần
+                  trông khỏe khoắn, lịch lãm và năng động là được.
+                </p>
+                <p>
+                  Các mẹ có thể thỏa sức mua sắm những bộ thời trang thật phong cách và nam tính cho con trai.<br>
+                  Tags: Quan ao be trai, Thoi trang be trai, Do be trai
+                </p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-sx-12 col-sm-12 col-md-3">
+          <div class="box-category-menu">
+            <h2 class="box-category-menu-title">BẠN MUỐN MUA GÌ ?</h2>
+            <div class="box-category-menu-body">
+              <ul>
+                <li>
+                  <a href="#" target="blank">Áo sơ mi bé trai</a>
+                </li>
+                <li>
+                  <a href="#" target="blank">Áo thun bé trai</a>
+                </li>
+                <li>
+                  <a href="#" target="blank">Quần kiểu bé trai</a>
+                </li>
+                <li>
+                  <a href="#" target="blank">Quần kiểu bé trai</a>
+                </li>
+                <li>
+                  <a href="#" target="blank">Quần jeans bé trai</a>
+                </li>
+                <li>
+                  <a href="#" target="blank">Đồ bộ bé trai</a>
+                </li>
+                <li>
+                  <a href="#" target="blank">Đồ bơi bé trai</a>
+                </li>
+                <li>
+                  <a href="#" target="blank">Quần lót bé trai</a>
+                </li>
+                <li>
+                  <a href="#" target="blank">Giày dép bé trai</a>
+                </li>
+                <li>
+                  <a href="#" target="blank">Phụ kiện bé trai</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="box-category-menu-mobile">
+              <h2 class="box-category-menu-title collapsible-box-category">BẠN MUỐN MUA GÌ ?</h2>
+              <div class="content-box-category">
+              <div class="box-category-menu-body">
+                <ul>
+                  <li>
+                    <a href="#" target="blank">Áo sơ mi bé trai</a>
+                  </li>
+                  <li>
+                    <a href="#" target="blank">Áo thun bé trai</a>
+                  </li>
+                  <li>
+                    <a href="#" target="blank">Quần kiểu bé trai</a>
+                  </li>
+                  <li>
+                    <a href="#" target="blank">Quần kiểu bé trai</a>
+                  </li>
+                  <li>
+                    <a href="#" target="blank">Quần jeans bé trai</a>
+                  </li>
+                  <li>
+                    <a href="#" target="blank">Đồ bộ bé trai</a>
+                  </li>
+                  <li>
+                    <a href="#" target="blank">Đồ bơi bé trai</a>
+                  </li>
+                  <li>
+                    <a href="#" target="blank">Quần lót bé trai</a>
+                  </li>
+                  <li>
+                    <a href="#" target="blank">Giày dép bé trai</a>
+                  </li>
+                  <li>
+                    <a href="#" target="blank">Phụ kiện bé trai</a>
+                  </li>
+                </ul>
+              </div>
+              </div>
+<script>
+var coll = document.getElementsByClassName("collapsible-box-category");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active-box-category");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+          </div>
+          <div class="choose-fast">
+            <div class="choose-fast-title">CHỌN ĐỒ NHANH HƠN </div>
+            <div class="choose-fast-body">
+              <button class="collapsible-fast">Kích cỡ</button>
+              <div class="content-fast-age">
+                 
+                <label>0-3M</label>
+                <label>3-6M</label>
+                <label>6-9M</label>
+                <label>9-12M</label>
+                <label>01</label>
+                <label>02</label>
+                <label>03</label>
+                <label>04</label>
+                <label>05</label>
+                <label>06</label>
+                <label>07</label>
+                <label>08</label>
+                <label>09</label>
+                <label>10</label>
+                <label>11</label>
+                <label>12</label>
+                <label>13</label>
+             
+              </div>
+              <button class="collapsible-fast">Giá</button>
+              <div class="content-fast">
+
+              </div>
+              <button class="collapsible-fast">Họa Tiết</button>
+              <div class="content-fast">
+                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Tìm kiếm " title="Type in a name">
+                <div class="scrollbar style-1">
+                    <div class="force-overflow">
+                <ul id="myUL">
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Caro</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Nhiều họa tiết</span>
+                        </label>
+                      </div>
+                    </a></li>
+
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Trái cây</span>
+                        </label>
+                      </div>
+                    </a></li>
+
+
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Hoạt hình</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Hình thú</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Hoa,lá,ngôi sao</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Chữ và số</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Phương tiện giao thông</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Thể thao</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Kẻ sọc</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Hình siêu anh hùng</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Họa tiết thêu</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Họa tiết in</span>
+                        </label>
+                      </div>
+                    </a></li>
+                </ul>
+              </div>
+            </div> 
+
+
+
+
+                <script>
+                  function myFunction() {
+                    var input, filter, ul, li, a, i, txtValue;
+                    input = document.getElementById("myInput");
+                    filter = input.value.toUpperCase();
+                    ul = document.getElementById("myUL");
+                    li = ul.getElementsByTagName("li");
+                    for (i = 0; i < li.length; i++) {
+                      a = li[i].getElementsByTagName("a")[0];
+                      txtValue = a.textContent || a.innerText;
+                      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        li[i].style.display = "";
+                      } else {
+                        li[i].style.display = "none";
+                      }
+                    }
+                  }
+                </script>
+
+              </div>
+              <button class="collapsible-fast">Chất liệu</button>
+              <div class="content-fast">
+                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Tìm kiếm " title="Type in a name">
+                <div class="scrollbar style-1" >
+                    <div class="force-overflow">
+                <ul id="myUL">
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Len</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Thun borip</span>
+                        </label>
+                      </div>
+                    </a></li>
+
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Cotton</span>
+                        </label>
+                      </div>
+                    </a></li>
+
+
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Gấm</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Giả jeans</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Jean</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Kaki</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Kate</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Vải tole</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Vải Nhung</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Vải dù</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Vải dạ</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Vải cotton</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Vải cá sấu</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Thun lạnh</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Thun da cá</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Thun cotton</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Thun</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Thô</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Nylon</span>
+                        </label>
+                      </div>
+                    </a></li>
+                </ul>
+                    </div>
+                </div>
+
+
+
+
+                <script>
+                  function myFunction() {
+                    var input, filter, ul, li, a, i, txtValue;
+                    input = document.getElementById("myInput");
+                    filter = input.value.toUpperCase();
+                    ul = document.getElementById("myUL");
+                    li = ul.getElementsByTagName("li");
+                    for (i = 0; i < li.length; i++) {
+                      a = li[i].getElementsByTagName("a")[0];
+                      txtValue = a.textContent || a.innerText;
+                      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        li[i].style.display = "";
+                      } else {
+                        li[i].style.display = "none";
+                      }
+                    }
+                  }
+                </script>
+              </div>
+              <button class="collapsible-fast">Theo dịp</button>
+              <div class="content-fast">
+                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Tìm kiếm " title="Type in a name">
+                <div class="scrollbar style-1" >
+                    <div class="force-overflow">
+                <ul id="myUL">
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Ngủ - Mặc nhà</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Đi học</span>
+                        </label>
+                      </div>
+                    </a></li>
+
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Đi chơi</span>
+                        </label>
+                      </div>
+                    </a></li>
+
+
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Đi biển</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Dự tiệc</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Chơi thể thao</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Lễ tết</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Noel</span>
+                        </label>
+                      </div>
+                    </a></li>
+
+                </ul>
+                    </div>
+                </div>
+
+
+
+
+                <script>
+                  function myFunction() {
+                    var input, filter, ul, li, a, i, txtValue;
+                    input = document.getElementById("myInput");
+                    filter = input.value.toUpperCase();
+                    ul = document.getElementById("myUL");
+                    li = ul.getElementsByTagName("li");
+                    for (i = 0; i < li.length; i++) {
+                      a = li[i].getElementsByTagName("a")[0];
+                      txtValue = a.textContent || a.innerText;
+                      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        li[i].style.display = "";
+                      } else {
+                        li[i].style.display = "none";
+                      }
+                    }
+                  }
+                </script>
+              </div>
+              <button class="collapsible-fast">Màu sắc</button>
+              <div class="content-fast">
+                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Tìm kiếm " title="Type in a name">
+                <div class="scrollbar style-1" >
+                    <div class="force-overflow">
+                <ul id="myUL">
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Kem</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Rêu</span>
+                        </label>
+                      </div>
+                    </a></li>
+
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Trắng</span>
+                        </label>
+                      </div>
+                    </a></li>
+
+
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Xanh</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Đỏ</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Hồng</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Cam</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Vàng</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Xanh lá</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Xanh da trời</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Xanh dương</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Tím</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Đen</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Xám</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Nâu</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Nhiều màu</span>
+                        </label>
+                      </div>
+                    </a></li>
+                </ul>
+                    </div>
+                </div>
+
+
+
+
+                <script>
+                  function myFunction() {
+                    var input, filter, ul, li, a, i, txtValue;
+                    input = document.getElementById("myInput");
+                    filter = input.value.toUpperCase();
+                    ul = document.getElementById("myUL");
+                    li = ul.getElementsByTagName("li");
+                    for (i = 0; i < li.length; i++) {
+                      a = li[i].getElementsByTagName("a")[0];
+                      txtValue = a.textContent || a.innerText;
+                      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        li[i].style.display = "";
+                      } else {
+                        li[i].style.display = "none";
+                      }
+                    }
+                  }
+                </script>
+              </div>
+              <button class="collapsible-fast">Xuất xứ</button>
+              <div class="content-fast">
+                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Tìm kiếm " title="Type in a name">
+                <div class="scrollbar style-1" >
+                    <div class="force-overflow">
+                <ul id="myUL">
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Quảng Châu</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Trung Quốc</span>
+                        </label>
+                      </div>
+                    </a></li>
+
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Việt Nam</span>
+                        </label>
+                      </div>
+                    </a></li>
+
+
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Cambodia</span>
+                        </label>
+                      </div>
+                    </a></li>
+                </ul>
+                    </div>
+                </div>
+                <script>
+                  function myFunction() {
+                    var input, filter, ul, li, a, i, txtValue;
+                    input = document.getElementById("myInput");
+                    filter = input.value.toUpperCase();
+                    ul = document.getElementById("myUL");
+                    li = ul.getElementsByTagName("li");
+                    for (i = 0; i < li.length; i++) {
+                      a = li[i].getElementsByTagName("a")[0];
+                      txtValue = a.textContent || a.innerText;
+                      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        li[i].style.display = "";
+                      } else {
+                        li[i].style.display = "none";
+                      }
+                    }
+                  }
+                </script>
+              </div>
+            </div>
+            <script>
+              var coll = document.getElementsByClassName("collapsible-fast");
+              var i;
+
+              for (i = 0; i < coll.length; i++) {
+                coll[i].addEventListener("click", function () {
+                  this.classList.toggle("activeFast");
+                  var content = this.nextElementSibling;
+                  if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                  } else {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                  }
+                });
+              }
+            </script>
+            <div class="fast-reset">
+              <i class="fas fa-undo"></i><span> Thiết lập lại</span>
+            </div>
+
+          </div>
+          <!--Choose fast - mobile-->
+          <div class="choose-fast-mobile">
+            <div class="choose-fast-title collapsible-box-category-mb">CHỌN ĐỒ NHANH HƠN </div>
+            <div  class="choose-fast-body content-box-category">
+              <button class="collapsible-fast-mb">Kích cỡ</button>
+              <div class="content-fast-age">
+                <label>0-3M</label>
+                <label>3-6M</label>
+                <label>6-9M</label>
+                <label>9-12M</label>
+                <label>01</label>
+                <label>02</label>
+                <label>03</label>
+                <label>04</label>
+                <label>05</label>
+                <label>06</label>
+                <label>07</label>
+                <label>08</label>
+                <label>09</label>
+                <label>10</label>
+                <label>11</label>
+                <label>12</label>
+                <label>13</label>
+
+              </div>
+              <button class="collapsible-fast-mb">Giá</button>
+              <div class="content-fast">
+
+              </div>
+              <button class="collapsible-fast-mb">Họa Tiết</button>
+              <div class="content-fast">
+                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Tìm kiếm " title="Type in a name">
+                <div class="scrollbar style-1" >
+                    <div class="force-overflow">
+                <ul id="myUL">
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Caro</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Nhiều họa tiết</span>
+                        </label>
+                      </div>
+                    </a></li>
+
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Trái cây</span>
+                        </label>
+                      </div>
+                    </a></li>
+
+
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Hoạt hình</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Hình thú</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Hoa,lá,ngôi sao</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Chữ và số</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Phương tiện giao thông</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Thể thao</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Kẻ sọc</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Hình siêu anh hùng</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Họa tiết thêu</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Họa tiết in</span>
+                        </label>
+                      </div>
+                    </a></li>
+                </ul>
+                    </div>
+                </div>
+
+
+
+
+                <script>
+                  function myFunction() {
+                    var input, filter, ul, li, a, i, txtValue;
+                    input = document.getElementById("myInput");
+                    filter = input.value.toUpperCase();
+                    ul = document.getElementById("myUL");
+                    li = ul.getElementsByTagName("li");
+                    for (i = 0; i < li.length; i++) {
+                      a = li[i].getElementsByTagName("a")[0];
+                      txtValue = a.textContent || a.innerText;
+                      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        li[i].style.display = "";
+                      } else {
+                        li[i].style.display = "none";
+                      }
+                    }
+                  }
+                </script>
+
+              </div>
+              <button class="collapsible-fast-mb">Chất liệu</button>
+              <div class="content-fast">
+                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Tìm kiếm " title="Type in a name">
+                <div class="scrollbar style-1" >
+                    <div class="force-overflow">
+                <ul id="myUL">
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Len</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Thun borip</span>
+                        </label>
+                      </div>
+                    </a></li>
+
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Cotton</span>
+                        </label>
+                      </div>
+                    </a></li>
+
+
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Gấm</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Giả jeans</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Jean</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Kaki</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Kate</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Vải tole</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Vải Nhung</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Vải dù</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Vải dạ</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Vải cotton</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Vải cá sấu</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Thun lạnh</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Thun da cá</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Thun cotton</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Thun</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Thô</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Nylon</span>
+                        </label>
+                      </div>
+                    </a></li>
+                </ul>
+                    </div>
+                </div>
+
+
+
+
+                <script>
+                  function myFunction() {
+                    var input, filter, ul, li, a, i, txtValue;
+                    input = document.getElementById("myInput");
+                    filter = input.value.toUpperCase();
+                    ul = document.getElementById("myUL");
+                    li = ul.getElementsByTagName("li");
+                    for (i = 0; i < li.length; i++) {
+                      a = li[i].getElementsByTagName("a")[0];
+                      txtValue = a.textContent || a.innerText;
+                      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        li[i].style.display = "";
+                      } else {
+                        li[i].style.display = "none";
+                      }
+                    }
+                  }
+                </script>
+              </div>
+              <button class="collapsible-fast-mb">Theo dịp</button>
+              <div class="content-fast">
+                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Tìm kiếm " title="Type in a name">
+                <div class="scrollbar style-1" >
+                    <div class="force-overflow">
+                <ul id="myUL">
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Ngủ - Mặc nhà</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Đi học</span>
+                        </label>
+                      </div>
+                    </a></li>
+
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Đi chơi</span>
+                        </label>
+                      </div>
+                    </a></li>
+
+
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Đi biển</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Dự tiệc</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Chơi thể thao</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Lễ tết</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Noel</span>
+                        </label>
+                      </div>
+                    </a></li>
+
+                </ul>
+                    </div>
+                </div>
+
+
+
+                <script>
+                  function myFunction() {
+                    var input, filter, ul, li, a, i, txtValue;
+                    input = document.getElementById("myInput");
+                    filter = input.value.toUpperCase();
+                    ul = document.getElementById("myUL");
+                    li = ul.getElementsByTagName("li");
+                    for (i = 0; i < li.length; i++) {
+                      a = li[i].getElementsByTagName("a")[0];
+                      txtValue = a.textContent || a.innerText;
+                      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        li[i].style.display = "";
+                      } else {
+                        li[i].style.display = "none";
+                      }
+                    }
+                  }
+                </script>
+              </div>
+              <button class="collapsible-fast-mb">Màu sắc</button>
+              <div class="content-fast">
+                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Tìm kiếm " title="Type in a name">
+                <div class="scrollbar style-1" >
+                    <div class="force-overflow">
+                <ul id="myUL">
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Kem</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Rêu</span>
+                        </label>
+                      </div>
+                    </a></li>
+
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Trắng</span>
+                        </label>
+                      </div>
+                    </a></li>
+
+
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Xanh</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Đỏ</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Hồng</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Cam</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Vàng</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Xanh lá</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Xanh da trời</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Xanh dương</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Tím</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Đen</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Xám</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Nâu</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Nhiều màu</span>
+                        </label>
+                      </div>
+                    </a></li>
+                </ul>
+                    </div>
+                </div>
+
+                <script>
+                  function myFunction() {
+                    var input, filter, ul, li, a, i, txtValue;
+                    input = document.getElementById("myInput");
+                    filter = input.value.toUpperCase();
+                    ul = document.getElementById("myUL");
+                    li = ul.getElementsByTagName("li");
+                    for (i = 0; i < li.length; i++) {
+                      a = li[i].getElementsByTagName("a")[0];
+                      txtValue = a.textContent || a.innerText;
+                      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        li[i].style.display = "";
+                      } else {
+                        li[i].style.display = "none";
+                      }
+                    }
+                  }
+                </script>
+              </div>
+              <button class="collapsible-fast-mb">Xuất xứ</button>
+              <div class="content-fast">
+                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Tìm kiếm " title="Type in a name">
+
+                <ul id="myUL">
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Quảng Châu</span>
+                        </label>
+                      </div>
+                    </a></li>
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Trung Quốc</span>
+                        </label>
+                      </div>
+                    </a></li>
+
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Việt Nam</span>
+                        </label>
+                      </div>
+                    </a></li>
+
+
+                  <li><a href="#">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          <span>Cambodia</span>
+                        </label>
+                      </div>
+                    </a></li>
+                </ul>
+                <script>
+                  function myFunction() {
+                    var input, filter, ul, li, a, i, txtValue;
+                    input = document.getElementById("myInput");
+                    filter = input.value.toUpperCase();
+                    ul = document.getElementById("myUL");
+                    li = ul.getElementsByTagName("li");
+                    for (i = 0; i < li.length; i++) {
+                      a = li[i].getElementsByTagName("a")[0];
+                      txtValue = a.textContent || a.innerText;
+                      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        li[i].style.display = "";
+                      } else {
+                        li[i].style.display = "none";
+                      }
+                    }
+                  }
+                </script>
+              </div>
+            </div>
+            <script>
+              var coll = document.getElementsByClassName("collapsible-fast-mb");
+              var i;
+
+              for (i = 0; i < coll.length; i++) {
+                coll[i].addEventListener("click", function () {
+                  this.classList.toggle("activeFast");
+                  var content = this.nextElementSibling;
+                  if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                  } else {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                  }
+                });
+              }
+            </script>
+            <div class="fast-reset">
+              <i class="fas fa-undo"></i><span> Thiết lập lại</span>
+            </div>
+          </ul>
+          <script>
+          var coll = document.getElementsByClassName("collapsible-box-category-mb");
+          var i;
+          
+          for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+              this.classList.toggle("active-box-category-mb");
+              var content = this.nextElementSibling;
+              if (content.style.maxHeight){
+                content.style.maxHeight = null;
+              } else {
+                content.style.maxHeight = content.scrollHeight + "500px";
+              } 
+            });
+          }
+          </script>
+          </div>
+          <!---->
+          <div>
+            <div class="babi-sidebox">
+              <p class="babi-sidebox-txt">An tâm mua sắm tại Babi</p>
+              <div class="babi-sidebox-list">
+                <ul style="padding-inline-start: 0px;">
+                  <li><i class="fas fa-heart"></i> <span><strong> &nbsp; ĐỒ ĐẸP - GIÁ HỢP LÝ</strong> </span></li>
+                  <li><i class="fas fa-heart"></i> <span><strong> &nbsp; Chất lượng TỐT - Chọn lọc kỹ </strong></span>
+                  </li>
+                  <li><i class="fas fa-heart"></i> <span><strong> &nbsp; Không vừa được đổi size</strong> </span></li>
+                  <li><i class="fas fa-heart"></i> <span><strong> &nbsp; Giao hàng Toàn quốc</strong></span></li>
+                </ul>
+              </div>
+
+            </div>
+            <div class="babi-sidebox-cart">
+              <p class="babi-sidebox-cart-title">Giỏ hàng của bạn đang có</p>
+              <div class="babi-sidebox-cart-body">
+                <p>Bạn chưa thêm sản phẩm vào Giỏ</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </section>
+  <section class="babi-footer">
+    <div class="container-fluid">
+      <!--Adress-->
+      <div class="row-fluid babi-footer-pc">
+        <div class="col-sm-12 col-md-4">
+          <div class="babi-footer-info">
+            <p class="babi-footer-info-text"> <i class="material-icons">shopping_cart</i>&nbsp; &nbsp; 380/9B Nam Kỳ Khởi Nghĩa, P.8,
+              Q.3, TpHCM </p>
+            <p class="babi-footer-info-text"><i class="fab fa-whatsapp"></i> ĐT: 0932.064.588</p>
+            <p class="babi-footer-info-text"><i class="far fa-clock"></i> &nbsp; &nbsp;Giờ mở cửa: T2 - T7: 9h00 -
+              19h30; CN: 9h00
+              - 17h30 </p>
+            <p class="babi-footer-info-text"><i class="fab fa-whatsapp"></i><strong> Hotline: 1900 54 54 77</strong>
+            </p>
+          </div>
+          <div class="babi-footer-pr">
+            <p class="babi-footer-pr-header">BABI - THỜI TRANG TRẺ EM</p>
+            <p class="babi-footer-pr-body">Babi chuyên bán quần áo trẻ em online với hàng ngàn mẫu mã baby để quý khách
+              lựa chọn cho bé yêu của bạn. Hãy đặt hàng online để được hưởng nhiều ưu đãi hơn tại siêu thị mẹ và bé
+              Babi. <br> Chọn mua ngay các mẫu quần áo thời trang
+              trẻ em mới nhất 2019, hàng đẹp giá cực tốt.</p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-3 babi-footer-sales">
+          <p class="babi-footer-sales-header">Chính sách bán hàng</p>
+          <div class="babi-footer-sales-body">
+            <ul>
+
+              <li> <a href="#" target="_blank">Bạn Cần Biết</a></li>
+              <li>
+                <a href="#" target="_blank">Phương thức thanh toán</a></li>
+              <li>
+                <a href="#" target="_blank">Phương thức vận chuyển</a></li>
+              <li>
+                <a href="#" target="_blank">Hướng dẫn mua hàng</a></li>
+              <li>
+                <a href="#" target="_blank">Xuất xứ sản phẩm Babi</a></li>
+              <li>
+                <a href="#" target="_blank">Địa chỉ shop quần áo trẻ em Babi</a></li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-3 babi-footer-acc">
+          <p class="babi-footer-acc-header">TÀI KHOẢN</p>
+          <div class="babi-footer-acc-body">
+            <a href="#" target="_blank">
+              <p>Đăng Nhập</p>
+            </a>
+            <a href="#" target="_blank">
+              <p>Tạo Tài Khoản</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!--Mobile-->
+      <div class="row-fluid babi-footer-mobile">
+        <div class="babi-footer-info">
+          <p class="babi-footer-info-text"> <i class="material-icons">shopping_cart</i> &nbsp; &nbsp;380/9B Nam Kỳ Khởi
+            Nghĩa, P.8,
+            Q.3, TpHCM </p>
+          <p class="babi-footer-info-text"><i class="fab fa-whatsapp"></i> ĐT: 0932.064.588</p>
+          <p class="babi-footer-info-text"><i class="far fa-clock"></i> &nbsp; &nbsp;Giờ mở cửa: T2 - T7: 9h00 - 19h30;
+            CN: 9h00
+            - 17h30 </p>
+          <p class="babi-footer-info-text"><i class="fab fa-whatsapp"></i><strong> Hotline: 1900 54 54 77</strong></p>
+        </div>
+        <div class="babi-footer-pr">
+          <div class="babi-footer-pr-header collapsible-footer">BABI - THỜI TRANG TRẺ EM</div>
+          <div class="content-footer">
+            <p class="babi-footer-pr-body">Babi chuyên bán quần áo trẻ em online với hàng ngàn mẫu mã baby để quý khách
+              lựa chọn cho bé yêu của bạn. Hãy đặt hàng online để được hưởng nhiều ưu đãi hơn tại siêu thị mẹ và bé
+              Babi.
+              <br> Chọn mua ngay các mẫu quần áo thời trang
+              trẻ em mới nhất 2019, hàng đẹp giá cực tốt.</p>
+          </div>
+        </div>
+
+        <div class="babi-footer-sales">
+          <p class="babi-footer-sales-header collapsible-footer">Chính sách bán hàng</p>
+          <div class="babi-footer-sales-body content-footer ">
+
+
+            <p><a href="#" target="_blank">
+                Bạn Cần Biết
+              </a></p>
+            <p>
+              <a ref="#" target="_blank">Phương thức thanh toán</a></p>
+            <p>
+              <a ref="#" target="_blank">Phương thức vận chuyển</a></p>
+            <p>
+              <a ref="#" target="_blank">Hướng dẫn mua hàng</a></p>
+            <p>
+              <a ref="#" target="_blank">Xuất xứ sản phẩm Babi</a></p>
+            <p>
+              <a ref="#" target="_blank">Địa chỉ shop quần áo trẻ em Babi</a></p>
+
+
+          </div>
+        </div>
+        <div class="babi-footer-acc ">
+          <p class="babi-footer-acc-header collapsible-footer">TÀI KHOẢN</p>
+          <div class="babi-footer-acc-body content-footer">
+            <a href="#" target="_blank">
+              <p>Đăng Nhập</p>
+            </a>
+            <a href="#" target="_blank">
+              <p>Tạo Tài Khoản</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <script>
+        var coll = document.getElementsByClassName("collapsible-footer");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight) {
+              content.style.maxHeight = null;
+            } else {
+              content.style.maxHeight = content.scrollHeight + "px";
+            }
+          });
+        }    
+      </script>
+      <!--Footer Copyright-->
+
+
+  </section>
+  <section class="babi-coppyright">
+    <div class="container-fluid">
+      <div class="row-fluid coppyright-mobile" style="display:flex;">
+        <div style="margin-right: 40px;" class="babi-coppyright-logo">
+          <a href="#" target="_blank">
+            <img class="babi-coppyright-logo-style"
+              src="https://babi.vn/images/companies/1/san-pham-dich-vu-vang-cho-be.png?1440781944820" alt="">
+          </a>
+        </div>
+        <div class="babi-coppyright-logo">
+          <a href="#" target="_blank">
+            <img class="babi-coppyright-logo-style"
+              src="https://babi.vn/images/companies/1/da-thong-bao-bo-cong-thuong.png?1440781898757" alt="">
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>

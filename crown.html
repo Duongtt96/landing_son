@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Royal Crown</title>
+  <!--Translate-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  <!--Font-->
+  <link type="text/css" rel="stylesheet" media="screen, print"
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Montserrat:300,400,600,700|Roboto+Slab:300,400,700|Tinos:400,700|Roboto:300,400,700&amp;subset=latin-ext,vietnamese">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+  <!--Icon-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <!--Bootstrap4-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <!--linkCss-->
+  <link rel="stylesheet" type="text/css" href="./dist/crown.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  <!--Script-->
+  <script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("june 5, 2019 15:37:25").getTime();
+
+    // Update the count down every 1 second
+    var x = setInterval(function () {
+
+      // Get todays date and time
+      var now = new Date().getTime();
+
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      // Output the result in an element with id="demo"
+      document.getElementById("Ngay").innerHTML = days;
+      document.getElementById("Gio").innerHTML = hours;
+      document.getElementById("Phut").innerHTML = minutes;
+      document.getElementById("Giay").innerHTML = seconds;
+
+      // If the count down is over, write some text 
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+      }
+    }, 1000);
+  </script>
+  <script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("june 5, 2019 15:37:25").getTime();
+
+    // Update the count down every 1 second
+    var x = setInterval(function () {
+
+      // Get todays date and time
+      var now = new Date().getTime();
+
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      // Output the result in an element with id="demo"
+      document.getElementById("Ngay1").innerHTML = days;
+      document.getElementById("Gio1").innerHTML = hours;
+      document.getElementById("Phut1").innerHTML = minutes;
+      document.getElementById("Giay1").innerHTML = seconds;
+
+      // If the count down is over, write some text 
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+      }
+    }, 1000);
+  </script>
+  <script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("june 5, 2019 15:37:25").getTime();
+
+    // Update the count down every 1 second
+    var x = setInterval(function () {
+
+      // Get todays date and time
+      var now = new Date().getTime();
+
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      // Output the result in an element with id="demo"
+      document.getElementById("Ngay2").innerHTML = days;
+      document.getElementById("Gio2").innerHTML = hours;
+      document.getElementById("Phut2").innerHTML = minutes;
+      document.getElementById("Giay2").innerHTML = seconds;
+
+      // If the count down is over, write some text 
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+      }
+    }, 1000);
+  </script>
+</head>
+
+<body>
+  <section class="section-header">
+    <div class="container">
+      <div class="header-layer">
+        <div class="header-logo">
+          <img src="https://static.ladipage.net/5a6e88f8637193592b0ba534/686179-1000x1000-1555300732.png" alt="logo">
+        </div>
+        <div class="header-title">
+          <img class="header-title-img"
+            src="https://static.ladipage.net/5a6e88f8637193592b0ba534/royal-crown-03-1555239396.png" alt="">
+        </div>
+        <button onclick="document.getElementById('form').style.display='block'" type="button" class="btn btn-header animated infinite bounceIn delay-6s ">MUA NGAY</button>
+       
+        <div class="header-info">
+          <p style="margin-left: 20px;">WWW.TICTAC24H.VN</p>
+          <p>HOTLINE: 033 888 2282</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="page-logo">
+    <div class="container">
+      <div class="page-logo-layer">
+        <div class="line">
+
+        </div>
+        <div class="page-logo-pc">
+        <div  class="row">
+          <div class="col-4 col-lg-2  ">
+            <div class="page-logo1">
+              <img class="page-logo-img"
+                src="https://static.ladipage.net/5a6e88f8637193592b0ba534/landing-page-gugi-04-1553938074.png" alt="">
+            </div>
+          </div>
+          <div class="col-4 col-lg-2 ">
+            <div class="page-logo2">
+              <img class="page-logo-img"
+                src="https://static.ladipage.net/5a6e88f8637193592b0ba534/untitled-2-04-1553938316.png" alt="">
+            </div>
+          </div>
+          <div class="col-4 col-lg-2 ">
+            <div class="page-logo3">
+              <img class="page-logo-img"
+                src="https://static.ladipage.net/5a6e88f8637193592b0ba534/brand-fl-1553939183.png" alt="">
+            </div>
+          </div>
+          <div class="col-4 col-lg-2 ">
+            <div class="page-logo4">
+              <img style="width: 125%;" class="page-logo-img"
+                src="https://static.ladipage.net/5a6e88f8637193592b0ba534/hlogo-1553939353.png" alt="">
+            </div>
+          </div>
+          <div class="col-4 col-lg-2 ">
+            <div class="page-logo5">
+              <img class="page-logo-img"
+                src="https://static.ladipage.net/5a6e88f8637193592b0ba534/festina_logo_02_1173x786--1553939877.png"
+                alt="">
+            </div>
+          </div>
+          <div class="col-4 col-lg-2 ">
+            <div class="page-logo6">
+              <img class="page-logo-img"
+                src="https://static.ladipage.net/5a6e88f8637193592b0ba534/unt-07-1553940366.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="page-logo-moblie">
+        <div  class="rowmb">
+          
+            <div class="page-logo-mb1"></div>
+          
+          
+            <div class="page-logo-mb2"></div>
+        
+          
+            <div class="page-logo-mb3"></div>
+         
+        </div>
+        <div   class="rowmb">
+          
+            <div class="page-logo-mb4"></div>
+          
+          
+            <div class="page-logo-mb5"></div>
+          
+          
+            <div class="page-logo-mb6"></div>
+          
+        </div>
+        </div>
+      </div>
+      <div class="line"></div>
+    </div>
+    </div>
+  </section>
+  <section class="introduce">
+    <div class="container">
+      <div class="introduce-layer">
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <div class="introduce-logo">
+              <img class="introduce-logo-img"
+                src="https://static.ladipage.net/5a6e88f8637193592b0ba534/royal-crown-04-1555243071.png" alt="">
+            </div>
+            <div class="introduce-logo-desc">
+              <p><b>ROYAL CROWN</b> với thiết kế mặt đính đá " KIM CƯƠNG NGUYÊN KHỐI " kết hợp với những gam màu ấn
+                tượng trẻ trung đang làm " LẠC LỐI " hàng ngàn tín đồ shopping thuần khiết, lẫn những “thợ săn” hàng
+                hiệu </p>
+              <p class="introduce-logo-desc-detail"><b>CHI TIẾT SẢN PHẨM >></b></p>
+            </div>
+            <div class="introduce-box">
+              <p class="price-off">2.770.000đ</p>
+              <p class="price-on animated infinite tada delay-2s">Chỉ còn 1.690.000đ</p>
+              <div style="width:70%; margin-left: 65px;" class="line"></div>
+              <div class="rate">
+                <img class="rate-img"
+                  src="https://static.ladipage.net/5a6e88f8637193592b0ba534/royal-crown-29-1555301633.png" alt="">
+              </div>
+              <p class="introduce-box-txt animated infinite flash delay-2s">CHỈ CÒN 18 SẢN PHẨM GIÁ SỐC</p>
+              <div class="countdown">
+
+                <div class="countdown2">
+                  <div class="boxT">
+                    <div id="Ngay"></div>
+                  </div>
+                  <div class="boxT">
+                    <div id="Gio"></div>
+                  </div>
+                  <div class="boxT">
+                    <div id="Phut"></div>
+                  </div>
+                  <div class="boxT">
+                    <div id="Giay"></div>
+                  </div>
+                </div>
+                <div class="countdown1">
+                  <p class="paraT">Ngày</p>
+                  <p class="paraT">Giờ</p>
+                  <p class="paraT">Phút</p>
+                  <p class="paraT">Giây</p>
+                </div>
+
+              </div>
+              <div style="display:flex;">
+                <p class="introduce-box-para">TÔI MUỐN</p>
+                <button onclick="document.getElementById('form').style.display='block'" type="button" class="btn-introduce animated infinite pulse delay-2s">MUA NGAY</button>
+              </div>
+            </div>
+
+          </div>
+          <div style="padding:0px;" class="col-xs-12 col-md-6">
+            <div class="introduce-img">
+              <div class="introduce-img1">
+                <img style="width: 100%;"
+                  src="https://static.ladipage.net/s750x700/5a6e88f8637193592b0ba534/royal-crown-28-1555298386.jpg">
+              </div>
+              <div class="introduce-img2">
+                <img style="width: 100%;"
+                  src="https://static.ladipage.net/5a6e88f8637193592b0ba534/untitled-2-09-1554195890.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="Warranty">
+    <div class="Warranty-layer">
+      <img style="width: 100%;"
+        src="https://static.ladipage.net/s1440x700/5a6e88f8637193592b0ba534/untitled-2-10-1554195853.jpg" alt="">
+    </div>
+    </div>
+
+  </section>
+  <section class="video">
+    <div class="container">
+      <div class="video-layer">
+        <div class="video-title">
+          <img style=" width: 100%;"
+            src="https://static.ladipage.net/5a6e88f8637193592b0ba534/roy4al-crown-03-1555242940.png" alt="">
+        </div>
+        <div class="video-body">
+          <iframe src="https://www.youtube.com/embed/SkElVwbYS3E" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <button onclick="document.getElementById('form').style.display='block'" class="video-button animated infinite pulse delay-2s">MUA NGAY</button>
+        <div class="line" style="border-color: rgba(199,149,98,1);"></div>
+      </div>
+    </div>
+  </section>
+  <section class="policy">
+    <div class="container">
+      <div class="policy-layer">
+        <div class="policy-title">
+          <img width="100%" src="https://static.ladipage.net/5a6e88f8637193592b0ba534/royal-crow4n-02-1555242748.png"
+            alt="">
+        </div>
+
+        <div class="policy-body">
+          <div class="row">
+            <div class="col-xs-12 col-sm-4" style="display:flex;">
+              <div class="policy-body-shap">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%"
+                  height="100%" viewBox="0 0 24 24" fill="rgba(205,138,63,1)">
+                  <path
+                    d="M16.36,4.27H18.55V2.13H16.36V1.07H18.22C17.89,0.43 17.13,0 16.36,0C15.16,0 14.18,0.96 14.18,2.13C14.18,3.31 15.16,4.27 16.36,4.27M10.04,9.39L13,6.93L17.45,9.6H10.25M19.53,12.05L21.05,10.56C21.93,9.71 21.93,8.43 21.05,7.57L19.2,9.39L13.96,4.27C13.64,3.73 13,3.41 12.33,3.41C11.78,3.41 11.35,3.63 11,3.95L7,7.89C6.65,8.21 6.44,8.64 6.44,9.17V9.71H5.13C4.04,9.71 3.16,10.67 3.16,11.84V12.27C3.5,12.16 3.93,12.16 4.25,12.16C7.09,12.16 9.5,14.4 9.5,17.28C9.5,17.6 9.5,18.03 9.38,18.35H14.5C14.4,18.03 14.4,17.6 14.4,17.28C14.4,14.29 16.69,12.05 19.53,12.05M4.36,19.73C2.84,19.73 1.64,18.56 1.64,17.07C1.64,15.57 2.84,14.4 4.36,14.4C5.89,14.4 7.09,15.57 7.09,17.07C7.09,18.56 5.89,19.73 4.36,19.73M4.36,12.8C1.96,12.8 0,14.72 0,17.07C0,19.41 1.96,21.33 4.36,21.33C6.76,21.33 8.73,19.41 8.73,17.07C8.73,14.72 6.76,12.8 4.36,12.8M19.64,19.73C18.11,19.73 16.91,18.56 16.91,17.07C16.91,15.57 18.11,14.4 19.64,14.4C21.16,14.4 22.36,15.57 22.36,17.07C22.36,18.56 21.16,19.73 19.64,19.73M19.64,12.8C17.24,12.8 15.27,14.72 15.27,17.07C15.27,19.41 17.24,21.33 19.64,21.33C22.04,21.33 24,19.41 24,17.07C24,14.72 22.04,12.8 19.64,12.8Z">
+                  </path>
+                </svg>
+              </div>
+              <span>GIAO HÀNG MIỄN PHÍ</span>
+            </div>
+            <div class="col-xs-12 col-sm-4" style="display:flex;">
+              <div class="policy-body-shap">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%"
+                  height="100%" viewBox="0 0 1536 1896.0833" fill="rgba(205,138,63,1)">
+                  <path
+                    d="M896 544v448q0 14-9 23t-23 9H544q-14 0-23-9t-9-23v-64q0-14 9-23t23-9h224V544q0-14 9-23t23-9h64q14 0 23 9t9 23zm416 352q0-148-73-273t-198-198-273-73-273 73-198 198-73 273 73 273 198 198 273 73 273-73 198-198 73-273zm224 0q0 209-103 385.5T1153.5 1561 768 1664t-385.5-103T103 1281.5 0 896t103-385.5T382.5 231 768 128t385.5 103T1433 510.5 1536 896z">
+                  </path>
+                </svg>
+              </div>
+              <span>ĐỔI TRẢ TRONG 30 NGÀY</span>
+            </div>
+            <div class="col-xs-12 col-sm-4" style="display:flex;">
+              <div class="policy-body-shap">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%"
+                  height="100%" viewBox="0 0 24 24" fill="rgba(205,138,63,1)">
+                  <path
+                    d="M12,12H19C18.47,16.11 15.72,19.78 12,20.92V12H5V6.3L12,3.19M12,1L3,5V11C3,16.55 6.84,21.73 12,23C17.16,21.73 21,16.55 21,11V5L12,1Z">
+                  </path>
+                </svg>
+              </div>
+              <span>BẢO HÀNH 24 THÁNG</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="grateful">
+    <div class="container">
+      <div class="grateful-layer">
+        <div class="row">
+          <div class="col-xs-12 col-sm-5">
+            <div class="grateful-content">
+              <div class="grateful-content-logo">
+                <img style="width:100%;"
+                  src="https://static.ladipage.net/5a6e88f8637193592b0ba534/tai-xuong-1555240289.png" alt="">
+              </div>
+              <p class="grateful-content-txt1">TRI ÂN KHÁCH HÀNG</p>
+              <p class="grateful-content-txt2">TICTAC tặng ngay quà khủng</p>
+              <p class="grateful-content-txt3">GIẢM GIÁ 39%</p>
+              <div  class="grateful-content-para" >
+                <p class="grateful-content-txt4">TÔI MUỐN</p>
+                <button onclick="document.getElementById('form').style.display='block'" class="grateful-content-button">Mua ngay</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-2">
+            <div class="grateful-shape">
+              <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 300 300"
+                fill="rgba(255,255,255,1)">
+                <path
+                  d="M288.9,138.8c-0.6-0.2-1.2-0.3-1.8-0.5c-0.3-0.1-0.6-0.2-0.9-0.2c0.6-1.9-1.1-0.3-2.1-1.1c-0.1-0.4-0.3-0.9-0.1-1.5c-4.3,2.3-9.1-0.7-14-2.5c-0.4-0.1-0.9-0.2-1.3-0.4c-0.3-0.1-0.6-0.2-0.9-0.3c-3.9-1.9-6.1-2.4-9.8-4.2c-0.3-0.1-0.6-0.2-0.9-0.3c-6.7-3.4-18-7.3-25.3-10c0-1.1-2.4-0.9-3.4-1.4c-3.8-1.4-5.3-2.2-8.6-3.4c-1.4-0.1-1.5-0.9-2.5-1.2c-8.4-2.6-15.8-6.2-23.2-8.9c-2.2-0.7-2.5-1.4-4-1.1c-1.1-1.5-4.5-1.7-5.2-3.4c-0.3-1.1-2.9-0.8-3.3,0c-0.9-0.3-1.5,0-1.7,1c-1.8,2.8-1.4,7.4-1,10.2c8.4,3.4,17.3,6,27.6,10.2c1.6-0.2,2.4,1.8,3.1,0.9c4.3,1.7,6.5,2.2,12.7,4c0.8,0.2,0.8,0.8,1.6,0.9c0.3,1.2,3,1,4.3,1.7c2.8,1,3.5,1.5,6.9,2.4c0,1,2.6,1.2,3.1,0.9c0.9,0.2,1.8,0.5,2.6,0.7c0,0.6,1,0.7,1.6,0.9c4.6,1.2,6.7,3.5,9.3,4.1c0.7,0.1,0.6,0.6,1.2,0.8c0,1.3-2-0.9-2,0.4c0,0.1-0.1,0.3-0.1,0.4c-0.9-0.2-1.8-0.5-2.6-0.7c-8.5-0.3-15.4-1.3-23.4-1.4c-0.1,0-0.3-0.1-0.4-0.1c-44.7-1.1-94.3,6.4-135.8,19.3c-1.9-0.8-2.4,1-4,0.8c-2.3,0.7-4.6,1.6-6.8,2.3c-0.9-0.5-0.9,0.7-1.6,0.5c-0.7,0.3-1.8,0-2.1,0.8c-1.9,0.1-3.3,1.2-5.2,1.4c-0.4,0.1-0.9,0.2-1.1,0.6c-1.5,0.3-3,0.8-4.3,1.6c-0.7,0.3-1.8,0-2.1,0.8c-1.1,0.5-2.5,0.4-3.3,1.5c-1.4-0.2-2.4,0.1-3.1,1c-1.5,0-2.4,1.1-3.7,1.3c-0.4,0.1-0.9,0.2-1.1,0.6c-1.8,0-3,1.3-4.7,1.5c-11.6,4.2-21.6,11.3-33.7,14.8c0.2,1.6-0.5,1.2-1.5,2c0.9,1.3,0.7,1.8,0.6,3c-0.1,1.9,0,3.7,1,5c0.3,0.2,0.3,0.6,0.8,0.7c0,0.1-0.1,0.3-0.1,0.4c-0.6,1.1-0.3,1.6,1,1.7c0.1,0,0.3,0.1,0.4,0.1c-0.4,0.3-1.5,1.3,0.1,1.4c-0.2,1.9,1.9,0.3,2.4,1.6c1.1-1.2,2.8-1.1,3.6-2.8c1.5-0.8,3.2-1.4,4.5-2.5c1.6-0.2,2.7-1.4,4-2.2c0.9-0.2,1.6-0.6,2.3-1.3c0.4-0.1,0.8-0.3,1.4-0.1c0.1-0.4,0.6-0.2,1-0.2c0.1-0.3,0.2-0.6,0.2-0.9c0-0.1,0.1-0.3,0.1-0.4c1.6,0.3,2.7-0.4,3.7-1.3c3-0.7,6.3-1.2,8.9-2.7c0.1,0,0.3,0.1,0.4,0.1c4.8-1.8,9.5-3.9,14.4-5.5c0.1,0,0.3,0.1,0.4,0.1c0.4-0.5,0.8-0.9,1.3-1.1c15.6-5.8,31.8-10.3,47.7-15.6c1.3,0,2.8,0.2,3.9-0.3c4.2-0.7,8.1-1.8,12.5-2.2c1.3,0.3,1.9-0.5,2.7-1.1c3.9-0.6,7.4-1.8,11.2-2.6c2.3-0.8,5.4-0.1,7.5-1.2c0.1,0,0.3,0.1,0.4,0.1c2.7-0.7,5.5-1.2,8.5-1.4c0.7,0.3,0.9-0.2,1.4-0.1c1.2,0.1,4.9-0.9,7.7-0.2c0.1-0.3,0.2-0.6,0.2-0.9c0.2-0.3,0.5-0.4,1-0.2c4.1-0.6,8.2-1.2,12.4-1.7c1.1-0.2,2.4-0.1,3.5-0.4c1.6,0.2,2.7-0.5,4.3-0.2c1.2,0.1,2.2,0,3-0.6c1.9,0,1.8,0.2,3-0.6c1,0.4,1.7,0.4,2.3,0.2c0.1,0,0.3,0.1,0.4,0.1c0.1-1.6,1.2-1.4,2.3-1.3c-0.1,0.7-0.6,0.6-0.8,1.2c1.9-0.3,4.5,0.6,5.6-1.3c1.3,0.5,2.9,1.2,5.4,1c0-0.1,0.1-0.3,0.1-0.4c0.7-0.1,2.1,1.2,2.3,0.2c1.1,0,2.4,0.2,3.3,0c4.4,0.3,6.8,0.4,10.4,0.1c3.1,0.1,10.6,2.1,9.7-0.6c1.5,0.2,2.7-0.1,3.9-0.3c0.7,1,0.6,0.1,1.8,0.5c0.3,0.1,0.6,0.2,0.9,0.2c0,0.2-0.1,0.3-0.1,0.4c-0.4,0.1-0.9,0.2-1.1,0.6c-0.3-0.1-0.6-0.2-0.9-0.2c-3.3,2-6.8,3.7-10.8,4.6c0,0.1-0.1,0.3-0.1,0.4c-1.3-0.3-1.9,0.5-2.7,1.1c-2,1-4.4,1.5-6.1,3c-0.4,0-0.9-0.2-1,0.2c-0.1,0.3-0.2,0.5-0.6,0.3c-1.1,0.3-2,0.8-2.8,1.6c-2.5,1.4-5.1,2.3-7.3,4.1c-1.6,0.6-3.1,1.4-4.5,2.5c-0.7,0.1-1.3,0.4-1.7,0.9c-0.9,0.2-1.6,0.6-2.3,1.3c-1.1,0.6-2.5,0.8-3.1,2.5c-2.1-0.2-2.6,3.8-2.5,5.5c0,0.1-0.1,0.3-0.1,0.4c-0.7,1.3,1,1.2,0.3,2.5c0.6,0.2,1.2,0.4,1.4-0.1c0.4,0.1,0.9,0.2,1.3,0.4c1.1-0.2,1.7-1.4,2.8-1.6c0.2-0.5,0.7-0.6,1.1-0.6c1.1,0,1.7-1,2.4-1.7c0.1,0,0.3,0.1,0.4,0.1c1.6-0.9,3.1-1.9,4.6-3c0.1,0,0.3,0.1,0.4,0.1c5.1-2.4,10-5.1,15-7.7c1-0.8,2.4-1,3.4-1.9c0.4,0,0.9,0.2,1-0.2c0.4-0.6,1-0.9,1.7-0.9c0.1,0,0.3,0.1,0.4,0.1c0.2-1.1,1.4-0.1,1.7-1c0.1-0.4,0.5-0.4,0.7-0.8c1,0,1.7-0.5,2.6-0.7c0.1,0,0.3,0.1,0.4,0.1c1.5-1.2,4-0.9,5.1-2.8c2.4-0.1,4.1-1.5,6.3-2c1.1,0.4,1.6-0.3,2.1-0.8c0.1,0,0.3,0.1,0.4,0.1c1.4-0.6,3.1-0.6,4.3-1.7c0.1,0,0.3,0.1,0.4,0.1c1.3-0.3,2.7-0.4,3.7-1.3c1.3,0.1,2.3-0.3,3.1-1c2.8,0.4,3.1-1.4,5.2,0c0.3,0.1,0.6,0.2,0.9,0.3c0.1,1,0.9,1.7,2.3,2.1c0.1,0.4,0.2,0.9,0.6,1.1c1.6,0.2,1.6-0.1,2.6,0.7c0.7,0.1,2.4-1.3,1.5-2c0.6-0.7,1.5-1.4,2-0.4c0.5-2.4,1.3-1.5,2.1-4.2c3.3-0.4,8.6-0.4,9.1-3.6c0-0.1,0.1-0.3,0.1-0.4c0.9,0.4,1.5,0,1.7-0.9C291.1,142.3,289.3,142.5,288.9,138.8z M85.3,162.3c0,0.2-0.1,0.3-0.2,0.4C85.1,162.6,85.2,162.5,85.3,162.3z M76.4,159.8c2.1,1.1,5,2.9,7.1,3.8C81.4,162.7,78.6,160.9,76.4,159.8z M83.6,163.6c1-0.3,1.6,0.5,2.2,0.7C85.2,164.2,84.6,163.3,83.6,163.6z M86.2,164.3c0.1,0,0.3-0.1,0.4-0.2C86.5,164.2,86.4,164.3,86.2,164.3z M157.6,155.5c0.2-0.2,0.2-0.3,0.3-0.5C157.8,155.2,157.7,155.4,157.6,155.5z M158.7,153.9c-0.3,0.2-0.1,0.3,0.1,0.5C158.6,154.2,158.4,154.1,158.7,153.9z M160.3,153.6c0.5-0.1,1-0.1,1.7-0.1C161.3,153.5,160.8,153.5,160.3,153.6z M229.4,150.6c-1.6-0.4-2.7,0-4.2-0.2c-2.1-0.4-3.9-0.2-5.7-0.2c0-0.4-0.3-0.6-0.2-1c0.4,0.1,0.9,0.3,1.3,0.4c0.6,0,1-0.4,1.9,0.1c0.2-0.5,0.4-1,1.1-0.6c2.3,1,3.6,0.3,5.9,1.2C229.5,150.3,229.4,150.4,229.4,150.6z M237.7,141.5c0,0.3,0,0.5,0.1,0.7C237.7,142,237.6,141.7,237.7,141.5z M237.7,142.2c0.1,0.6,0.5,1.1,0.6,1.7C238.2,143.3,237.9,142.8,237.7,142.2z M238.5,143.9c0.2-0.1,0.3-0.1,0.5-0.2C238.7,143.8,238.6,143.8,238.5,143.9z M238.5,143.9c0.8-1.4,1.1,0.7,1.8,0.6C239.6,144.6,239.2,142.5,238.5,143.9z M240.3,144.5c0.1,0,0.2-0.1,0.4-0.3C240.6,144.4,240.4,144.5,240.3,144.5z">
+                </path>
+              </svg>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-5">
+            <div class="grateful-save">
+              <p class="grateful-save-txt1">TIẾT KIỆM NGAY 1.080.000đ</p>
+              <p class="grateful-save-txt2">2.770.000đ</p>
+              <p class="grateful-save-txt3 animated infinite tada delay-2s">Chỉ còn 1.690.000đ</p>
+              <div class="countdown-white">
+
+                <div class="countdown2-white">
+                  <div class="boxT-white">
+                    <div id="Ngay1"></div>
+                  </div>
+                  <div class="boxT-white">
+                    <div id="Gio1"></div>
+                  </div>
+                  <div class="boxT-white">
+                    <div id="Phut1"></div>
+                  </div>
+                  <div class="boxT-white">
+                    <div id="Giay1"></div>
+                  </div>
+                </div>
+                <div class="countdown1">
+                  <p class="paraT-white">Ngày</p>
+                  <p class="paraT-white">Giờ</p>
+                  <p class="paraT-white">Phút</p>
+                  <p class="paraT-white">Giây</p>
+                </div>
+
+              </div>
+              <div  class="grateful-content-para-mb" >
+                  <p class="grateful-content-txt4">TÔI MUỐN</p>
+                  <button onclick="document.getElementById('form').style.display='block'" class="grateful-content-button">Mua ngay</button>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="product-info">
+    <div class="container">
+      <div class="product-info-layer">
+        <div class="product-info-logo">
+          <img style="width: 100%;"
+            src="https://static.ladipage.net/5a6e88f8637193592b0ba534/royal-crow6n-06-1555244923.png" alt="">
+        </div>
+        <div class="product-info-body">
+          <div class="row">
+            
+              <div class="col-xs-12 col-md-4 img-product-mb ">
+                  <div class="product-info-body-img">
+                    <img style="width:100%;"
+                      src="https://static.ladipage.net/5a6e88f8637193592b0ba534/tb2axmbedqwbknjszfaxxanspxa_-123587071-1555244962.png"
+                      alt="">
+                  </div>
+                </div>
+            <div class="col-xs-12 col-md-4">
+              <div class="product-info-body-txt">
+                <p><i class="far fa-clock"></i>&nbsp;&nbsp;Dày: 8mm</p>
+
+                <p><i class="far fa-clock"></i>&nbsp;&nbsp;Đồng hồ máy Quartz chạy pin khủng :16th - 24th</p>
+
+                <p><i class="far fa-clock"></i>&nbsp;&nbsp;Mặt kính: Tráng Shapphire chống xước tuyệt đối</p>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-4 img-product-pc">
+              <div class="product-info-body-img">
+                <img style="width:100%;"
+                  src="https://static.ladipage.net/5a6e88f8637193592b0ba534/tb2axmbedqwbknjszfaxxanspxa_-123587071-1555244962.png"
+                  alt="">
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-4">
+              <div class="product-info-body-txt">
+                <p><i class="far fa-clock"></i>&nbsp;&nbsp;Đường kính mặt: 37mm</p>
+
+                <p><i class="far fa-clock"></i>&nbsp;&nbsp;Dây: dây da bò cao cấp,
+                  rộng 18mm</p>
+
+                <p><i class="far fa-clock"></i>&nbsp;&nbsp;Chống nước tốt : 3ATM - sử dụng nước thoải mái</p>
+              </div>
+            </div>
+          </div>
+          <h2>Cam kết hàng chính hãng. Bảo hành 24 tháng. 1 đổi 1 trong vòng 30 ngày</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="product">
+    <div class="container">
+      <div class="product-layer">
+        <div class="row">
+          <div class="col-xs-6 col-md-6">
+            <div class="product-box">
+              <div class="product-img">
+                <img style="width:100%;"
+                  src="https://static.ladipage.net/5a6e88f8637193592b0ba534/royal-crown-10-1555248039.png" alt="">
+              </div>
+              <p class="product-name">ROYAL CROWN MÀU ĐỎ</p>
+              <p class="product-pricenew">1.690.000đ</p>
+              <p class="product-priceold">2.770.000đ</p>
+              <button onclick="document.getElementById('form').style.display='block'" class="product-box-button animated infinite pulse delay-2s">Mua ngay</button>
+            </div>
+          </div>
+          <div class="col-xs-6 col-md-6">
+            <div class="product-box">
+              <div class="product-img">
+                <img style="width:100%;"
+                  src="https://static.ladipage.net/5a6e88f8637193592b0ba534/royal-crown-10-1555248039.png" alt="">
+              </div>
+              <p class="product-name">ROYAL CROWN MÀU ĐỎ</p>
+              <p class="product-pricenew">1.690.000đ</p>
+              <p class="product-priceold">2.770.000đ</p>
+              <button onclick="document.getElementById('form').style.display='block'" class="product-box-button animated infinite pulse delay-2s">Mua ngay</button>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-6 col-md-6">
+            <div class="product-box">
+              <div class="product-img">
+                <img style="width:100%;"
+                  src="https://static.ladipage.net/5a6e88f8637193592b0ba534/royal-crown-10-1555248039.png" alt="">
+              </div>
+              <p class="product-name">ROYAL CROWN MÀU ĐỎ</p>
+              <p class="product-pricenew">1.690.000đ</p>
+              <p class="product-priceold">2.770.000đ</p>
+              <button  onclick="document.getElementById('form').style.display='block'" class="product-box-button animated infinite pulse delay-2s">Mua ngay</button>
+            </div>
+          </div>
+          <div class="col-xs-6 col-md-6">
+            <div class="product-box">
+              <div class="product-img">
+                <img style="width:100%;"
+                  src="https://static.ladipage.net/5a6e88f8637193592b0ba534/royal-crown-10-1555248039.png" alt="">
+              </div>
+              <p class="product-name">ROYAL CROWN MÀU ĐỎ</p>
+              <p class="product-pricenew">1.690.000đ</p>
+              <p class="product-priceold">2.770.000đ</p>
+              <button onclick="document.getElementById('form').style.display='block'" class="product-box-button animated infinite pulse delay-2s">Mua ngay</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="dentail-picture">
+    <div class="container">
+      <div class="dentail-picture-layer">
+        <div style="border-color: rgba(199,149,98,1);" class="line"></div>
+        <div class="dentail-picture-title">
+          <img style="width:100%;"
+            src="https://static.ladipage.net/5a6e88f8637193592b0ba534/royal-7crown-07-1555246369.png" alt="">
+        </div>
+        <div class="row">
+          <div class="col-6 col-md-6">
+            <div class="dentail-picture-box">
+              <img width="100%" src="https://static.ladipage.net/5a6e88f8637193592b0ba534/royal-crown-17-1555249669.png"
+                alt="">
+            </div>
+          </div>
+          <div class="col-6 col-md-6">
+            <div class="dentail-picture-box">
+              <img width="100%" src="https://static.ladipage.net/5a6e88f8637193592b0ba534/royal-crown-17-1555249669.png"
+                alt="">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6 col-md-6">
+            <div class="dentail-picture-box">
+              <img width="100%" src="https://static.ladipage.net/5a6e88f8637193592b0ba534/royal-crown-17-1555249669.png"
+                alt="">
+            </div>
+          </div>
+          <div class="col-6 col-md-6">
+            <div class="dentail-picture-box">
+              <img width="100%" src="https://static.ladipage.net/5a6e88f8637193592b0ba534/royal-crown-17-1555249669.png"
+                alt="">
+            </div>
+          </div>
+        </div>
+        <button onclick="document.getElementById('form').style.display='block'" class="dentail-picture-button  animated infinite pulse delay-2s">
+          MUA NGAY
+        </button>
+      </div>
+    </div>
+  </section>
+  <section class="face-picture">
+    <div class="container">
+      <div class="face-picture-layer">
+        <div style="border-color: rgba(199,149,98,1);" class="line"></div>
+        <div class="face-picture-title">
+          <img width="100%" src="https://static.ladipage.net/5a6e88f8637193592b0ba534/royal-cro8wn-08-1555246671.png"
+            alt="">
+        </div>
+        <div class="row">
+          <div class="col-xs-6 col-md-6">
+            <img width="100%" src="https://static.ladipage.net/5a6e88f8637193592b0ba534/royal-crown-21-1555249920.png"
+              alt="">
+          </div>
+          <div class="col-xs-6 col-md-6">
+            <img width="100%" src="https://static.ladipage.net/5a6e88f8637193592b0ba534/royal-crown-22-1555249935.png"
+              alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="review">
+    <div class="container">
+      <div class="review-layer">
+        <div style="border-color: rgba(199,149,98,1);" class="line"></div>
+        <div class="review-title ">
+          <img style="width:100%"
+            src="https://static.ladipage.net/5a6e88f8637193592b0ba534/royal-cr3own-23-1555250235.png" alt="">
+        </div>
+        <div class="row">
+          <div class="col-xs-2 col-md-2">
+            <div class="review-avatar">
+              <img class="review-avatar-img"
+                src="https://static.ladipage.net/s400x400/5a6e88f8637193592b0ba534/fb_img_1552534553945-1552534699.jpg"
+                alt="">
+            </div>
+          </div>
+          <div style="overflow:hidden;" class="col-xs-10 col-md-10 review-avatar-custom">
+            <p class="review-avatar-name">TRẦN THU HÀ</p>
+            <p class="review-avatar-job">Nhân viên ngân hàng</p>
+            <p class="review-avatar-desc">Đồng hồ rất đẹp. Mình đã mua 2 chiếc ở đây rồi, đeo đi làm mà ai cũng hỏi. Các
+              bạn cskh thân thiện, nhiệt tình tư vấn. Nhất định sẽ quay lại với shop!! </p>
+          </div>
+        </div>
+        <p class="review-layer-txt">Sự hài lòng của khách hàng chính là thành công lớn nhất của chúng tôi</p>
+        <div style="width: 20%;margin: auto;" class="line"></div>
+
+        <div class="review-person">
+          <div class="row">
+            <div class="col-12 col-sm-4">
+              <div class="review-person-box">
+                <div class="review-person-ava">
+                  <img class="review-person-ava-img"
+                    src="https://static.ladipage.net/s300x300/5a6e88f8637193592b0ba534/42045118_917704741760014_4695696046888583168_n-1551693353.jpg"
+                    alt="">
+                </div>
+                <div class="review-person-info">
+                  <p class="review-person-info-name">LÊ THẢO</p>
+                  <p class="review-person-info-cmt">"Hàng chất lượng oki lắm, mua vài lần rồi mẫu nào cũng rất ưng, nhân
+                    viên tư vấn rất nhiệt tình!"</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4">
+              <div class="review-person-box">
+                <div class="review-person-ava">
+                  <img class="review-person-ava-img"
+                    src="https://static.ladipage.net/s300x300/5a6e88f8637193592b0ba534/42045118_917704741760014_4695696046888583168_n-1551693353.jpg"
+                    alt="">
+                </div>
+                <div class="review-person-info">
+                  <p class="review-person-info-name">LÊ THẢO</p>
+                  <p class="review-person-info-cmt">"Hàng chất lượng oki lắm, mua vài lần rồi mẫu nào cũng rất ưng, nhân
+                    viên tư vấn rất nhiệt tình!"</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4">
+              <div class="review-person-box">
+                <div class="review-person-ava">
+                  <img class="review-person-ava-img"
+                    src="https://static.ladipage.net/s300x300/5a6e88f8637193592b0ba534/42045118_917704741760014_4695696046888583168_n-1551693353.jpg"
+                    alt="">
+                </div>
+                <div class="review-person-info">
+                  <p class="review-person-info-name">LÊ THẢO</p>
+                  <p class="review-person-info-cmt">"Hàng chất lượng oki lắm, mua vài lần rồi mẫu nào cũng rất ưng, nhân
+                    viên tư vấn rất nhiệt tình!"</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="screenfb">
+          <div class="row">
+            <div class="col-xs-6 col-md-6">
+              <img style="width:100%;"
+                src="https://static.ladipage.net/5a6e88f8637193592b0ba534/rance2-14-1552994795.png" alt="">
+            </div>
+            <div class="col-xs-6 col-md-6">
+              <img style="width:100%;"
+                src="https://static.ladipage.net/5a6e88f8637193592b0ba534/rance2-14-1552994795.png" alt="">
+            </div>
+          </div>
+        </div>
+        <button onclick="document.getElementById('form').style.display='block'" class="review-speed animated infinite bounce delay-2s">NHANH TAY KẺO HẾT, SỐ LƯỢNG CÓ HẠN</button>
+      </div>
+    </div>
+  </section>
+  <section class="endow">
+    <div class="container">
+      <div class="endow-layer">
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <div class="endow-info">
+              <p class="endow-info-txt1">ƯU ĐÃI LỚN</p>
+              <div class="line1"></div>
+              <p class="endow-info-txt2">GIẢM GIÁ 39%</p>
+              <p class="endow-info-txt3">TIẾT KIỆM NGAY 1.080.000đ</p>
+              <p class="endow-info-txt4 animated infinite tada delay-2s">Chỉ còn 1.690.000đ</p>
+              <p class="endow-info-txt5">Giá ưu đãi dành riêng cho bạn sẽ hết hạn trong:</p>
+            </div>
+            <div class="countdown-white">
+
+              <div class="countdown2-white">
+                <div class="boxT-white">
+                  <div id="Ngay2"></div>
+                </div>
+                <div class="boxT-white">
+                  <div id="Gio2"></div>
+                </div>
+                <div class="boxT-white">
+                  <div id="Phut2"></div>
+                </div>
+                <div class="boxT-white">
+                  <div id="Giay2"></div>
+                </div>
+              </div>
+              <div class="countdown1">
+                <p class="paraT-white">Ngày</p>
+                <p class="paraT-white">Giờ</p>
+                <p class="paraT-white">Phút</p>
+                <p class="paraT-white">Giây</p>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <div class="endow-box">
+              <p class="endow-box-title">ĐĂNG KÝ NHẬN ƯU ĐÃI</p>
+
+              <form>
+
+
+                <input type="text" placeholder="Họ và tên" name="name" required>
+
+                <br>
+                <input type="text" placeholder="Nhập số điện thoại" name="phonenunber" required>
+                <br>
+
+                <input type="text" placeholder="Địa chỉ" name="address" required>
+                <br>
+                <select>
+                  <option value>Màu sắc</option>
+                  <option value="Royal Crown màu đỏ">Royal Crown màu đỏ</option>
+                  <option value="Royal Crown màu đen">Royal Crown màu đen</option>
+                  <option value="Royal Crown màu trắng">Royal Crown màu trắng</option>
+                  <option value="Royal Crown màu vàng">Royal Crown màu vàng</option>
+                </select>
+                <br>
+                <button type="submit" class="registerbtn">Đăng ký</button>
+
+
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="footer">
+    <div class="container">
+      <div class="footer-layer">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6">
+            <div class="footer-content">
+              <div class="footer-logo">
+                <img width="100%;"
+                  src="https://static.ladipage.net/s350x350/5a6e88f8637193592b0ba534/tic-tac-02-1551863312.png" alt="">
+              </div>
+              <div class="footer-address">
+                <p class="footer-address-title"><i class="fas fa-home"></i>&nbsp; Hệ thống Showroom:</p>
+                <p class="footer-address-body">Showroom 1: sảnh R4 Royal City , Thanh Xuân, Hà Nội <br>
+                  Showroom 2: sảnh T5 Time City, Hoàng Mai, Hà Nội <br>
+                  Showroom 4: số 1 Hoàng Đạo Thúy, Cầu Giấy, Hà Nội
+                </p>
+                <p style="margin-left: 26px;" class="footer-address-title">Trung tâm bảo hành:</p>
+                <p class="footer-address-body">Housinco Phùng Khoang, 303 Lương Thế Vinh, Hà Nội</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <div class="footer-send">
+              <div class="footer-send-title">
+                Đăng ký để nhận các thông tin, ưu đãi mới nhất
+              </div>
+              <input type="text" placeholder="Nhập số điện thoại" name="phonenumber" required><span
+                class="footer-send-button">Gửi đi</span>
+              <div class="footer-send-logo">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-google"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-instagram"></i>
+              </div>
+              <span class="footer-send-body">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%"
+                  height="100%" viewBox="0 0 24 24" fill="rgba(255,255,255,1)">
+                  <path
+                    d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z">
+                  </path>
+                </svg>
+                Hotline: </span><span class="footer-send-desc"> 033 888 2282 </span>
+              <div style="margin-top: 10px;">
+                <span class="footer-send-body">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%"
+                    height="100%" viewBox="0 0 24 24" fill="rgba(255,255,255,1)">
+                    <path
+                      d="M16.36,14C16.44,13.34 16.5,12.68 16.5,12C16.5,11.32 16.44,10.66 16.36,10H19.74C19.9,10.64 20,11.31 20,12C20,12.69 19.9,13.36 19.74,14M14.59,19.56C15.19,18.45 15.65,17.25 15.97,16H18.92C17.96,17.65 16.43,18.93 14.59,19.56M14.34,14H9.66C9.56,13.34 9.5,12.68 9.5,12C9.5,11.32 9.56,10.65 9.66,10H14.34C14.43,10.65 14.5,11.32 14.5,12C14.5,12.68 14.43,13.34 14.34,14M12,19.96C11.17,18.76 10.5,17.43 10.09,16H13.91C13.5,17.43 12.83,18.76 12,19.96M8,8H5.08C6.03,6.34 7.57,5.06 9.4,4.44C8.8,5.55 8.35,6.75 8,8M5.08,16H8C8.35,17.25 8.8,18.45 9.4,19.56C7.57,18.93 6.03,17.65 5.08,16M4.26,14C4.1,13.36 4,12.69 4,12C4,11.31 4.1,10.64 4.26,10H7.64C7.56,10.66 7.5,11.32 7.5,12C7.5,12.68 7.56,13.34 7.64,14M12,4.03C12.83,5.23 13.5,6.57 13.91,8H10.09C10.5,6.57 11.17,5.23 12,4.03M18.92,8H15.97C15.65,6.75 15.19,5.55 14.59,4.44C16.43,5.07 17.96,6.34 18.92,8M12,2C6.47,2 2,6.5 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z">
+                    </path>
+                  </svg>
+                  Website: </span> <span class="footer-send-desc">tictac24h.vn</span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <div id="form" class="form modal">
+
+      <form class="modal-content animate" action="/action_page.php">
+
+          <div class="imgcontainer">
+              <span onclick="document.getElementById('form').style.display='none'" class="close"
+                  title="Close Modal">&times;</span>
+              <label class="modal-title">ĐĂNG KÝ MUA HÀNG</label><br>
+          </div>
+
+          <input type="text" placeholder="Họ và tên" name="name" required>
+
+          <br>
+          <input type="text" placeholder="Nhập số điện thoại" name="phonenunber" required>
+          <br>
+
+          <input type="text" placeholder="Địa chỉ" name="address" required>
+          <br>
+          <select>
+            <option value>Màu sắc</option>
+            <option value="Royal Crown màu đỏ">Royal Crown màu đỏ</option>
+            <option value="Royal Crown màu đen">Royal Crown màu đen</option>
+            <option value="Royal Crown màu trắng">Royal Crown màu trắng</option>
+            <option value="Royal Crown màu vàng">Royal Crown màu vàng</option>
+          </select>
+          <br>
+          <button type="submit" class="form-button">Đăng ký</button>
+
+
+          
+      </form>
+    
+  </div>
+</body>
+
+</html>

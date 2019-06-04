@@ -1,0 +1,427 @@
+.container {
+  max-width: 960px !important;
+  margin: 0px auto;
+  padding: 0px;
+}
+
+.header-logo-img {
+  width: 100%;
+}
+
+.header-logo {
+  width: 200px;
+  margin: auto;
+}
+
+.linevertical {
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-left-width: 1px;
+  border-bottom-width: 0px;
+  border-style: solid;
+  border-color: rgba(34, 33, 33, 1);
+  margin-left: 12px;
+  height: 20px;
+}
+
+.menu {
+  margin-top: 30px;
+}
+
+.menu-row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menu-title {
+  background-color: rgba(61, 155, 233, 0);
+  font-family: 'Roboto', sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  color: rgba(34, 33, 33, 1);
+  font-weight: 400;
+  line-height: 2;
+  font-size: 14px;
+}
+
+.menu-button {
+  background-color: rgba(61, 155, 233, 0);
+  color: rgba(34, 33, 33, 1);
+  font-weight: 700;
+  line-height: 18px;
+  font-size: 12px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  border-radius: 20px;
+  border-radius: 30px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgba(34, 33, 33, 1);
+  padding: 5px 15px;
+}
+
+.cover {
+  background-image: url("https://static.ladipage.net/s1440x650/5c99f8097381814bcd090be2/3-1558601246.png");
+  background-color: rgba(252, 252, 252, 0);
+  background-origin: content-box;
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 438.991455078125px;
+  margin-top: 10px;
+}
+
+.cover-line {
+  border-top-width: 2px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-style: solid;
+  border-color: rgba(252, 131, 161, 1);
+  margin-top: 10.5px;
+  width: 1746.0084228515625px;
+  height: 25px;
+  margin: auto;
+}
+
+.flash-sale {
+  display: block;
+  background-color: rgba(255, 234, 237, 1);
+  height: 816.8465576171875px;
+}
+
+.fivelip {
+  background-image: url("https://static.ladipage.net/s900x1000/5c99f8097381814bcd090be2/5-1558672868.png");
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-size: cover;
+  height: 762.34375px;
+  width: 654.9147338867188px;
+}
+
+.flash-sale-img1 {
+  width: 120%;
+  margin-left: -60px;
+  margin-top: -110px;
+}
+.flash-sale-img2 {
+  width: 85%;
+}
+
+.flash-sale-logo2 {
+  margin-top: -120px;
+  margin-left: 50px;
+}
+.flash-sale-txt {
+  margin-top: -255px;
+  margin-left: 15px;
+}
+.flash-sale-logo3 {
+  height: 62px;
+  width: 62px;
+  margin-top: 67px;
+  margin-left: 170px;
+}
+.flash-sale-txt1 {
+  font-weight: bold;
+    color: rgb(213, 0, 0);
+    -webkit-font-smoothing: antialiased;
+    color: rgba(213,0,0,1);
+    font-weight: 400;
+    line-height: 32px;
+    font-size: 26px;
+    text-align: center;
+    font-family: 'Baloo Bhaina', cursive;
+    margin-bottom: 0px;
+}
+.flash-sale-txt2 {
+  -webkit-font-smoothing: antialiased;
+    color: rgba(244,67,54,1);
+    font-weight: 400;
+    line-height: 31px;
+    font-family: 'Itim', cursive;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 0px;
+
+}
+.flash-sale-txt3 {
+  font-family: 'Prata', serif;
+  -webkit-font-smoothing: antialiased;
+    color: rgba(201,14,34,0.95);
+    font-weight: 400;
+    line-height: 94px;
+    font-size: 88px;
+    text-align: center;
+}
+.flash-sale-logo4 {
+  border-radius: 30px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(102,102,102,0);
+    background-color: rgba(199,20,20,1);
+    color: rgba(255,255,255,1);
+    font-weight: 700;
+    line-height: 21px;
+    font-size: 15px;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+}
+.form-order {
+  height: 551.3068237304688px;
+}
+.gif-img {
+  background-image: url("https://static.ladipage.net/5c99f8097381814bcd090be2/peripera_official_60334849_447448682689264_4301321987877240832_n_2-1558671601.gif");
+  width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+}
+.gif-box {
+  height: 479px;
+}
+.gif-img {
+  width: 88%;
+    margin: auto;
+}
+.layer-form-order {
+  padding-top: 30px;
+}
+.order-box {
+  background-image: url("https://static.ladipage.net/s650x700/5c99f8097381814bcd090be2/5-1558515349.png");
+  width: 87%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+}
+.order-box-form {
+  padding-top: 155px;
+  padding-left: 50px;
+}
+.order-box-form input {
+  border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(230,81,0,1);
+    background-color: rgba(131,131,131,0);
+    color: rgba(230,81,0,1);
+    font-size: 16px;
+    font-family: "Open Sans",sans-serif;
+    width: 85%;
+    margin-bottom: 10px;
+    padding: 8px 5px;
+}
+.order-box-form select {
+  border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(230,81,0,1);
+    background-color: rgba(131,131,131,0);
+    color: rgba(230,81,0,1);
+    font-size: 16px;
+    font-family: "Open Sans",sans-serif;
+    width: 85%;
+    margin-bottom: 10px;
+    padding: 8px 5px;
+    height: 41.875px;
+}
+.order-box-form ::placeholder {
+  color:  rgba(230,81,0,1);
+  opacity: 0.9;
+  
+}
+.order-box-button {
+  background-color: rgba(249,87,127,1);
+    font-family: 'Taviraj', serif;
+    -webkit-font-smoothing: antialiased;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 31px;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 6px 15px;
+    text-align: center;
+    margin-left: 65px;
+}
+.product-box {
+  width: 71%;
+  margin: auto;
+}
+.product-box-img {
+  width: 100%;
+}
+.product-color-img {
+  width: 100%;
+}
+.product-color {
+  width: 87%;
+    margin: auto;
+    margin-top: 20px;
+}
+.product-gif-img {
+  width: 100%;
+}
+.product-gif {
+  width: 71%;
+    margin: auto;
+    margin-top: 15px;
+}
+.info-product {
+  background-color: rgba(255,228,228,1);
+  height: 656.491455078125px;
+}
+.info-product-gif-img1 {
+  width: 100%;
+  border: 15px solid pink;
+
+}
+.info-product-gif1 {
+  width: 80%;
+}
+.layer-info-product h2 {
+  font-family: 'Prata', serif;
+  -webkit-font-smoothing: antialiased;
+    color: rgba(214,28,28,1);
+    font-weight: 400;
+    line-height: 32px;
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.layer-info-product {
+  padding-top: 25px;
+}
+.info-product-gif-img2 {
+  width: 100%;
+}
+.layer-info-product .col-md-6 {
+  padding: 0px;
+}
+.info-product-gif-img3 {
+  width: 100%;
+  
+}
+.info-product-gif3 {
+  width: 44%;
+  position: absolute;
+    top: 176px;
+    left: 270px;
+}
+.info-product-gif2 {
+  width: 90%;
+
+}
+.info-product-photo {
+  margin-left: -70px;
+}
+.review {
+  background-color:  #FAFAFA ;
+}
+.review-header {
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+    color: rgba(0,0,0,1);
+    font-weight: 400;
+    line-height: 34px;
+    font-size: 28px;
+    text-align: left;
+}
+.line {
+  border-top-width: 5px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-style: solid;
+  border-color: rgba(0,0,0,1);
+  margin-top: 7.5px;
+}
+.review-txt {
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+    color: rgba(0,0,0,1);
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.layer-review {
+  padding-top: 15px;
+}
+.review-title {
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+    color: rgba(0,0,0,1);
+    font-weight: 700;
+    line-height: 32px;
+    font-size: 26px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.review-body {
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+    color: rgba(0,0,0,1);
+    font-weight: 400;
+    line-height: 23px;
+    font-size: 14px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.review-box-title{
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+    color: rgba(66,66,66,1);
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 10px;
+
+}
+.review-box-desc {
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: rgba(66,66,66,1);
+  font-weight: 400;
+  font-style: italic;
+  line-height: 24px;
+  font-size: 14px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.review-box {
+  border-radius: 20px;
+  background-color: rgba(189,189,189,0.19);
+    color: rgba(0,0,0,1);
+    padding: 15px 30px 1px;
+}
+.cmt button {
+  border-radius: 5px;
+  background-color: rgba(48,79,254,1);
+    color: rgba(0,0,0,1);
+    color: white;
+    padding: 10px 30px;
+}
+.cmt input {
+  width: 80%;
+  height: 40px;
+  border: none;
+  margin-right: 25px;
+  margin-left: 10px;
+  padding : 8px 5px;
+}
+.cmt {
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: rgba(189,189,189,0.19);
+  margin-top: 20px;
+    border-radius: 20px;
+    background-color: rgba(189,189,189,0.19);
+    padding: 20px 20px 15px;
+}
